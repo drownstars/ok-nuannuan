@@ -1,0 +1,23 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+*.svg text eol=lf
+*.ps1 text eol=crlf
+*.vbs text eol=crlf
+.gitmodules text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+*.png binary
+*.ico binary
+*.onnx binary
+*.TTF binary
+# Keep imported provenance checksums independent of checkout line endings.
+assets/** -text whitespace=cr-at-eol
+ok_templates/** -text whitespace=cr-at-eol
+routes/*.json -text whitespace=cr-at-eol
+licenses/** -text whitespace=cr-at-eol
+tests/fixtures/** -text whitespace=cr-at-eol
+nuannuan/_pearpal/*.py -text whitespace=cr-at-eol
+assets/app.svg -diff

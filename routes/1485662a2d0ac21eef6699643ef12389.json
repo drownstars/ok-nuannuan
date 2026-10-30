@@ -1,0 +1,44 @@
+{
+  "info": {
+    "map": "starsea",
+    "name": "星海拾光_放置摆饰",
+    "region": "星海",
+    "target": "无",
+    "test_mode": false,
+    "type": "综合",
+    "update_time": "2026-1-9 11:19:56",
+    "version": "2.0",
+    "count": 0
+  },
+  "points": [
+    {
+      "id": 0,
+      "position": [
+        -35050.5,
+        44212.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK",
+      "action": "TELEPORT"
+    },
+    {
+      "id": 1,
+      "position": [
+        -35131.5,
+        47637
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 2,
+      "position": [
+        -35196.38,
+        47767.9
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK",
+      "action": "PLACE_ITEM"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "info": {
+    "map": "home",
+    "name": "家园日常",
+    "region": "home",
+    "target": "无",
+    "test_mode": false,
+    "type": "综合",
+    "update_time": "2026-4-14 9:58:26",
+    "version": "2.0",
+    "count": 0
+  },
+  "points": [
+    {
+      "id": 0,
+      "position": [
+        4707,
+        8847
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK",
+      "action": "TELEPORT"
+    },
+    {
+      "id": 1,
+      "position": [
+        5148,
+        8536.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 2,
+      "position": [
+        5067.58,
+        8876.87
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK",
+      "action": "FISHING_STAR"
+    },
+    {
+      "id": 3,
+      "position": [
+        5395.5,
+        8536.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "JUMP"
+    },
+    {
+      "id": 4,
+      "position": [
+        5683.5,
+        8311.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 5,
+      "position": [
+        6377.94,
+        10226.58
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 6,
+      "position": [
+        5688,
+        11344.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 7,
+      "position": [
+        4801.5,
+        11088
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK",
+      "action": "FISHING_STAR"
+    },
+    {
+      "id": 8,
+      "position": [
+        6003,
+        11124
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 9,
+      "position": [
+        6835.5,
+        8896.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "JUMP"
+    },
+    {
+      "id": 10,
+      "position": [
+        7015.5,
+        8064
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK",
+      "action": "MACRO",
+      "action_params": "星海拾光_原地急坠_宏"
+    },
+    {
+      "id": 11,
+      "position": [
+        1255.5,
+        4063.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK",
+      "action": "TELEPORT"
+    },
+    {
+      "id": 12,
+      "position": [
+        1255.5,
+        4063.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK",
+      "action": "MACRO",
+      "action_params": "星海拾光_原地急坠_宏"
+    },
+    {
+      "id": 13,
+      "position": [
+        1255.5,
+        4063.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK",
+      "action": "WAIT",
+      "action_params": "2"
+    }
+  ]
+}

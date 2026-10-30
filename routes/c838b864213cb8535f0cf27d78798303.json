@@ -1,0 +1,926 @@
+{
+  "info": {
+    "map": "miraland",
+    "name": "捕虫-珍珠",
+    "region": "埋骨地",
+    "target": "珠链蝶",
+    "test_mode": false,
+    "type": "捕虫",
+    "update_time": "2026-5-26 11:35:07",
+    "version": "2.0",
+    "count": 0
+  },
+  "points": [
+    {
+      "id": 0,
+      "position": [
+        -261049.5,
+        -549715.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK",
+      "action": "TELEPORT"
+    },
+    {
+      "id": 1,
+      "position": [
+        -260995.5,
+        -549360
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 2,
+      "position": [
+        -261405,
+        -548901
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 3,
+      "position": [
+        -261414,
+        -548460
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 4,
+      "position": [
+        -261486,
+        -548266.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 5,
+      "position": [
+        -261211.5,
+        -546484.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "JUMP",
+      "action": "CATCH_INSECT"
+    },
+    {
+      "id": 6,
+      "position": [
+        -261027,
+        -546178.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 7,
+      "position": [
+        -259731,
+        -543964.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK",
+      "action": "CATCH_INSECT"
+    },
+    {
+      "id": 8,
+      "position": [
+        -258561,
+        -541381.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 9,
+      "position": [
+        -257044.5,
+        -539473.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK",
+      "action": "CATCH_INSECT"
+    },
+    {
+      "id": 10,
+      "position": [
+        -257040,
+        -539464.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 11,
+      "position": [
+        -252360,
+        -525420
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK",
+      "action": "TELEPORT"
+    },
+    {
+      "id": 12,
+      "position": [
+        -253539,
+        -524074.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "JUMP",
+      "action": "CATCH_INSECT"
+    },
+    {
+      "id": 13,
+      "position": [
+        -253791,
+        -523647
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 14,
+      "position": [
+        -254038.5,
+        -523255.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "JUMP"
+    },
+    {
+      "id": 15,
+      "position": [
+        -254420.75,
+        -523053.76
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 16,
+      "position": [
+        -254223,
+        -522621
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 17,
+      "position": [
+        -254110.5,
+        -522031.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 18,
+      "position": [
+        -254421,
+        -521320.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "JUMP"
+    },
+    {
+      "id": 19,
+      "position": [
+        -254506.5,
+        -521118
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK",
+      "action": "CATCH_INSECT"
+    },
+    {
+      "id": 20,
+      "position": [
+        -254974.5,
+        -519835.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 21,
+      "position": [
+        -255042,
+        -519754.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 22,
+      "position": [
+        -255501,
+        -519610.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "JUMP"
+    },
+    {
+      "id": 23,
+      "position": [
+        -255861,
+        -519507
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 24,
+      "position": [
+        -256329,
+        -519484.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "JUMP"
+    },
+    {
+      "id": 25,
+      "position": [
+        -256765.5,
+        -519700.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "JUMP"
+    },
+    {
+      "id": 26,
+      "position": [
+        -257130,
+        -520092
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 27,
+      "position": [
+        -257166,
+        -520159.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK",
+      "action": "CATCH_INSECT"
+    },
+    {
+      "id": 28,
+      "position": [
+        -257364,
+        -520092
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 29,
+      "position": [
+        -257769,
+        -519781.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "JUMP"
+    },
+    {
+      "id": 30,
+      "position": [
+        -257139,
+        -517770
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 31,
+      "position": [
+        -256612.5,
+        -516915
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 32,
+      "position": [
+        -256518,
+        -516483
+      ],
+      "point_type": "TARGET",
+      "move_mode": "JUMP"
+    },
+    {
+      "id": 33,
+      "position": [
+        -256761,
+        -515772
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 34,
+      "position": [
+        -257431.5,
+        -514647
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 35,
+      "position": [
+        -258291,
+        -513900
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 36,
+      "position": [
+        -258561,
+        -513814.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 37,
+      "position": [
+        -260419.5,
+        -513724.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 38,
+      "position": [
+        -261108,
+        -513999
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 39,
+      "position": [
+        -261900,
+        -514768.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 40,
+      "position": [
+        -262134,
+        -514827
+      ],
+      "point_type": "TARGET",
+      "move_mode": "JUMP"
+    },
+    {
+      "id": 41,
+      "position": [
+        -262615.5,
+        -514620
+      ],
+      "point_type": "TARGET",
+      "move_mode": "JUMP"
+    },
+    {
+      "id": 42,
+      "position": [
+        -263164.5,
+        -514278
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 43,
+      "position": [
+        -264244.5,
+        -513909
+      ],
+      "point_type": "TARGET",
+      "move_mode": "JUMP"
+    },
+    {
+      "id": 44,
+      "position": [
+        -265095,
+        -513535.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 45,
+      "position": [
+        -265864.5,
+        -513157.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "JUMP"
+    },
+    {
+      "id": 46,
+      "position": [
+        -266805,
+        -512788.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 47,
+      "position": [
+        -269343,
+        -512055
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK",
+      "action": "CATCH_INSECT"
+    },
+    {
+      "id": 48,
+      "position": [
+        -248404.5,
+        -501372
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK",
+      "action": "TELEPORT"
+    },
+    {
+      "id": 49,
+      "position": [
+        -248400,
+        -501372
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK",
+      "action": "CATCH_INSECT"
+    },
+    {
+      "id": 50,
+      "position": [
+        -248989.5,
+        -501318
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 51,
+      "position": [
+        -249444,
+        -501552
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 52,
+      "position": [
+        -249885,
+        -501493.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 53,
+      "position": [
+        -251023.5,
+        -500584.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 54,
+      "position": [
+        -251518.5,
+        -499792.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "JUMP",
+      "action": "CATCH_INSECT"
+    },
+    {
+      "id": 55,
+      "position": [
+        -251703,
+        -499653
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 56,
+      "position": [
+        -251635.5,
+        -499590
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 57,
+      "position": [
+        -251653.5,
+        -499468.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 58,
+      "position": [
+        -252549,
+        -496435.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "JUMP"
+    },
+    {
+      "id": 59,
+      "position": [
+        -252774,
+        -495621
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 60,
+      "position": [
+        -253102.5,
+        -494469
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 61,
+      "position": [
+        -253894.5,
+        -493330.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "JUMP"
+    },
+    {
+      "id": 62,
+      "position": [
+        -254137.5,
+        -492961.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "JUMP"
+    },
+    {
+      "id": 63,
+      "position": [
+        -254277,
+        -492390
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 64,
+      "position": [
+        -254623.5,
+        -491557.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 65,
+      "position": [
+        -254808,
+        -491368.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 66,
+      "position": [
+        -255064.5,
+        -491436
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 67,
+      "position": [
+        -255352.5,
+        -491674.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK",
+      "action": "CATCH_INSECT"
+    },
+    {
+      "id": 68,
+      "position": [
+        -255469.5,
+        -492030
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK",
+      "action": "CATCH_INSECT"
+    },
+    {
+      "id": 69,
+      "position": [
+        -255474,
+        -491994
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 70,
+      "position": [
+        -258880.5,
+        -489861
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 71,
+      "position": [
+        -260289,
+        -488412
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 72,
+      "position": [
+        -262656,
+        -486274.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK",
+      "action": "CATCH_INSECT"
+    },
+    {
+      "id": 73,
+      "position": [
+        -262440,
+        -485968.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 74,
+      "position": [
+        -262417.5,
+        -485721
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 75,
+      "position": [
+        -262467,
+        -484605
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 76,
+      "position": [
+        -262669.5,
+        -484164
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 77,
+      "position": [
+        -262809,
+        -483939
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 78,
+      "position": [
+        -263029.5,
+        -483781.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 79,
+      "position": [
+        -264109.5,
+        -483205.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 80,
+      "position": [
+        -265189.5,
+        -482863.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 81,
+      "position": [
+        -267912,
+        -482521.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 82,
+      "position": [
+        -269284.5,
+        -483408
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK",
+      "action": "CATCH_INSECT"
+    },
+    {
+      "id": 83,
+      "position": [
+        -269302.5,
+        -483381
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 84,
+      "position": [
+        -244611,
+        -473125.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK",
+      "action": "TELEPORT"
+    },
+    {
+      "id": 85,
+      "position": [
+        -245430,
+        -471352.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 86,
+      "position": [
+        -247680,
+        -467374.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 87,
+      "position": [
+        -247567.5,
+        -466888.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 88,
+      "position": [
+        -247252.5,
+        -466110
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 89,
+      "position": [
+        -247306.5,
+        -466105.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "JUMP",
+      "action": "CATCH_INSECT"
+    },
+    {
+      "id": 90,
+      "position": [
+        -246987,
+        -465696
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 91,
+      "position": [
+        -246595.5,
+        -465219
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 92,
+      "position": [
+        -246609,
+        -464949
+      ],
+      "point_type": "TARGET",
+      "move_mode": "JUMP"
+    },
+    {
+      "id": 93,
+      "position": [
+        -246793.5,
+        -464679
+      ],
+      "point_type": "TARGET",
+      "move_mode": "JUMP"
+    },
+    {
+      "id": 94,
+      "position": [
+        -246960,
+        -464634
+      ],
+      "point_type": "TARGET",
+      "move_mode": "JUMP"
+    },
+    {
+      "id": 95,
+      "position": [
+        -247059,
+        -464499
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 96,
+      "position": [
+        -247140,
+        -464229
+      ],
+      "point_type": "TARGET",
+      "move_mode": "JUMP",
+      "action": "CATCH_INSECT"
+    },
+    {
+      "id": 97,
+      "position": [
+        -247855.5,
+        -463864.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 98,
+      "position": [
+        -247855.5,
+        -463864.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK",
+      "action": "CATCH_INSECT"
+    }
+  ]
+}

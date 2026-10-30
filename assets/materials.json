@@ -1,0 +1,1692 @@
+{
+  "布布果": {
+    "game_img": "T_Icon_item_INFT0001F",
+    "type": "plant",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INFT0001F.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INFT0001F.png",
+    "sha256": "0cca5017b4db95b3645ce605360467a283dcb0e8391921e1f560362a419d5a86"
+  },
+  "小绵菊": {
+    "game_img": "T_Icon_item_INS0029",
+    "type": "plant",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INS0029.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INS0029.png",
+    "sha256": "760ea17ada2001c9b894fbbdafac481c11f4e056bc86ccb680f41ba3193250ca"
+  },
+  "壁灯红椒": {
+    "game_img": "T_Icon_item_INFT0003F",
+    "type": "plant",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INFT0003F.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INFT0003F.png",
+    "sha256": "bc68252c5d3b635fc0d806afaecadb769c725540b3a224a730992ca44a65941c"
+  },
+  "满满果": {
+    "game_img": "T_Icon_item_INFT0037F",
+    "type": "plant",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INFT0037F.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INFT0037F.png",
+    "sha256": "ee59984c845c72470489eb2493ebc16c77bda6f7666d5324e1cae51fcc3392c3"
+  },
+  "纽扣松果": {
+    "game_img": "T_Icon_item_INS0028",
+    "type": "plant",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INS0028.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INS0028.png",
+    "sha256": "327eb5f040d5593d2db78d3ce9e23481f7430eb2cb78a8142dc09f6630a0764f"
+  },
+  "珠花贝壳": {
+    "game_img": "T_Icon_item_INS0001",
+    "type": "plant",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INS0001.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INS0001.png",
+    "sha256": "53f158c24afb6e82ef173688f8084bf830a5867957583eb033b6ab1a47ca28e4"
+  },
+  "小星扇贝": {
+    "game_img": "T_Icon_item_INS0002",
+    "type": "plant",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INS0002.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INS0002.png",
+    "sha256": "312042b99caa900622da8246fd1df4faaf02d66f3e147637d5d906391eeb2080"
+  },
+  "路灯花": {
+    "game_img": "T_Icon_item_INS0040",
+    "type": "plant",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INS0040.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INS0040.png",
+    "sha256": "beb95ee0eec2a3eac3f5e7ee0319e11d9cfe7dae5250dc68665b6294ae2d1932"
+  },
+  "瓜子珠": {
+    "game_img": "T_Icon_item_INFT0036F",
+    "type": "plant",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INFT0036F.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INFT0036F.png",
+    "sha256": "6c6bfa1155d03ffcb279671d5673e9c4fce5febe1734cc7a01afb09db6a5ff40"
+  },
+  "兔兔妆粉": {
+    "game_img": "T_Icon_item_INS0123",
+    "type": "plant",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INS0123.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INS0123.png",
+    "sha256": "95bd63fbf5844daeb11461d50df11df922696aba1c97ebae15c40af7a13fd855"
+  },
+  "草绒球": {
+    "game_img": "T_Icon_item_INS0008",
+    "type": "plant",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INS0008.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INS0008.png",
+    "sha256": "58f6dde9b3e2b17d0de433414cb695bb1df5ea1a45d974e3ae6ac35546987edc"
+  },
+  "滋滋花粉": {
+    "game_img": "T_Icon_item_INS0004",
+    "type": "plant",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INS0004.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INS0004.png",
+    "sha256": "f24008d1f935db4b4ca378df781f9db2332d7c101251f7c208ccbd8e4b29f946"
+  },
+  "晴日蝶兰": {
+    "game_img": "T_Icon_item_INS0026S",
+    "type": "plant",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INS0026S.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INS0026S.png",
+    "sha256": "4575c57013e6d925169f010de0634b52bb13b6f866f6b9e560b47ab912684e43"
+  },
+  "雨滴蝶兰": {
+    "game_img": "T_Icon_item_INS0026R",
+    "type": "plant",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INS0026R.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INS0026R.png",
+    "sha256": "cbb6df49ec81450b84a03c62da703420eee97cce4b13c1a84c3aea41864144d2"
+  },
+  "香薰睡莲": {
+    "game_img": "T_Icon_item_INS0027",
+    "type": "plant",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INS0027.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INS0027.png",
+    "sha256": "1621a8dba43b4fdb33f0242419799593d355e1ddc693d8b8742b977657db19ca"
+  },
+  "滚滚花球": {
+    "game_img": "T_Icon_item_INS0016",
+    "type": "plant",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INS0016.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INS0016.png",
+    "sha256": "d52d3da92d59756d3a710c925f084884836b4b829022a32cd42461e98e27e000"
+  },
+  "飞球果": {
+    "game_img": "T_Icon_item_INFT0004F",
+    "type": "plant",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INFT0004F.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INFT0004F.png",
+    "sha256": "ecd5a6538d9146280cd1db820ba8661ece74ac15931bcfa280c03b1a809a16a1"
+  },
+  "花伞藤萝": {
+    "game_img": "T_Icon_item_INS0039",
+    "type": "plant",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INS0039.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INS0039.png",
+    "sha256": "93783f2a4336c10ff3332d64c19797c748c600620a7564c2de5f9e4a60fdd5d1"
+  },
+  "风絮草": {
+    "game_img": "T_Icon_item_INS0046",
+    "type": "plant",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INS0046.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INS0046.png",
+    "sha256": "301a4f2897d80a9c11a7954e436bb0733c061836230f22e8cef4f01246992af3"
+  },
+  "星荧草": {
+    "game_img": "T_Icon_item_INS0038",
+    "type": "plant",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INS0038.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INS0038.png",
+    "sha256": "98b9afeba5c514fba1fabad310d40114d59feb40fe6a963e88970cf2c5f85e69"
+  },
+  "星光果": {
+    "game_img": "T_Icon_item_INS0015N",
+    "type": "plant",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INS0015N.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INS0015N.png",
+    "sha256": "1caf53035ef2bdd573b1c3c51d94bce26efb9d28dc99ed924d3ab1683ba7ef44"
+  },
+  "日光果": {
+    "game_img": "T_Icon_item_INS0015D",
+    "type": "plant",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INS0015D.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INS0015D.png",
+    "sha256": "08d5b3c052589538deb95d7d8f15627f8cd062c83295911253ecfcda5ed9b519"
+  },
+  "噼啪花粉": {
+    "game_img": "T_Icon_item_INS0013",
+    "type": "plant",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INS0013.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INS0013.png",
+    "sha256": "32206ddee4b192b1420e91916baeed1e6576247d15cdea14ac5747143555dd49"
+  },
+  "胭脂芙蕖": {
+    "game_img": "T_Icon_item_INS0027R2",
+    "type": "plant",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INS0027R2.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INS0027R2.png",
+    "sha256": "c475ff8853652855cb50e1e31bc334d06d685c24b9d87445c70935fc6eb359ca"
+  },
+  "云绒玉絮": {
+    "game_img": "T_Icon_item_INFT0009F",
+    "type": "plant",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INFT0009F.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INFT0009F.png",
+    "sha256": "18185e515f2d62baeeed4250f9f18c64edab1d42e4b0c8e6e5dc6595c37ffb06"
+  },
+  "荷包草": {
+    "game_img": "T_Icon_item_INS0038R2",
+    "type": "plant",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INS0038R2.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INS0038R2.png",
+    "sha256": "643148f5774d1e52779c0d8bace1698a89dc9431699b16806d08e6e570795c9e"
+  },
+  "袋袋果": {
+    "game_img": "T_Icon_item_INS0022",
+    "type": "plant",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INS0022.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INS0022.png",
+    "sha256": "7b3473ac17b20e5259adbda003b7c48f5c30f5d42bb76e780585136ec8653863"
+  },
+  "结结蕨": {
+    "game_img": "T_Icon_item_INS0048",
+    "type": "plant",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INS0048.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INS0048.png",
+    "sha256": "d0ffdb2c7ddbd94023b7bdb480f060f1c4ab4616be4691646a73c2d6615cdb46"
+  },
+  "垂穗魔果": {
+    "game_img": "T_Icon_item_INS0055",
+    "type": "plant",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INS0055.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INS0055.png",
+    "sha256": "f52ce99277acd6478f94d8a1531c36a7bef96e48605d52f2df25dcbe0f924f5e"
+  },
+  "草棘果": {
+    "game_img": "T_Icon_item_INS0047",
+    "type": "plant",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INS0047.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INS0047.png",
+    "sha256": "4730df1ea5966a42fcc9ef512f2128c873acc6fc0f2ecde90b3dc0cf630443b0"
+  },
+  "流金蜜": {
+    "game_img": "T_Icon_item_INT0005F",
+    "type": "plant",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INT0005F.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INT0005F.png",
+    "sha256": "2a9d242db36951021c20210ccd9c9d5b4f3f433e7850de08c5d05596954aab4b"
+  },
+  "针蕊水仙": {
+    "game_img": "T_Icon_item_INS0051",
+    "type": "plant",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INS0051.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INS0051.png",
+    "sha256": "f6b637f1d8f32c5a2fc1850859d3e2621c2a784bccc2ae7155834526e40d0aaf"
+  },
+  "蓝风铃": {
+    "game_img": "T_Icon_item_INS0050",
+    "type": "plant",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INS0050.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INS0050.png",
+    "sha256": "53dd5dfde33807279df51bb2edcc7bb69724ec2547197e0c77461ed97edc48de"
+  },
+  "蜜妆粉": {
+    "game_img": "T_Icon_item_INS0123R2",
+    "type": "plant",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INS0123R2.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INS0123R2.png",
+    "sha256": "747180b985b3a5daff8ad41c1c006a5752d7dbea405a72354650abcf1ee6751d"
+  },
+  "珠贝花": {
+    "game_img": "T_Icon_item_INS0014",
+    "type": "plant",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INS0014.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INS0014.png",
+    "sha256": "b6a7d406b672dbe01021ef0f556b89ca379922cb3cd6d09b702064bc1a42f65b"
+  },
+  "小野菊": {
+    "game_img": "T_Icon_item_INS0029R2",
+    "type": "plant",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INS0029R2.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INS0029R2.png",
+    "sha256": "230e44bceb1fa9f00162931354cd8b7752abf494c62179766f658802ce09f5e9"
+  },
+  "风旋果": {
+    "game_img": "T_Icon_item_INS0088",
+    "type": "plant",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INS0088.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INS0088.png",
+    "sha256": "efebd6c73d3ee1f598a077e777e906c7415f93d9163f120ee08d4472792bca3f"
+  },
+  "晴雨伞": {
+    "game_img": "T_Icon_item_INS0052",
+    "type": "plant",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INS0052.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INS0052.png",
+    "sha256": "41fc2f0d459cf12fc700f4a81896d660183afae45f93b085ca83c21f841a0c5d"
+  },
+  "风舞花": {
+    "game_img": "T_Icon_INT_Nature_Flower_05",
+    "type": "plant",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_INT_Nature_Flower_05.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_INT_Nature_Flower_05.png",
+    "sha256": "8214a5f57b2b8af61f67c5db05bf09e746ff94652af425370b826aff967a40f4"
+  },
+  "蓝鳞晶": {
+    "game_img": "T_Icon_INT_Prop_Gameplay_326",
+    "type": "plant",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_INT_Prop_Gameplay_326.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_INT_Prop_Gameplay_326.png",
+    "sha256": "31507650ad6230f5e4bc3a249b857d7e22e05b2a691592fb90aac5fad2cd2ab8"
+  },
+  "汐萤蟹": {
+    "game_img": "T_Icon_item_AN0275",
+    "type": "plant",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0275.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0275.png",
+    "sha256": "bf4a5c12eeeb2317bfd07f59d70a4b8de9cfde3fa0e7272105b963958ab3215b"
+  },
+  "骨焰花": {
+    "game_img": "T_Icon_item_INS0053",
+    "type": "plant",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INS0053.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INS0053.png",
+    "sha256": "fd454571af4e460e144b579228f0b1780c8924240f939399bd72986001e85f65"
+  },
+  "龙棘瑚": {
+    "game_img": "T_Icon_item_INS0091",
+    "type": "plant",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INS0091.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INS0091.png",
+    "sha256": "73358aa44d81a90990e2e63dd204ae45b50873518724e139e1e1a3354f30e4d1"
+  },
+  "烛融花": {
+    "game_img": "T_Icon_item_INS0067",
+    "type": "plant",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INS0067.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INS0067.png",
+    "sha256": "7e7c292ed0c253f1e7af41841f1637059c0d20b5fc65f71c7bfcd8a30b56c326"
+  },
+  "烛荧花": {
+    "game_img": "T_Icon_item_INS0067R2",
+    "type": "plant",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_INS0067R2.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_INS0067R2.png",
+    "sha256": "a169e6cf8730f3d5854f21e05fa1485a03ab9de18a5986d9fcf42d6785a2634b"
+  },
+  "浮冠果": {
+    "game_img": "T_Icon_INT_Nature_Shrub_102",
+    "type": "plant",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_INT_Nature_Shrub_102.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_INT_Nature_Shrub_102.png",
+    "sha256": "2742fed7354a177512cc6fd010dde509e0efa580069de6682b4c30f1eaf56cbd"
+  },
+  "机芯果": {
+    "game_img": "T_Icon_INT_Nature_Tree_12",
+    "type": "plant",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_INT_Nature_Tree_12.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_INT_Nature_Tree_12.png",
+    "sha256": "db7b34fc418b4308b8df5c0b7d5775fcccc7edaa1bc28d2683a56487a55af6b0"
+  },
+  "笔刷鱼": {
+    "game_img": "T_Icon_item_AN0024",
+    "type": "fish",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0024.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0024.png",
+    "sha256": "bb4f17f6027ad14a9e468473a4f80e2dab49339d1bbb07f2537c9ba26d3a26df"
+  },
+  "蝴蝶结鱼": {
+    "game_img": "T_Icon_item_AN0059",
+    "type": "fish",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0059.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0059.png",
+    "sha256": "984a98c4a919a8ac01142f49b370ac7b8dca3b7b55b5e22d7f6b37d88b92af12"
+  },
+  "大笔刷鱼": {
+    "game_img": "T_Icon_item_ANW0051",
+    "type": "fish",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_ANW0051.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_ANW0051.png",
+    "sha256": "9f94956e0da55a10e9e39a1c3a87edbd12f4dea126e3306d3429d3a5695a5730"
+  },
+  "羽毛笔鱼": {
+    "game_img": "T_Icon_item_AN0069",
+    "type": "fish",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0069.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0069.png",
+    "sha256": "b88ddc6c6e23d8495a3b2cd2c8dbec7f82e1c82c8a968c81aee32859ae19978f"
+  },
+  "厨师帽鱼": {
+    "game_img": "T_Icon_item_AN0088",
+    "type": "fish",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0088.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0088.png",
+    "sha256": "1a2f9715027da720be9887d0f71fcff501feb395586f5784b7b0246dad1d2a21"
+  },
+  "提包鱼": {
+    "game_img": "T_Icon_item_ANW0050",
+    "type": "fish",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_ANW0050.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_ANW0050.png",
+    "sha256": "6c12e1fc93f055eba7743aaddc2a7d064152bc1ec9ca2489653f02f71fbccc25"
+  },
+  "拉夫领鱼": {
+    "game_img": "T_Icon_item_AN0055",
+    "type": "fish",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0055.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0055.png",
+    "sha256": "d2fb2edfb834d64d749be05dbc3037659eb03d8f84285e8bcf828cfe70715574"
+  },
+  "发夹泥鳅": {
+    "game_img": "T_Icon_item_AN0098",
+    "type": "fish",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0098.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0098.png",
+    "sha256": "1e935a028e68b4d1c501d4d4d8a4aa6569713a71bfecdb242f0460d8e9f6152d"
+  },
+  "提灯鱼": {
+    "game_img": "T_Icon_item_AN0096",
+    "type": "fish",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0096.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0096.png",
+    "sha256": "0b630dfa7299fd4d88f5d0b09dcf2c15586b8089958c46d6e62e94308c1f557e"
+  },
+  "胡子鲶鱼": {
+    "game_img": "T_Icon_item_ANW0049",
+    "type": "fish",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_ANW0049.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_ANW0049.png",
+    "sha256": "13aed4e7e99e5e68d6d344ec091542c82f82e4a8df2d1ebac9304e32b78199dc"
+  },
+  "缎带鱼": {
+    "game_img": "T_Icon_item_ANW0052",
+    "type": "fish",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_ANW0052.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_ANW0052.png",
+    "sha256": "ff273b404679b23c31786b50b3f5e2d9e25764384e5a722e531adb8e70a29105"
+  },
+  "手绢鱼": {
+    "game_img": "T_Icon_item_AN0083",
+    "type": "fish",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0083.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0083.png",
+    "sha256": "96ff221e81c4c47f2d6869f084324841c66250c3582a3b4413e1a532732bb058"
+  },
+  "头巾鱼": {
+    "game_img": "T_Icon_item_AN0097",
+    "type": "fish",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0097.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0097.png",
+    "sha256": "6999372727ab52fdfddcd8f71b9ac76809211bc97cf7a453fba753e498e7038c"
+  },
+  "纱裙鱼": {
+    "game_img": "T_Icon_item_AN0058",
+    "type": "fish",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0058.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0058.png",
+    "sha256": "c4ad9282a4ae6f1a2979147644c1b9d23161af6bab64e762865be272678bd07c"
+  },
+  "插梳鱼": {
+    "game_img": "T_Icon_item_AN0080",
+    "type": "fish",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0080.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0080.png",
+    "sha256": "84c6b37ccf64c9eecfc29d021ce41b2b010b6f3f001486bfc362ee858040af36"
+  },
+  "眼影鱼": {
+    "game_img": "T_Icon_item_AN0082",
+    "type": "fish",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0082.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0082.png",
+    "sha256": "0a914064b1558e5c89dcd3ea4c29d39619a82f2264b14ae442e03d2eb0f5149b"
+  },
+  "雾绡鱼": {
+    "game_img": "T_Icon_item_AN0059R2",
+    "type": "fish",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0059R2.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0059R2.png",
+    "sha256": "632ec30b6dea09d29c5dc257cf2e003772a10c6b6aa719d2728c6fa02cd7b432"
+  },
+  "云尾锦鲤": {
+    "game_img": "T_Icon_item_ANW0051R2",
+    "type": "fish",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_ANW0051R2.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_ANW0051R2.png",
+    "sha256": "ff36ea433224b54aacf94927e5cb3138d42760a6ca954699a0becc7fb25aa4cc"
+  },
+  "恋恋左心鱼": {
+    "game_img": "T_Icon_item_ANW0041",
+    "type": "fish",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_ANW0041.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_ANW0041.png",
+    "sha256": "5f1f1806681820244a2c2ad28119054188389270dd198249c61c77b2d856a6a7"
+  },
+  "恋恋右心鱼": {
+    "game_img": "T_Icon_item_ANW0038",
+    "type": "fish",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_ANW0038.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_ANW0038.png",
+    "sha256": "61a620ab7af6fd0fc5068b3970e2d10bd81caed4a4e61f03113bbb298c121e72"
+  },
+  "晕妆鱼": {
+    "game_img": "T_Icon_item_AN0057",
+    "type": "fish",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0057.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0057.png",
+    "sha256": "06cc1ea760253d631e0603c4f4105be6b34bec8d0ad554c117bd3d1d7c041b94"
+  },
+  "裁尺鱼": {
+    "game_img": "T_Icon_item_AN0171",
+    "type": "fish",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0171.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0171.png",
+    "sha256": "a68005dea68334d998d25bf314b26c514ab0c0e20b4736ec3dedd76ef87d7f40"
+  },
+  "骨盔鱼": {
+    "game_img": "T_Icon_item_AN0161",
+    "type": "fish",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0161.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0161.png",
+    "sha256": "8bf4ebc941ff5e51937fad8363fee88ef6eeb0c7eb35168d71c80e9ea816ba84"
+  },
+  "彩翎鱼": {
+    "game_img": "T_Icon_item_AN0160",
+    "type": "fish",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0160.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0160.png",
+    "sha256": "bf47cd0704ba2197f73aaeb42c990e130db511d8d9e9e406296fdfea9d65005a"
+  },
+  "星绸鱼": {
+    "game_img": "T_Icon_item_AN0173",
+    "type": "fish",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0173.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0173.png",
+    "sha256": "183f2d734ad386dc4e9b5e0ed2df14387118189bfc3604f6cb55f505d0867ab6"
+  },
+  "斓焰鱼": {
+    "game_img": "T_Icon_item_AN0172",
+    "type": "fish",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0172.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0172.png",
+    "sha256": "d5d937aeb1b2aed72f681f7dcbd4f86f1a5960282218a915b49c83a14272a989"
+  },
+  "卷尾伞鱼": {
+    "game_img": "T_Icon_item_AN0246",
+    "type": "fish",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0246.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0246.png",
+    "sha256": "ac3c9583bb63f9b84709cc8ca696e5f0897651adc411e2d088133f3899f397d3"
+  },
+  "澜旗鱼": {
+    "game_img": "T_Icon_item_AN0182",
+    "type": "fish",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0182.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0182.png",
+    "sha256": "4d87574701c131be9a1165baba16c101e9bdb68ae9a21da2d033602df830e704"
+  },
+  "铁剑鱼": {
+    "game_img": "T_Icon_item_AN0197",
+    "type": "fish",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0197.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0197.png",
+    "sha256": "3a986959f5a13b31cda6fd7a9cd03170295d254622f6f59d8d73def2db3f5318"
+  },
+  "岩壳鱼": {
+    "game_img": "T_Icon_item_AN0198",
+    "type": "fish",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0198.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0198.png",
+    "sha256": "dd82c05f67c979233984ca1c1095d619ee8d72146474b045f6f3c8fa8dab39ea"
+  },
+  "汪汪毛线": {
+    "game_img": "T_Icon_item_ANQ0044",
+    "type": "animal",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_ANQ0044.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_ANQ0044.png",
+    "sha256": "3561853766c0b37997b57316bb538a50951f50da1ed23bea6f719b3eec141e46"
+  },
+  "兔尾绒团": {
+    "game_img": "T_Icon_item_ANQ0053",
+    "type": "animal",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_ANQ0053.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_ANQ0053.png",
+    "sha256": "76474fea3671718c63331dba8e07228fb7ab73935326dd274537d634724dfc93"
+  },
+  "蓝珀鸟羽": {
+    "game_img": "T_Icon_item_ANQ0056",
+    "type": "animal",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_ANQ0056.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_ANQ0056.png",
+    "sha256": "c0a86e76c49c7c6f6fd40271a7872b663cbe905b9e926e4a329686adee1a0624"
+  },
+  "衬衫毛团": {
+    "game_img": "T_Icon_item_AN0090",
+    "type": "animal",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0090.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0090.png",
+    "sha256": "504619b1e8617a4d6836fefe27170bc7e58546a1a451b3b424c12868e071fb21"
+  },
+  "花香羊毛": {
+    "game_img": "T_Icon_item_AN0085",
+    "type": "animal",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0085.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0085.png",
+    "sha256": "b5cfeabbd6aa232e1b2095777cc1ca8f6dc159a159cf002145b2d4c10a295e40"
+  },
+  "名流鸦羽": {
+    "game_img": "T_Icon_item_AN0114",
+    "type": "animal",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0114.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0114.png",
+    "sha256": "badb421bedb5a345bf17a75705f5206a0d55607052518561b32a0badf4c49bdd"
+  },
+  "领结毛团": {
+    "game_img": "T_Icon_item_AN0092",
+    "type": "animal",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0092.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0092.png",
+    "sha256": "1d26c4a269d44b608012c57bc66ffb84c71d3cd1744ff9ae1165709505f3bcd7"
+  },
+  "抱抱绒团": {
+    "game_img": "T_Icon_item_AN0087",
+    "type": "animal",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0087.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0087.png",
+    "sha256": "db43eede4fa78bed477d328ceee5b3f31726b4a11a00c1c8fde713de75e74380"
+  },
+  "围兜毛球": {
+    "game_img": "T_Icon_item_ANQ0037",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_ANQ0037.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_ANQ0037.png",
+    "sha256": "6f0a8777e5bf02672bdde0d5f76342c0e8a2cb7e4ccc117b9090470cfb23baae"
+  },
+  "长袜羊毛": {
+    "game_img": "T_Icon_item_AN0034",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0034.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0034.png",
+    "sha256": "aa7d117b652b53f288eed225bf4435554c47ac706aa56e0b65ef1fa33544a0d5"
+  },
+  "贵族卷毛": {
+    "game_img": "T_Icon_item_AN0029",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0029.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0029.png",
+    "sha256": "5a8f511257d8c6ffc00f81b510b78cbeac333b8cd40e5c99686511da7a324670"
+  },
+  "骑士马鬃": {
+    "game_img": "T_Icon_item_AN0072",
+    "type": "animal",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0072.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0072.png",
+    "sha256": "610b8a47ae1d8e7782cc33955ecefdb801010a57be66376b41b6227952026eda"
+  },
+  "盛宴毛毡": {
+    "game_img": "T_Icon_item_AN0066",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0066.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0066.png",
+    "sha256": "0878cc56dce86f6f138c615d2d16d746b356088e5e8bf5c79c7ca1520895c99d"
+  },
+  "夜色天鹅绒": {
+    "game_img": "T_Icon_item_AN0094",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0094.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0094.png",
+    "sha256": "5a3bbe0750b3449345eb74d4c2997c50c6136e85d4a9d8f1c4bd92222875f795"
+  },
+  "玫色天鹅绒": {
+    "game_img": "T_Icon_item_AN0095",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0095.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0095.png",
+    "sha256": "e5aa13cccd4a2fc7246c895a601a67d1ba0e64ca5c8949504d413e8246b1b461"
+  },
+  "绣球羊毛": {
+    "game_img": "T_Icon_item_AN0086",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0086.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0086.png",
+    "sha256": "924820a725a863e3202e07166ff7c51cfdde3eeae7052c4c3ad193b0f9e99931"
+  },
+  "画帽羽毛": {
+    "game_img": "T_Icon_item_ANQ0057",
+    "type": "animal",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_ANQ0057.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_ANQ0057.png",
+    "sha256": "2dcb621fc53a4872a5ffafd6f81d796dbeb98a05f36fe858db532453cfa1bd40"
+  },
+  "背带毛团": {
+    "game_img": "T_Icon_item_AN0100",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0100.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0100.png",
+    "sha256": "e8a7704fe640a802b7f2517e760c7dd5777bc4734a994357e837278941a4f302"
+  },
+  "礅礅毛团": {
+    "game_img": "T_Icon_item_AN0093",
+    "type": "animal",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0093.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0093.png",
+    "sha256": "5977c25276eea0fb38e899ae0f2d67a4004a11b705fcdbf77e1426f954b2dbc6"
+  },
+  "天星之羽": {
+    "game_img": "T_Icon_item_AN0115",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0115.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0115.png",
+    "sha256": "2b9ca0cd4795f6cf4c104a4acfd567b37af62a297c5dfe08023654ae22654554"
+  },
+  "花环毛团": {
+    "game_img": "T_Icon_item_AN0109",
+    "type": "animal",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0109.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0109.png",
+    "sha256": "dbe2bd5085fb8adbc4cc23e3289ec9d621937ef2480cded73960d7e8e8fa9ef3"
+  },
+  "鹿冠毛团": {
+    "game_img": "T_Icon_item_AN0103",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0103.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0103.png",
+    "sha256": "bf53ccf326017ea3290d58a65d0aa24c53baf9063991f15268b74094e9c5ad81"
+  },
+  "兜帽绒羽": {
+    "game_img": "T_Icon_item_AN0101",
+    "type": "animal",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0101.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0101.png",
+    "sha256": "84b726923bbb5fc8323509f3e94c6e5a6970c360212a01cce42608db29a8cf3b"
+  },
+  "明珠翎羽": {
+    "game_img": "T_Icon_item_AN0099",
+    "type": "animal",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0099.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0099.png",
+    "sha256": "f56d0eabbef95e50f452857e50ade5faa025c0e8bc6ac96c6814c3f43a13d74e"
+  },
+  "曦光毛团": {
+    "game_img": "T_Icon_item_AN0136",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0136.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0136.png",
+    "sha256": "58bcf68d4639a1c0cd056f82dddf48e797647b8aeb0d1fb384d01f3a4e8ed45d"
+  },
+  "画眉毛团": {
+    "game_img": "T_Icon_item_AN0092R2",
+    "type": "animal",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0092R2.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0092R2.png",
+    "sha256": "d7236b00164feb7806447cdb3935ff3cce8d9c01d8030770d67b5949805250bc"
+  },
+  "远黛扇羽": {
+    "game_img": "T_Icon_item_AN0210",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0210.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0210.png",
+    "sha256": "1b17c294d33108f7a439d058582b90b7dbab4fa7e0b9cb88edf273f23fe99835"
+  },
+  "板刷狸绒": {
+    "game_img": "T_Icon_item_AN0163",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0163.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0163.png",
+    "sha256": "e48b282755e2cba74c03872c492fc2d962aefccdd932ee57fc2e4476840aedca"
+  },
+  "盗面毛团": {
+    "game_img": "T_Icon_item_AN0177",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0177.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0177.png",
+    "sha256": "ca5c2f47c5b3ad1f8cdcd40129ef18a0bdc8e9f4da14a32b2249299bc7c80e25"
+  },
+  "扣扣毛球": {
+    "game_img": "T_Icon_item_AN0178",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0178.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0178.png",
+    "sha256": "bf7ee1e7c6e7bfcdbb47dd34821db1e2aac07b1e5dc39632607eaea5067e02ff"
+  },
+  "行鹭羽": {
+    "game_img": "T_Icon_item_AN0219",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0219.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0219.png",
+    "sha256": "049f3b74c4cb4be4c184ee1fa26f1b713f24b03a2a78c53e7fdc853ebbc9a80b"
+  },
+  "草裙毛团": {
+    "game_img": "T_Icon_item_AN0153",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0153.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0153.png",
+    "sha256": "a6617fcc8fca06a22aa0a77af95e951ab40a434cc789a485466de3d2b44a5e51"
+  },
+  "绒领毛团": {
+    "game_img": "T_Icon_item_AN0151",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0151.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0151.png",
+    "sha256": "80524e6c5f6cc52972c03136b44a468fb9400668bf92c03eef79b4c48ba216f9"
+  },
+  "王子鹰羽": {
+    "game_img": "T_Icon_item_AN0149",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0149.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0149.png",
+    "sha256": "f7ae248dbe50b363aeea92cc8b65671d8874b84949218353f6856e189bbe67ea"
+  },
+  "荧夜鬃": {
+    "game_img": "T_Icon_item_AN0221",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0221.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0221.png",
+    "sha256": "3b2809ed145096fd8c60e3a0dfc27fb9cc542f911ee67821b3d0bfa36bf2779b"
+  },
+  "咕咕之羽": {
+    "game_img": "T_Icon_item_AN0162",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0162.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0162.png",
+    "sha256": "fd4b505ecea28ebca63702cc5b63f63e9f4f2cecf7547095bd4be67e03c4a75a"
+  },
+  "草蓬团绒": {
+    "game_img": "T_Icon_item_AN0237",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0237.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0237.png",
+    "sha256": "257f15ae96204c1a2b849d19a4b06747a9acb7d759fe27e02fbf2606aa1ae4c8"
+  },
+  "巨兽鬃绒": {
+    "game_img": "T_Icon_item_AN0138Head",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0138Head.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0138Head.png",
+    "sha256": "07a257abf7ef123658a0da0f6ab9cd9ed7e76871cff8d3cb316f855e7fcd1c66"
+  },
+  "巨兽掌绒": {
+    "game_img": "T_Icon_item_AN0138Claw",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0138Claw.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0138Claw.png",
+    "sha256": "57f917e2d3612ca943f507e9e0896a87fa60ea3818a9ea045d26be845dfdd15f"
+  },
+  "巨兽背绒": {
+    "game_img": "T_Icon_item_AN0138Back",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0138Back.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0138Back.png",
+    "sha256": "ac3e3e29f31ddc842e56f103172673ad5d2d6dd66ee225136359b6bfc94531cc"
+  },
+  "春兽茸团": {
+    "game_img": "T_Icon_item_AN0208",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0208.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0208.png",
+    "sha256": "dd7f7e49062a96b9c46cb46f998a77479d2655fe7e02ffca832bd7fca8020406"
+  },
+  "东桠绒花": {
+    "game_img": "T_Icon_item_AN0138R8",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0138R8.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0138R8.png",
+    "sha256": "80c62dd9335ae8b4deef668d7f6b972366cb30d1f45b7052ab7a91e92369ae3d"
+  },
+  "蜜妆兔绒": {
+    "game_img": "T_Icon_item_ANQ0053R2",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_ANQ0053R2.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_ANQ0053R2.png",
+    "sha256": "28233254a74a0dadd1f8f5d22ded0d8116316dd9685ba3e08fff43294aa2e437"
+  },
+  "沙沙毛团": {
+    "game_img": "T_Icon_item_ANQ0044R2",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_ANQ0044R2.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_ANQ0044R2.png",
+    "sha256": "b38f4b52e555f7d70f5d672eef659a646bf0960c09a4693c838522125ca84695"
+  },
+  "巨兽细绒": {
+    "game_img": "T_Icon_item_AN0138R6",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0138R6.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0138R6.png",
+    "sha256": "93db86459c2dd118783970854cc0c726468ec22bb39e195291cf2a78ee5c5634"
+  },
+  "胭脂翎羽": {
+    "game_img": "T_Icon_item_ANQ0018",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_ANQ0018.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_ANQ0018.png",
+    "sha256": "5098274fcf88f00aed4a8bc9a742298eba1656e35234ed31d08fa29e6ee48f46"
+  },
+  "栗蓬团绒": {
+    "game_img": "T_Icon_item_AN0237R2",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0237R2.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0237R2.png",
+    "sha256": "c0d1a296255895e0bb42f070150149bb122080e8baf0d01698e6430b60575188"
+  },
+  "羽巾绒": {
+    "game_img": "T_Icon_item_AN0256",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0256.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0256.png",
+    "sha256": "e4883a5e03924aa93920dd299c55f74afc69bb750e1679a0b20f9157c6b3293c"
+  },
+  "金灵毛球": {
+    "game_img": "T_Icon_item_AN0092R3",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0092R3.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0092R3.png",
+    "sha256": "d26262dbdfdd06325e2abeb2866eed4047a98a71731f013b34d4fb0981962e1d"
+  },
+  "茸芽鹿绒": {
+    "game_img": "T_Icon_item_AN0191",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0191.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0191.png",
+    "sha256": "73c7486d8e0382d4cdab2e736fb0661455250f078ecd4450222dbf8ff542ac01"
+  },
+  "大叶鹿绒": {
+    "game_img": "T_Icon_item_AN0192",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0192.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0192.png",
+    "sha256": "d0925c8c0a0bc9691bcd40befd7c78e54d901f6656b3600fd89ffabb8062444e"
+  },
+  "涅拉羽": {
+    "game_img": "T_Icon_item_AN0164",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0164.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0164.png",
+    "sha256": "76da93cb4013fc47d4fb31be824c2398f2e94767c209d149a34cfd475315afff"
+  },
+  "斗篷绒毛": {
+    "game_img": "T_Icon_item_AN0193",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0193.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0193.png",
+    "sha256": "1eb613236f193ddc8b2c3f464d549b95a8d9a2f5be2fb41585bbce4c47c78504"
+  },
+  "机雀羽": {
+    "game_img": "T_Icon_item_AN0285",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0285.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0285.png",
+    "sha256": "d01716bf9b34c64dfdd7d6808278ecbb0ba27aa903cba34b628b9fe7d999938e"
+  },
+  "桂冠翎羽": {
+    "game_img": "T_Icon_item_AN0099R2",
+    "type": "animal",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0099R2.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0099R2.png",
+    "sha256": "c849e57fcd939890b25ad68b5204d8f5df5abeb1120b99525c1765fd58e86341"
+  },
+  "发卡蚱蜢": {
+    "game_img": "T_Icon_item_AN0068",
+    "type": "insect",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0068.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0068.png",
+    "sha256": "96c744508b0c24d3467e657b1baf93683b5cffd6f965fe33c17c0ef68bc72161"
+  },
+  "珠链蝶": {
+    "game_img": "T_Icon_item_AN0084",
+    "type": "insect",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0084.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0084.png",
+    "sha256": "637cb651e89cc347a5e2de07ce4c068378d57a00bbeda6dedd66439ea0332dd1"
+  },
+  "美食家蜜蜂": {
+    "game_img": "T_Icon_item_ANW0034",
+    "type": "insect",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_ANW0034.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_ANW0034.png",
+    "sha256": "515f34ea221eecf8fa9cb570874e0fca095b5f8b29bb6ef75c512e5ba044ebed"
+  },
+  "织衣蛛": {
+    "game_img": "T_Icon_item_ANW0047",
+    "type": "insect",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_ANW0047.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_ANW0047.png",
+    "sha256": "8f30dd4e356166c02dcbdd55ba124608a4eeafd5fd024f82a3c1bb0985931b95"
+  },
+  "芭蕾豆娘": {
+    "game_img": "T_Icon_item_ANW0036",
+    "type": "insect",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_ANW0036.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_ANW0036.png",
+    "sha256": "782bae02120ec2c18db009e78b32a790acf710883353c3c876f9cff9e3df21c0"
+  },
+  "泳镜蝽": {
+    "game_img": "T_Icon_item_AN0065",
+    "type": "insect",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0065.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0065.png",
+    "sha256": "3ebd48170985158a451319a4c5f53420ea0785e1d9c688d6884ba952dd06d512"
+  },
+  "尖帽仙": {
+    "game_img": "T_Icon_item_AN0076",
+    "type": "insect",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0076.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0076.png",
+    "sha256": "53bf2113fa63bfaca98af612528ab267a079eac5a3987ba4da1b1d4de79449e5"
+  },
+  "刺绣蛾": {
+    "game_img": "T_Icon_item_AN0077",
+    "type": "insect",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0077.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0077.png",
+    "sha256": "9eacd197bed1dbccba3b76498760b8bb0cfd26bc188b34f5de1d21dda5e5d33b"
+  },
+  "耳坠萤": {
+    "game_img": "T_Icon_item_AN0112",
+    "type": "insect",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0112.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0112.png",
+    "sha256": "113e23761af465957d8389012451328ee0375f0a38971c7b198f26079e887e1d"
+  },
+  "布布袜虫": {
+    "game_img": "T_Icon_item_ANW0035",
+    "type": "insect",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_ANW0035.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_ANW0035.png",
+    "sha256": "b2a26907edd541418ab0d4ec159ba0fd322e255e4f86eb47bc1cd5e59a67809c"
+  },
+  "风铃子": {
+    "game_img": "T_Icon_item_AN0042",
+    "type": "insect",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0042.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0042.png",
+    "sha256": "c3b5dd62aa82520c3657d089dae8a596e4128246bd2bb00075cbaaf21a21cd70"
+  },
+  "花球娘": {
+    "game_img": "T_Icon_item_AN0051",
+    "type": "insect",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0051.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0051.png",
+    "sha256": "c890b41eca5c6615a4f8024eaaef7b7bab673f7cd4925b7f40a98d742f57cd6c"
+  },
+  "裙撑萤": {
+    "game_img": "T_Icon_item_AN0067",
+    "type": "insect",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0067.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0067.png",
+    "sha256": "f1a3a90bc3443e796f7e963c2f7465b6a747bb4e3d725ad82f6236320bf9c7f2"
+  },
+  "围巾蚯蚓": {
+    "game_img": "T_Icon_item_AN0078",
+    "type": "insect",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0078.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0078.png",
+    "sha256": "e95beb71565305e6cf2e7d4774ff0fab6fdd43c7e6791d1980a241ba0f3d04e7"
+  },
+  "丝巾蛾": {
+    "game_img": "T_Icon_item_AN0139",
+    "type": "insect",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0139.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0139.png",
+    "sha256": "abc8dfa0c72b93f9af63148b40fdf84f63d002fb84f78178c8cd5bd69af5893b"
+  },
+  "美甲金龟": {
+    "game_img": "T_Icon_item_AN0111",
+    "type": "insect",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0111.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0111.png",
+    "sha256": "f196c2ec5f151ec3b68357c488d942ab64be1a6f8220f21effdc1d933bf09d26"
+  },
+  "面膜草蛉": {
+    "game_img": "T_Icon_item_AN0113",
+    "type": "insect",
+    "dig": false,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0113.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0113.png",
+    "sha256": "c26b4103b012fa6ad4749ca3f974fa79657d2c563e0e88e34b61d0aeead0dd49"
+  },
+  "玉簪蚱蜢": {
+    "game_img": "T_Icon_item_AN0068R2",
+    "type": "insect",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0068R2.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0068R2.png",
+    "sha256": "fafb0cef5a92c9ad83185dcfa95454e88609cb3200f9594a79c9b0cc46f86a62"
+  },
+  "发圈蛞蝓": {
+    "game_img": "T_Icon_item_AN0140",
+    "type": "insect",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0140.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0140.png",
+    "sha256": "b465ca4dbc25b0b20529ccffe1d15b3368b284a4e09a3dbf124c337e83d1848d"
+  },
+  "木夹跳甲": {
+    "game_img": "T_Icon_item_AN0174",
+    "type": "insect",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0174.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0174.png",
+    "sha256": "2a169e2c060b13bcc5c3c07a9c8f203a760af07d3a46eeb54f22e93a17a9f376"
+  },
+  "朝朝蝶": {
+    "game_img": "T_Icon_item_AN0158",
+    "type": "insect",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0158.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0158.png",
+    "sha256": "435c65edeeb6844fbd1974b87f2ee5b5e76ccb323c9fa1e6ba8c1c3c02242c5b"
+  },
+  "暮暮蝶": {
+    "game_img": "T_Icon_item_AN0159",
+    "type": "insect",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0159.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0159.png",
+    "sha256": "7974ed2bf977a31e9ca53809e7a5a85011ede4ea969066bc1e3120d7b642ee8f"
+  },
+  "裁衣甲": {
+    "game_img": "T_Icon_item_AN0150",
+    "type": "insect",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0150.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0150.png",
+    "sha256": "c7a98775046d04ead1efe975a272e534bf0b3940987b2425f2a961fefe9190ce"
+  },
+  "陶罐茧": {
+    "game_img": "T_Icon_item_AN0165",
+    "type": "insect",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0165.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0165.png",
+    "sha256": "bde086ddb80a0a44b661aac289a6586afc2ad99065eb84e58d87f44aac32005c"
+  },
+  "青青釉蝉": {
+    "game_img": "T_Icon_item_AN0166",
+    "type": "insect",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0166.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0166.png",
+    "sha256": "418a90179a90ca2c91a7783bab88336f8b1ccd62a7691cefd160faea8b8fc29b"
+  },
+  "花纹围巾蚯蚓": {
+    "game_img": "T_Icon_item_AN0078R2",
+    "type": "insect",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0078R2.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0078R2.png",
+    "sha256": "a47e9da16a819903d9dc40465abf1822d52ad54149de62a8e30cf65038e961f7"
+  },
+  "探险家蜜蜂": {
+    "game_img": "T_Icon_item_ANW0034R2",
+    "type": "insect",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_ANW0034R2.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_ANW0034R2.png",
+    "sha256": "63e171bcb7b670dd6a293851d6f6d20e35502eff5f6e0cf5cc626b3e8ce9bd20"
+  },
+  "革袋甲": {
+    "game_img": "T_Icon_item_AN0180",
+    "type": "insect",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0180.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0180.png",
+    "sha256": "ecd671e9808464622c2818fed27a6d0058bf7ce1f1cd08f58acb543913e77e56"
+  },
+  "珍蛛": {
+    "game_img": "T_Icon_item_AN0179",
+    "type": "insect",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0179.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0179.png",
+    "sha256": "5bcce9a63cb89bf803854a6fcbd58f8ec279fca27097f4e0646baf8e7f87cbce"
+  },
+  "损音甲": {
+    "game_img": "T_Icon_item_AN0276",
+    "type": "insect",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0276.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0276.png",
+    "sha256": "01ae6de21d91a6b6c799172700d743c1765afca38f662536b1ca3758489a5d75"
+  },
+  "蜉幽幽": {
+    "game_img": "T_Icon_item_AN0235",
+    "type": "insect",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0235.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0235.png",
+    "sha256": "2b2d653d41f3a94a668828ef112533a98e5658667d550b2b3970f3d4e446d355"
+  },
+  "珠坠甲虫": {
+    "game_img": "T_Icon_item_AN0194",
+    "type": "insect",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0194.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0194.png",
+    "sha256": "04d5e4cb2f88e5f4ea4dfce6fd6916be9d831274dcf0e5ce580a912c7d8822a7"
+  },
+  "蓝玉甲虫": {
+    "game_img": "T_Icon_item_AN0195",
+    "type": "insect",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0195.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0195.png",
+    "sha256": "5939dfdeccd314dbe7c1b467c6d59becfa1d15c830a9dc1242a7fcc545802094"
+  },
+  "晶球棉蚧": {
+    "game_img": "T_Icon_item_AN0196",
+    "type": "insect",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0196.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0196.png",
+    "sha256": "02e5214ed7d77f6c7afe20c89f0b89c18acf670292da774d290a930fa11043e5"
+  },
+  "金轴蜻蜓": {
+    "game_img": "T_Icon_item_AN0286",
+    "type": "insect",
+    "dig": true,
+    "track": true,
+    "jihua": true,
+    "local_icon": "assets/material_icons/T_Icon_item_AN0286.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_Icon_item_AN0286.png",
+    "sha256": "0203deb6ea7c13793b293342d46be999555a4eef854990c1a7d4cc526a12a3c3"
+  },
+  "纯真丝线": {
+    "game_img": "T_UI_icon_004",
+    "type": "other",
+    "dig": true,
+    "track": false,
+    "jihua": false,
+    "local_icon": "assets/material_icons/T_UI_icon_004.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_UI_icon_004.png",
+    "sha256": "d0a2cc440555a634e0ce72f627c4728b9f3222b3b7a8e389948a8e046c0fdf67"
+  },
+  "闪光粒子": {
+    "game_img": "T_UI_icon_006",
+    "type": "other",
+    "dig": true,
+    "track": false,
+    "jihua": false,
+    "local_icon": "assets/material_icons/T_UI_icon_006.png",
+    "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MaterialIcon/T_UI_icon_006.png",
+    "sha256": "db30c86e306a065b1d0255eaea0cdae28d4016af9057aa0ebb27581b2e0cc1ef"
+  }
+}

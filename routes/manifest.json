@@ -1,0 +1,434 @@
+{
+  "sources": [
+    {
+      "source": "whimbox_app/scripts/05ca92be2fb58b8e16c01f434bca5c77.json",
+      "target": "routes/05ca92be2fb58b8e16c01f434bca5c77.json",
+      "sha256": "7511f4f4aedada50b3401691ac2a403fe94d8d28302bafcc8ab32c60bac8cad1",
+      "target_sha256": "7511f4f4aedada50b3401691ac2a403fe94d8d28302bafcc8ab32c60bac8cad1",
+      "notes": []
+    },
+    {
+      "source": "whimbox_app/scripts/1101f807b3c25806c7b7dafcb5f903be.json",
+      "target": "routes/1101f807b3c25806c7b7dafcb5f903be.json",
+      "sha256": "9846293bf57d702d8239306d0f8e3efb523a039ec5d78a169b507932bcc03108",
+      "target_sha256": "9846293bf57d702d8239306d0f8e3efb523a039ec5d78a169b507932bcc03108",
+      "notes": []
+    },
+    {
+      "source": "whimbox_app/scripts/1485662a2d0ac21eef6699643ef12389.json",
+      "target": "routes/1485662a2d0ac21eef6699643ef12389.json",
+      "sha256": "a4b90e75ee5811bc928980c0cf2297a58c3a6393ebcd7b56a769039cdd2d1204",
+      "target_sha256": "a4b90e75ee5811bc928980c0cf2297a58c3a6393ebcd7b56a769039cdd2d1204",
+      "notes": []
+    },
+    {
+      "source": "whimbox_app/scripts/24ac6b223fbb511ee575e0ab88074c6b.json",
+      "target": "routes/24ac6b223fbb511ee575e0ab88074c6b.json",
+      "sha256": "ff0ec6c1dfb6395a22730af6d29d7b5d231de783ec8189c8c004e43e84b1baeb",
+      "target_sha256": "ff0ec6c1dfb6395a22730af6d29d7b5d231de783ec8189c8c004e43e84b1baeb",
+      "notes": []
+    },
+    {
+      "source": "whimbox_app/scripts/2782119e384b0648286754ae00538679.json",
+      "target": "routes/2782119e384b0648286754ae00538679.json",
+      "sha256": "baf4e4279843294318e8cf5fe19fe093141987880769f7fbe6cedfeb239e91c6",
+      "target_sha256": "baf4e4279843294318e8cf5fe19fe093141987880769f7fbe6cedfeb239e91c6",
+      "notes": []
+    },
+    {
+      "source": "whimbox_app/scripts/3995b77822646496838e808e921f21ff.json",
+      "target": "routes/3995b77822646496838e808e921f21ff.json",
+      "sha256": "8c72156d31e67cec279767824b00b8fa5926a9fa0426b609719cecae85e7f862",
+      "target_sha256": "8c72156d31e67cec279767824b00b8fa5926a9fa0426b609719cecae85e7f862",
+      "notes": []
+    },
+    {
+      "source": "whimbox_app/scripts/3be6cb45fd4622c8aea1a7a00fff485c.json",
+      "target": "routes/3be6cb45fd4622c8aea1a7a00fff485c.json",
+      "sha256": "3d7af02d8b538a81fcb93dbcf7840b31adbb416ac1e5c2e0b44a2076dbea986c",
+      "target_sha256": "3d7af02d8b538a81fcb93dbcf7840b31adbb416ac1e5c2e0b44a2076dbea986c",
+      "notes": []
+    },
+    {
+      "source": "whimbox_app/scripts/4847e1da161135c20ce6a0cdc5b1f13b.json",
+      "target": "routes/4847e1da161135c20ce6a0cdc5b1f13b.json",
+      "sha256": "499d6503572b687772f2653b87f08c12fc330b9f7158da1feb8707c32caf4a9d",
+      "target_sha256": "499d6503572b687772f2653b87f08c12fc330b9f7158da1feb8707c32caf4a9d",
+      "notes": []
+    },
+    {
+      "source": "whimbox_app/scripts/4d971fe68a01de9b62e116ae43f3f725.json",
+      "target": "routes/4d971fe68a01de9b62e116ae43f3f725.json",
+      "sha256": "97503414a620b100a492e42f99177e70dfa16e6823a6991d0a80c453122df8a7",
+      "target_sha256": "fbed06fc72e509fb541b1ac819f0850f013e9c19f46e04572135f41e280d3645",
+      "notes": [
+        "Renumber duplicate point IDs in reference route",
+        "Perform three animal interactions at the reference destination"
+      ]
+    },
+    {
+      "source": "whimbox_app/scripts/5070c723845cb2abcb72ff959da4ae61.json",
+      "target": "routes/5070c723845cb2abcb72ff959da4ae61.json",
+      "sha256": "d9d7d1b2e33e92559e65a0517a524ec93ef5155e3e2cf5c936a2d40952d3ce68",
+      "target_sha256": "d9d7d1b2e33e92559e65a0517a524ec93ef5155e3e2cf5c936a2d40952d3ce68",
+      "notes": []
+    },
+    {
+      "source": "whimbox_app/scripts/58902cb4e848ff23e151ce9b410eee39.json",
+      "target": "routes/58902cb4e848ff23e151ce9b410eee39.json",
+      "sha256": "f60006e573ba97be76d0a6983487134b844d2dd901b522674519efbea6fbfa07",
+      "target_sha256": "f60006e573ba97be76d0a6983487134b844d2dd901b522674519efbea6fbfa07",
+      "notes": []
+    },
+    {
+      "source": "whimbox_app/scripts/61b459e6f42729fab2b021cb1595e8d7.json",
+      "target": "routes/61b459e6f42729fab2b021cb1595e8d7.json",
+      "sha256": "7ad73511069b198a1dbfd495762c032d807f2a15baec7801cd08a2d008b25326",
+      "target_sha256": "7ad73511069b198a1dbfd495762c032d807f2a15baec7801cd08a2d008b25326",
+      "notes": []
+    },
+    {
+      "source": "whimbox_app/scripts/69eb7852245daadb743cdc2c8ec3190b.json",
+      "target": "routes/69eb7852245daadb743cdc2c8ec3190b.json",
+      "sha256": "890c06bd8a93702752c1ca97047b864ba7854c550d25cf607081c0e9b20763f0",
+      "target_sha256": "890c06bd8a93702752c1ca97047b864ba7854c550d25cf607081c0e9b20763f0",
+      "notes": []
+    },
+    {
+      "source": "whimbox_app/scripts/7104d77beb3a0558e4a1f45396fab1c9.json",
+      "target": "routes/7104d77beb3a0558e4a1f45396fab1c9.json",
+      "sha256": "91166a26d508fb4228c719e957019d9cd1b6e014da049cc52f843e4b8c0d9941",
+      "target_sha256": "91166a26d508fb4228c719e957019d9cd1b6e014da049cc52f843e4b8c0d9941",
+      "notes": []
+    },
+    {
+      "source": "whimbox_app/scripts/9bb84f124630e73ca699bf41a2f06ead.json",
+      "target": "routes/9bb84f124630e73ca699bf41a2f06ead.json",
+      "sha256": "04e7c29df31205c27e1ae2e875ccf822e647b408b011e7e92466e4465caad7a0",
+      "target_sha256": "04e7c29df31205c27e1ae2e875ccf822e647b408b011e7e92466e4465caad7a0",
+      "notes": []
+    },
+    {
+      "source": "whimbox_app/scripts/a81233d962e7512020b887169b3b92be.json",
+      "target": "routes/a81233d962e7512020b887169b3b92be.json",
+      "sha256": "40c2a133de5146807b5f27532fe6c7bb8def53dd79cb4c83c6d8728e2e0f7b5b",
+      "target_sha256": "40c2a133de5146807b5f27532fe6c7bb8def53dd79cb4c83c6d8728e2e0f7b5b",
+      "notes": []
+    },
+    {
+      "source": "whimbox_app/scripts/c780a34ffaad84e125311889af0b94a7.json",
+      "target": "routes/c780a34ffaad84e125311889af0b94a7.json",
+      "sha256": "fe1af34975984fd1c569cdb1024f5ccb04b6b21c507ef427319a6c6fce0323f5",
+      "target_sha256": "fe1af34975984fd1c569cdb1024f5ccb04b6b21c507ef427319a6c6fce0323f5",
+      "notes": []
+    },
+    {
+      "source": "whimbox_app/scripts/c838b864213cb8535f0cf27d78798303.json",
+      "target": "routes/c838b864213cb8535f0cf27d78798303.json",
+      "sha256": "65094ad0d1eccdca309299dfc2baa3c8c0d8579496fa6f46b28df7b7ccea2d22",
+      "target_sha256": "65094ad0d1eccdca309299dfc2baa3c8c0d8579496fa6f46b28df7b7ccea2d22",
+      "notes": []
+    },
+    {
+      "source": "whimbox_app/scripts/ca02b20e5babc6500605540a01ff02dc.json",
+      "target": "routes/ca02b20e5babc6500605540a01ff02dc.json",
+      "sha256": "e7c69052861d9def025c0ef99f4a8bb6649fa4e8c1fa93bc066e1c8e1d43167b",
+      "target_sha256": "e7c69052861d9def025c0ef99f4a8bb6649fa4e8c1fa93bc066e1c8e1d43167b",
+      "notes": []
+    },
+    {
+      "source": "whimbox_app/scripts/d46d347f980095d599fc4d9d5e23212e.json",
+      "target": "routes/d46d347f980095d599fc4d9d5e23212e.json",
+      "sha256": "756bcca73c99a8a2cf5676e1dff57857343a4353b6e2ea26c5d6a96866f739b3",
+      "target_sha256": "756bcca73c99a8a2cf5676e1dff57857343a4353b6e2ea26c5d6a96866f739b3",
+      "notes": []
+    },
+    {
+      "source": "whimbox_app/scripts/d485f9fecf5e4360fb68c58d36e9f18c.json",
+      "target": "routes/d485f9fecf5e4360fb68c58d36e9f18c.json",
+      "sha256": "788f055362290b629ed5303bc6204c3199f7cf53e2a3db9754900e24eeaa1b7b",
+      "target_sha256": "788f055362290b629ed5303bc6204c3199f7cf53e2a3db9754900e24eeaa1b7b",
+      "notes": []
+    },
+    {
+      "source": "whimbox_app/scripts/d4da8792fb9ac17d85e5226030e76e99.json",
+      "target": "routes/d4da8792fb9ac17d85e5226030e76e99.json",
+      "sha256": "b58e1616515e23ceb0bbf2b418b64eab495bb136ee71c935e51bec6e546096d4",
+      "target_sha256": "b58e1616515e23ceb0bbf2b418b64eab495bb136ee71c935e51bec6e546096d4",
+      "notes": []
+    },
+    {
+      "source": "whimbox_app/scripts/de8e746b271bd43fcc5bc2aa64232a8c.json",
+      "target": "routes/de8e746b271bd43fcc5bc2aa64232a8c.json",
+      "sha256": "955e138a0f753caec7a9f3b551cc1c8f0ffe3c686d77ebe848dcff44e1ca16c3",
+      "target_sha256": "955e138a0f753caec7a9f3b551cc1c8f0ffe3c686d77ebe848dcff44e1ca16c3",
+      "notes": []
+    },
+    {
+      "source": "whimbox_app/scripts/e39dd8cb7168d4bd4754bf6f9d259555.json",
+      "target": "routes/e39dd8cb7168d4bd4754bf6f9d259555.json",
+      "sha256": "1d8c50c74bd0c6454c278326ea02912f80ca367250b3fcc7af4857d465583b50",
+      "target_sha256": "1d8c50c74bd0c6454c278326ea02912f80ca367250b3fcc7af4857d465583b50",
+      "notes": []
+    },
+    {
+      "source": "whimbox_app/scripts/eeb818675df4cefb343901f8ae6fa4d1.json",
+      "target": "routes/eeb818675df4cefb343901f8ae6fa4d1.json",
+      "sha256": "2b5b9fd88f8a78a7065b28abb2d387e1202cc8b56968d3ab9d7d8e9064898032",
+      "target_sha256": "2b5b9fd88f8a78a7065b28abb2d387e1202cc8b56968d3ab9d7d8e9064898032",
+      "notes": []
+    },
+    {
+      "source": "whimbox_app/scripts/f4dda29305d2fbef51c0a54ee1fee362.json",
+      "target": "routes/f4dda29305d2fbef51c0a54ee1fee362.json",
+      "sha256": "45320bbd14c8142499e5dbf51bec108634ea106b74992ef152f4797de6e79a6b",
+      "target_sha256": "45320bbd14c8142499e5dbf51bec108634ea106b74992ef152f4797de6e79a6b",
+      "notes": []
+    },
+    {
+      "source": "whimbox_app/scripts/ff6399c3ea16090df1042c8ba5134110.json",
+      "target": "routes/ff6399c3ea16090df1042c8ba5134110.json",
+      "sha256": "fc47a3544ffd29a2cbbf11de4a0c82a780ea9452d608e3d458114896609a9a23",
+      "target_sha256": "fc47a3544ffd29a2cbbf11de4a0c82a780ea9452d608e3d458114896609a9a23",
+      "notes": []
+    },
+    {
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Maps/w01_v12_luma_05x.png",
+      "target": "assets/maps/w01_v12_luma_05x.png",
+      "sha256": "6a4cf24a22fd459f7459e1e9d0b396e9820236fa0e9eaf964a0d0adcb8d37a54",
+      "target_sha256": "6a4cf24a22fd459f7459e1e9d0b396e9820236fa0e9eaf964a0d0adcb8d37a54",
+      "notes": []
+    },
+    {
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Maps/w01_v12_luma_0125x.png",
+      "target": "assets/maps/w01_v12_luma_0125x.png",
+      "sha256": "d404ac139ceee59627765614012b3cedbcd1ad91d5838c8bf276918f57b574e9",
+      "target_sha256": "d404ac139ceee59627765614012b3cedbcd1ad91d5838c8bf276918f57b574e9",
+      "notes": []
+    },
+    {
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Maps/w14000000_v2_luma_05x.png",
+      "target": "assets/maps/w14000000_v2_luma_05x.png",
+      "sha256": "7f0bb26171bb1f4b7e4f83f18b6216aa4f825a75fcec5f7331aa0acdf7492135",
+      "target_sha256": "7f0bb26171bb1f4b7e4f83f18b6216aa4f825a75fcec5f7331aa0acdf7492135",
+      "notes": []
+    },
+    {
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Maps/w14000000_v2_luma_0125x.png",
+      "target": "assets/maps/w14000000_v2_luma_0125x.png",
+      "sha256": "5b6c921d3a2764903ed0f2f12e3f99aa8ca4a01a198f59ae3e8af97df0d1cbb6",
+      "target_sha256": "5b6c921d3a2764903ed0f2f12e3f99aa8ca4a01a198f59ae3e8af97df0d1cbb6",
+      "notes": []
+    },
+    {
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Maps/w8000001_v1_luma_05x.png",
+      "target": "assets/maps/w8000001_v1_luma_05x.png",
+      "sha256": "bb01588ba4ad04a13d7ecd6e98184b330d28b93fde0d8e4229647cc21905a10a",
+      "target_sha256": "bb01588ba4ad04a13d7ecd6e98184b330d28b93fde0d8e4229647cc21905a10a",
+      "notes": []
+    },
+    {
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Maps/w8000001_v1_luma_0125x.png",
+      "target": "assets/maps/w8000001_v1_luma_0125x.png",
+      "sha256": "00b219efabfaa6259dba81dd2d851df09aab9fa29a401e9fbf8563801f2b3cdf",
+      "target_sha256": "00b219efabfaa6259dba81dd2d851df09aab9fa29a401e9fbf8563801f2b3cdf",
+      "notes": []
+    },
+    {
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Maps/w4020034_luma_05x.png",
+      "target": "assets/maps/w4020034_luma_05x.png",
+      "sha256": "d3da8efadd742b9d97ed7cd4188f1874858ad83eab85bd186a587d97ddb608a7",
+      "target_sha256": "d3da8efadd742b9d97ed7cd4188f1874858ad83eab85bd186a587d97ddb608a7",
+      "notes": []
+    },
+    {
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Maps/w4020034_luma_0125x.png",
+      "target": "assets/maps/w4020034_luma_0125x.png",
+      "sha256": "ff34aecac364d2e06db98098df55e3fb02a09f9d2a93de04b737ff20f7bb02dc",
+      "target_sha256": "ff34aecac364d2e06db98098df55e3fb02a09f9d2a93de04b737ff20f7bb02dc",
+      "notes": []
+    },
+    {
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/checkpoints.json",
+      "target": "assets/maps/checkpoints.json",
+      "sha256": "e49214c4ce526f26ea351a68673b78d516c2b97c8c1eade60cd0dd4935fc811e",
+      "target_sha256": "e49214c4ce526f26ea351a68673b78d516c2b97c8c1eade60cd0dd4935fc811e",
+      "notes": []
+    }
+  ],
+  "inventory": [
+    {
+      "name": "朝夕心愿_战斗",
+      "map": "miraland",
+      "points": 6,
+      "ready": true,
+      "reason": ""
+    },
+    {
+      "name": "星海拾光_制造泡泡",
+      "map": "starsea",
+      "points": 16,
+      "ready": true,
+      "reason": ""
+    },
+    {
+      "name": "星海拾光_放置摆饰",
+      "map": "starsea",
+      "points": 3,
+      "ready": true,
+      "reason": ""
+    },
+    {
+      "name": "星海拾光_星光结晶收集_星梦群屿",
+      "map": "starsea",
+      "points": 37,
+      "ready": true,
+      "reason": ""
+    },
+    {
+      "name": "星海拾光_星光结晶收集_泡泡梦屿",
+      "map": "starsea",
+      "points": 78,
+      "ready": true,
+      "reason": ""
+    },
+    {
+      "name": "星海拾光_更改音乐",
+      "map": "starsea",
+      "points": 2,
+      "ready": true,
+      "reason": ""
+    },
+    {
+      "name": "朝夕心愿_小游戏",
+      "map": "miraland",
+      "points": 10,
+      "ready": true,
+      "reason": ""
+    },
+    {
+      "name": "星海拾光_化身动物",
+      "map": "starsea",
+      "points": 13,
+      "ready": true,
+      "reason": ""
+    },
+    {
+      "name": "星海拾光_拾取漂流瓶",
+      "map": "starsea",
+      "points": 7,
+      "ready": true,
+      "reason": ""
+    },
+    {
+      "name": "星海拾光_星光结晶收集_泡泡梦屿2",
+      "map": "starsea",
+      "points": 69,
+      "ready": true,
+      "reason": ""
+    },
+    {
+      "name": "家园日常",
+      "map": "home",
+      "points": 14,
+      "ready": true,
+      "reason": ""
+    },
+    {
+      "name": "星海拾光_星光结晶收集_大舞台",
+      "map": "starsea",
+      "points": 37,
+      "ready": true,
+      "reason": ""
+    },
+    {
+      "name": "星海拾光_星光结晶收集_繁星之滨",
+      "map": "starsea",
+      "points": 30,
+      "ready": true,
+      "reason": ""
+    },
+    {
+      "name": "星海拾光_合影星芒之翼",
+      "map": "starsea",
+      "points": 8,
+      "ready": true,
+      "reason": ""
+    },
+    {
+      "name": "星海拾光_合影漂流瓶",
+      "map": "starsea",
+      "points": 2,
+      "ready": true,
+      "reason": ""
+    },
+    {
+      "name": "星海拾光_投递漂流瓶",
+      "map": "starsea",
+      "points": 3,
+      "ready": true,
+      "reason": ""
+    },
+    {
+      "name": "捕虫-珍珠",
+      "map": "miraland",
+      "points": 99,
+      "ready": true,
+      "reason": ""
+    },
+    {
+      "name": "星海拾光_星光结晶收集_晶簇之谷",
+      "map": "starsea",
+      "points": 38,
+      "ready": true,
+      "reason": ""
+    },
+    {
+      "name": "星海拾光_星光结晶收集_无界枢纽",
+      "map": "starsea",
+      "points": 33,
+      "ready": true,
+      "reason": ""
+    },
+    {
+      "name": "星海拾光_聚会聊天",
+      "map": "starsea",
+      "points": 3,
+      "ready": true,
+      "reason": ""
+    },
+    {
+      "name": "朝夕心愿_捕虫",
+      "map": "miraland",
+      "points": 20,
+      "ready": true,
+      "reason": ""
+    },
+    {
+      "name": "星海拾光_星光结晶收集_繁星之滨2",
+      "map": "starsea",
+      "points": 36,
+      "ready": true,
+      "reason": ""
+    },
+    {
+      "name": "朝夕心愿_采集",
+      "map": "miraland",
+      "points": 15,
+      "ready": true,
+      "reason": ""
+    },
+    {
+      "name": "捕虫-朝朝暮暮蝶",
+      "map": "miraland",
+      "points": 106,
+      "ready": true,
+      "reason": ""
+    }
+  ],
+  "macros": [
+    "星海拾光_原地急坠_宏",
+    "朝夕心愿_战斗宏",
+    "朝夕心愿_小游戏_穿梭大冒险_宏"
+  ]
+}

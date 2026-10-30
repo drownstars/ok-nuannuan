@@ -1,0 +1,3 @@
+[submodule "ok-script"]
+	path = ok-script
+	url = https://github.com/ok-oldking/ok-script.git

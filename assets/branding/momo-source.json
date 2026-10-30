@@ -1,0 +1,19 @@
+{
+  "character": "大喵 / Momo",
+  "source_page": "https://infinitynikki.infoldgames.com/proj/tw/momo_search.html",
+  "source_url": "https://assets.infoldgames.com/resources/cdn/20250717/99d73f658a1ddc81.png",
+  "source_sha256": "34f967fff489cb04a119e7b10c3aa1f6b25440e3dd7c3d92e10673cc7586ac01",
+  "source_dimensions": [
+    333,
+    346
+  ],
+  "crop": [
+    50,
+    90,
+    230,
+    230
+  ],
+  "rendered_content_size": 224,
+  "icon_canvas": 256,
+  "rights": "Original Infinity Nikki character artwork: Papergames / Infold. Local avatar/icon adaptation; no ownership or software-license grant claimed."
+}

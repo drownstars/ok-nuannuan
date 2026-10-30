@@ -1,0 +1,1652 @@
+{
+  "source": "local whimbox 3.1.1",
+  "reference_size": [
+    1920,
+    1080
+  ],
+  "features": {
+    "IconPageMainFeature": {
+      "bbox": [
+        35,
+        987,
+        51,
+        35
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/IconPageMainFeature.png",
+      "sha256": "ae76812d90cb3b7721b074bbc225bf3d364f9d9debf4d901271e2e3b1aec2b50",
+      "authoring": "ok_templates/IconPageMainFeature.png",
+      "authoring_sha256": "0e0de7685229ff0369a73a93010f85f5a0ec20ad48eb3af833aba4f154f226bf"
+    },
+    "IconPickupFeature": {
+      "bbox": [
+        1045,
+        533,
+        50,
+        25
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/General/IconPickupFeature.png",
+      "sha256": "0b7111f312ee2eeefe7201b4d181be53d5811761a1c9e61680922177032c83cd",
+      "authoring": "ok_templates/IconPickupFeature.png",
+      "authoring_sha256": "dff37512bed333add6006a42c8a0812e81f1ff15fdc586701e41c4c23ce61734"
+    },
+    "IconSkipDialog": {
+      "bbox": [
+        1724,
+        1003,
+        118,
+        32
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/General/IconSkipDialog.png",
+      "sha256": "fef34dfb467c72b6bc788f9568b50c1fac431a1777706507288d626e1e9923fb",
+      "authoring": "ok_templates/IconSkipDialog.png",
+      "authoring_sha256": "ce04791b6656386ef27523fdc1ab33ff76c30d45294f6dffa814c9612ba2a18b"
+    },
+    "IconSkip": {
+      "bbox": [
+        1789,
+        1013,
+        51,
+        30
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/General/IconSkip.png",
+      "sha256": "f39ee6be6e26d685c41d40aa1a3e92183906432817c41203f83fbf3a4619bd02",
+      "authoring": "ok_templates/IconSkip.png",
+      "authoring_sha256": "110b711cb520f2362aa303f278d1f07354e7902952abeed94b828077bd84b15f"
+    },
+    "IconClickSkip": {
+      "bbox": [
+        1692,
+        1022,
+        150,
+        35
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/General/IconClickSkip.png",
+      "sha256": "6e336e933847708bb0ae461891e52e730361e77a2b48a6ede757fb7f8b2efc1c",
+      "authoring": "ok_templates/IconClickSkip.png",
+      "authoring_sha256": "fe70565f836f6a7040b5007869d2f775af3306760a29f4744319163ac7f4702b"
+    },
+    "IconDailyRewardFeature1": {
+      "bbox": [
+        764,
+        417,
+        110,
+        110
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/IconDailyRewardFeature1.png",
+      "sha256": "c768a466ae7c5f9a0016c6de5bd6abdbafe99e7f63630dd86b238a1491410138",
+      "authoring": "ok_templates/IconDailyRewardFeature1.png",
+      "authoring_sha256": "11de4e48352b756d872631590f7ae51ad533adcae78f79c18296f84632d992a3"
+    },
+    "IconDailyRewardFeature2": {
+      "bbox": [
+        673,
+        621,
+        100,
+        100
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/IconDailyRewardFeature2.png",
+      "sha256": "e48ab59c51f0ff0a49b6bb816da41663bb19ac6a5f17f5dd8a7af9b82524e86a",
+      "authoring": "ok_templates/IconDailyRewardFeature2.png",
+      "authoring_sha256": "a7d729608f1ed7703945c29feff3f2d854806e2334e6c615cc319eda19765104"
+    },
+    "ButtonDigGather": {
+      "bbox": [
+        1798,
+        743,
+        40,
+        40
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/dig/ButtonDigGather.png",
+      "sha256": "6ebcdff1208355ccda4b6fe646e636f9e5c77cf753ea36f39d23ccf6088865bf",
+      "authoring": "ok_templates/ButtonDigGather.png",
+      "authoring_sha256": "634f26a3d16d4657e297c097d466077d94ddec307580ffaa876aae6af2d34a90"
+    },
+    "ButtonDigGatherConfirm": {
+      "bbox": [
+        686,
+        776,
+        223,
+        57
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/dig/ButtonDigGatherConfirm.png",
+      "sha256": "790e82bcf7146c746e7decc62e8eecd49ffe315a8a6eec8187e9f1912e8e0250",
+      "authoring": "ok_templates/ButtonDigGatherConfirm.png",
+      "authoring_sha256": "790e82bcf7146c746e7decc62e8eecd49ffe315a8a6eec8187e9f1912e8e0250"
+    },
+    "ButtonDigAgain": {
+      "bbox": [
+        1013,
+        779,
+        220,
+        50
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/dig/ButtonDigAgain.png",
+      "sha256": "572c52dcb2441e3feafc550f9ff4e33c83ab7347fbf353ab859436d70f4ac5c2",
+      "authoring": "ok_templates/ButtonDigAgain.png",
+      "authoring_sha256": "39b3ed7316826bade16a682423801d145b6ca78a954dac00fb119749b6ebd532"
+    },
+    "ButtonZxxyEntrance": {
+      "bbox": [
+        246,
+        459,
+        80,
+        80
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/zxxy/ButtonZxxyEntrance.png",
+      "sha256": "500dc722fc3d4380645f5a7d8425e9d2e1bc798ffd544d3ac62511b3f23a3d4b",
+      "authoring": "ok_templates/ButtonZxxyEntrance.png",
+      "authoring_sha256": "4e4c408c374c2829a6d8e73feb34f19ca3095081eb7c8357708422dba1b0fcb4"
+    },
+    "IconZxxyFeature": {
+      "bbox": [
+        1747,
+        768,
+        100,
+        55
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/zxxy/IconZxxyFeature.png",
+      "sha256": "0c41686f7687ace34812619064317228ef43347aed2ce9df563f82b212ef779c",
+      "authoring": "ok_templates/IconZxxyFeature.png",
+      "authoring_sha256": "b6ba224987684ad3bdd7b6771a2a5058bc4f00507fd22c04cab107e733de7c8d"
+    },
+    "IconZxxyTaskFinished": {
+      "bbox": [
+        1510,
+        1013,
+        20,
+        20
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/zxxy/IconZxxyTaskFinished.png",
+      "sha256": "cb3c5ac52fa2a7720cae0956b1f7efc3156a0342da0cbe6844b7bd62870eac28",
+      "authoring": "ok_templates/IconZxxyTaskFinished.png",
+      "authoring_sha256": "47f41a1c7a613e6df476af71b853a67071f2cf5b5bcacfa3bb3c92e3569aa52e"
+    },
+    "IconPhotoFeature": {
+      "bbox": [
+        1753,
+        127,
+        95,
+        95
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/photo/IconPhotoFeature.png",
+      "sha256": "f38f38de3ad5b6dbb70a8874343af0ee42b9b96566c0490bf5519cfee6c0ae16",
+      "authoring": "ok_templates/IconPhotoFeature.png",
+      "authoring_sha256": "e74ff3d0b6d0bb1bf2b51df617342be5972558cd82183acaebf26c846a1c4ce8"
+    },
+    "IconPhotoEdit": {
+      "bbox": [
+        1781,
+        923,
+        74,
+        59
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/photo/IconPhotoEdit.png",
+      "sha256": "454c931c8e03a22e230ecd325571c5e04ec80689eb5f26f6586d02afd00d4921",
+      "authoring": "ok_templates/IconPhotoEdit.png",
+      "authoring_sha256": "8e5dfee6bac7571b2f1c23c999b5ebe54407a5a2b91e2ecfb715e6987c382d56"
+    },
+    "ButtonMonthlyPassAward": {
+      "bbox": [
+        1108,
+        966,
+        240,
+        50
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/monthly_pass/ButtonMonthlyPassAward.png",
+      "sha256": "64c95695f153f8dfe58b41d7f9f5ff6c4b8847a43fbc8644fe14d2e50d228256",
+      "authoring": "ok_templates/ButtonMonthlyPassAward.png",
+      "authoring_sha256": "65b4f5176e57188160bff84d2de0966c84fcc38539c6f9015fef6ecd9085b0f4"
+    },
+    "ButtonXhsgEntrance": {
+      "bbox": [
+        244,
+        836,
+        80,
+        80
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/xhsg/ButtonXhsgEntrance.png",
+      "sha256": "82d9b7e50e8d4b8526007919e43f81931e094cd5a3cdbc88dbdca06c8e783acb",
+      "authoring": "ok_templates/ButtonXhsgEntrance.png",
+      "authoring_sha256": "094e8944020dd2182ab4d473d36ee12aaa635fed044223c029273d22689e863c"
+    },
+    "IconXhsgFeature": {
+      "bbox": [
+        212,
+        914,
+        75,
+        70
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/xhsg/IconXhsgFeature.png",
+      "sha256": "f20ee24e95f90b63ac7bfa25d4f2d74b25bc4f8476d3208c765f74dea426bdbe",
+      "authoring": "ok_templates/IconXhsgFeature.png",
+      "authoring_sha256": "39584301c922e127b526bcf790cf1c4d3602aea9987d7c3bbc3d671e6d84488b"
+    },
+    "IconXhsgTaskFinished": {
+      "bbox": [
+        1609,
+        1003,
+        20,
+        20
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/xhsg/IconXhsgTaskFinished.png",
+      "sha256": "d8eaacc2baac31f7986fafd4987d13b0ce8d5297f0c4d9a6f87748a6ea8b092e",
+      "authoring": "ok_templates/IconXhsgTaskFinished.png",
+      "authoring_sha256": "d0cd64721985bd055d29a2ab33df90a23f9e7cabc2915fbb8bdff690fe981bb2"
+    },
+    "ButtonXhsgBooklookLike": {
+      "bbox": [
+        1311,
+        693,
+        39,
+        38
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/xhsg/ButtonXhsgBooklookLike.png",
+      "sha256": "bff9dcc72277229750980d1c8d6ee6de739ab4e3f4d256d6a58eb419ef804bd2",
+      "authoring": "ok_templates/ButtonXhsgBooklookLike.png",
+      "authoring_sha256": "4eae89309484c8a7775d26b3506dc5d963d6154cefcb6345129b6623178f3926"
+    },
+    "IconXhsgGroupChatFeature": {
+      "bbox": [
+        65,
+        101,
+        91,
+        91
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/xhsg/IconXhsgGroupChatFeature.png",
+      "sha256": "cae523bc6862958faed95a2f21a5dc204ffeb97f733e3b503930ac662d301040",
+      "authoring": "ok_templates/IconXhsgGroupChatFeature.png",
+      "authoring_sha256": "afefcd9064e9ec4f8b4836c7f7856c4d163cd972a85b9beae9f36c4ff3383d8d"
+    },
+    "ButtonXhsgBottleClose": {
+      "bbox": [
+        1453,
+        239,
+        27,
+        28
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/xhsg/ButtonXhsgBottleClose.png",
+      "sha256": "f808a6c671a1d50100b4b07b007e0b147d9768100a12b9f7f1fabfb321a3b412",
+      "authoring": "ok_templates/ButtonXhsgBottleClose.png",
+      "authoring_sha256": "e6e07326fddf172a6580651824cb5bf457cb3850960f2c7bdbf4222238732488"
+    },
+    "IconUIBigmap": {
+      "bbox": [
+        52,
+        938,
+        33,
+        33
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/BigMap/IconUIBigmap.png",
+      "sha256": "9d8cf1f0ba9dd8f9ba8519114a61b7084a62fc45820049d9ff37bccc20f13d09",
+      "authoring": "ok_templates/IconUIBigmap.png",
+      "authoring_sha256": "3db66c8f0a9b0a6d2e968a7da5bf0d6379d178d849267530f0a18b7a78b01cbe"
+    },
+    "IconUIBigmapJoystick": {
+      "bbox": [
+        52,
+        890,
+        33,
+        33
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/BigMap/IconUIBigmapJoystick.png",
+      "sha256": "2525cccaa3aa6ca72a5d43816c34847af615f7e7e86454a5079f9e7e44bd8405",
+      "authoring": "ok_templates/IconUIBigmapJoystick.png",
+      "authoring_sha256": "9e2124244dc27228811f89eaa22600d0ea8581df1bb52797530949953db3f448"
+    },
+    "IconBigMapMaxScale": {
+      "bbox": [
+        282,
+        1033,
+        56,
+        13
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/BigMap/IconBigMapMaxScale.png",
+      "sha256": "6b70f02f5b7f7d0e08e90e39b2ce28ca95d4ffeb33ace94b3520564324dd6dc0",
+      "authoring": "ok_templates/IconBigMapMaxScale.png",
+      "authoring_sha256": "512cc40cb62ce678650a7de0d88febc3f4d76e78c9e64b815f180fe68e3be820"
+    },
+    "IconBigMapMaxScaleJoyStick": {
+      "bbox": [
+        283,
+        1026,
+        52,
+        11
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/BigMap/IconBigMapMaxScaleJoyStick.png",
+      "sha256": "4565497c50dfde04ba97af1f6ace1663c964be3df93c9b9a2310c07350248a2c",
+      "authoring": "ok_templates/IconBigMapMaxScaleJoyStick.png",
+      "authoring_sha256": "104eb1596037cdcd9ff610e31607cf80121d36dbd38028c301c2a3e7e325d4e9"
+    },
+    "ButtonBigMapZoom": {
+      "bbox": [
+        367,
+        1029,
+        19,
+        19
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/BigMap/ButtonBigMapZoom.png",
+      "sha256": "3167770f618d9b32412ca0ca0a2057f42044215df981d7c4b57124a3b679fce1",
+      "authoring": "ok_templates/ButtonBigMapZoom.png",
+      "authoring_sha256": "d4ff1a2db0f546c1ffe2204aa77de66a35df20ab5b9506d38b7bf145788312e1"
+    },
+    "IconBigMapHomeFeature": {
+      "bbox": [
+        1340,
+        143,
+        50,
+        50
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/BigMap/IconBigMapHomeFeature.png",
+      "sha256": "b126f3f7f58c58788398071ebbadced184743efaba9fa1fb7be1c03f5d24738d",
+      "authoring": "ok_templates/IconBigMapHomeFeature.png",
+      "authoring_sha256": "8f96b3fc175b38508035e60cf5ce66d41c23c8331f9a6541d9c75de0252fe36f"
+    },
+    "IconSetdownFeature": {
+      "bbox": [
+        1045,
+        533,
+        50,
+        26
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/General/IconSetdownFeature.png",
+      "sha256": "ff26ceeb7fb690615f6f212988a4b1680599a65936285be44a26ac654467a733",
+      "authoring": "ok_templates/IconSetdownFeature.png",
+      "authoring_sha256": "809a155d9b78feab7bb3c31dcc2916d5a6dc500f22b8d133bd31a92e3d725955"
+    },
+    "ButtonItemSetting": {
+      "bbox": [
+        705,
+        585,
+        32,
+        32
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/item/ButtonItemSetting.png",
+      "sha256": "d4e90d742376e65ff79b8d1474ee7a261da83b3cba3bfcf015ce7602fc38a5ca",
+      "authoring": "ok_templates/ButtonItemSetting.png",
+      "authoring_sha256": "00d96b643eea9c1e9bea81d645760a7fc9a6a80b5b9e105a3e801780aa4a06ee"
+    },
+    "ButtonItemFinishSetting": {
+      "bbox": [
+        1607,
+        987,
+        160,
+        35
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/item/ButtonItemFinishSetting.png",
+      "sha256": "7ebe7887070924169318ce104e13950d123c5d6b80fb3d14433543cbed79e0e3",
+      "authoring": "ok_templates/ButtonItemFinishSetting.png",
+      "authoring_sha256": "9578722a2d513f402367191eda5469a762ebf539107499f84e581cfd24bc39ea"
+    },
+    "ButtonItemPlaceableItem": {
+      "bbox": [
+        1849,
+        739,
+        55,
+        55
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/item/ButtonItemPlaceableItem.png",
+      "sha256": "721bef236472f36d35c52cbc69a87384469ddf151089604cd1d92e0a9c191119",
+      "authoring": "ok_templates/ButtonItemPlaceableItem.png",
+      "authoring_sha256": "565c070063f5e3bb5c29ee5215acb03211796e01949fd16caa37960992d84ad6"
+    },
+    "ButtonItemLanternConfirm": {
+      "bbox": [
+        1242,
+        905,
+        220,
+        55
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/item/ButtonItemLanternConfirm.png",
+      "sha256": "1f1bc8aadd0ba686e2244fe90a563b9f698f2715e22040835063e89aa62333d8",
+      "authoring": "ok_templates/ButtonItemLanternConfirm.png",
+      "authoring_sha256": "7ab8ba4aa1b7594a7f4af5c7139a68e3da56120bf8ca7a2cfcdaf9350200c8fd"
+    },
+    "IconItemCantPlace": {
+      "bbox": [
+        810,
+        291,
+        300,
+        40
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/item/IconItemCantPlace.png",
+      "sha256": "2d72a98767744c3cce9cadd9f0729923a9354da5724519d48314461450d4b60d",
+      "authoring": "ok_templates/IconItemCantPlace.png",
+      "authoring_sha256": "bb09d365c3defeb52e4a439d229caa77c220807dbc0ede49ba8edf51a3877f57"
+    },
+    "IconAbilityInsect": {
+      "bbox": [
+        1625,
+        963,
+        58,
+        58
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/wardrobe/IconAbilityInsect.png",
+      "sha256": "fbf6483050ac4caf3f74020ee25262dc2a57c29663176796caef2d7e1d059b10",
+      "authoring": "ok_templates/IconAbilityInsect.png",
+      "authoring_sha256": "e7a229384b1a332bf6b953d02a8ef7b53e49fc55e0dd1c1fc8fe00ed075b75c6"
+    },
+    "IconWardrobeFeature": {
+      "bbox": [
+        591,
+        47,
+        177,
+        52
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/wardrobe/IconWardrobeFeature.png",
+      "sha256": "b3169b8d951e902f2ca2854f78a526ed245338a354b78c4c28327a9d8b718835",
+      "authoring": "ok_templates/IconWardrobeFeature.png",
+      "authoring_sha256": "745e5738f2b083ace1cfcaaa8bfb12dbf5cd24f98dd10e292c290141cf732438"
+    },
+    "IconAbilityFeature": {
+      "bbox": [
+        778,
+        47,
+        177,
+        52
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/wardrobe/IconAbilityFeature.png",
+      "sha256": "c3a9c8c8d061884d9de3f8f55690104806cbf64176247de4826b4c0c57f64541",
+      "authoring": "ok_templates/IconAbilityFeature.png",
+      "authoring_sha256": "91dd21ffd6469ccfcb39ee5c78c91775031f04de7b1391577922b7b349f58e10"
+    },
+    "ButtonAbilityChangeList": {
+      "bbox": [
+        1831,
+        129,
+        35,
+        28
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/wardrobe/ButtonAbilityChangeList.png",
+      "sha256": "15c543bc71ead8e89814ded6a7fcd14c4d5f979680530de4b83dcebb81e32b3f",
+      "authoring": "ok_templates/ButtonAbilityChangeList.png",
+      "authoring_sha256": "47ecae6de4399e6ea07da474855e1fb6a89e408fdd8d9750dbf9023d51e6346e"
+    },
+    "ButtonAbilitySave": {
+      "bbox": [
+        114,
+        968,
+        225,
+        60
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/wardrobe/ButtonAbilitySave.png",
+      "sha256": "feabaf6412a90f4aa767ff1e988c85b45129859f74a57458266554cadf543d96",
+      "authoring": "ok_templates/ButtonAbilitySave.png",
+      "authoring_sha256": "e502e83ada8b9acd51ffe9ef8207584899f0e06b3629c123b2260935a5908ee8"
+    },
+    "ButtonHuanjingGo": {
+      "bbox": [
+        1086,
+        198,
+        100,
+        100
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/ButtonHuanjingGo.png",
+      "sha256": "d6dcb3b6938043cbbc78113670283ffbce2b88546e025a04f6dce65102813c2c",
+      "authoring": "ok_templates/ButtonHuanjingGo.png",
+      "authoring_sha256": "5b89745744569e37854bf1ab221b63f68248cb71faeb9bc0fb9331c3843274ac"
+    },
+    "ButtonBlessHuanjingQuickPlay": {
+      "bbox": [
+        1093,
+        966,
+        220,
+        50
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/huanjing/bless/ButtonBlessHuanjingQuickPlay.png",
+      "sha256": "f7a565d9b35abc6515442de0f71e60f9c75034e2eef54c3176874f9b5cfbe1fc",
+      "authoring": "ok_templates/ButtonBlessHuanjingQuickPlay.png",
+      "authoring_sha256": "ddcdf94b37893fd3e32e71dffe070252e1c121f3017929eb7b697d396d846299"
+    },
+    "ButtonHuanjingConfirm": {
+      "bbox": [
+        1003,
+        682,
+        230,
+        50
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/huanjing/ButtonHuanjingConfirm.png",
+      "sha256": "ba157b27eeb4f97b5b8c9e5827e44d7d0c1c390e82566134b41014076d74a1b9",
+      "authoring": "ok_templates/ButtonHuanjingConfirm.png",
+      "authoring_sha256": "4ec2acd31746970f83453d1cb9000d37c9e0023ebb8ecc26a3295cbacf23d622"
+    },
+    "ButtonHuanjingCancel": {
+      "bbox": [
+        687,
+        682,
+        230,
+        50
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/huanjing/ButtonHuanjingCancel.png",
+      "sha256": "eb3adb1d95a970fec645f8d49ae1e5a89838fe8787ec568b2d2f5b15a5bedd0b",
+      "authoring": "ok_templates/ButtonHuanjingCancel.png",
+      "authoring_sha256": "fcbb39e14a8533d2580fa380cc6f5ab257ba5044d50cd588f0fd17430d18b794"
+    },
+    "ButtonJihuaInnerGo": {
+      "bbox": [
+        1252,
+        963,
+        222,
+        54
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/huanjing/jihua/ButtonJihuaInnerGo.png",
+      "sha256": "7739bebcd415d70c7cb2901e8dc7a8dd7165b9e56b1edc70accd25487a9aa25e",
+      "authoring": "ok_templates/ButtonJihuaInnerGo.png",
+      "authoring_sha256": "31963f93cc84e2a8178f3a6dbe517886152129472434f5b079d3a68ae17f3265"
+    },
+    "ButtonJihuaNumConfirm": {
+      "bbox": [
+        1007,
+        690,
+        180,
+        50
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/huanjing/jihua/ButtonJihuaNumConfirm.png",
+      "sha256": "2da77364fe972e2fa5e1a376318459d32dc7c207d9f4434986a753e6b83b4d84",
+      "authoring": "ok_templates/ButtonJihuaNumConfirm.png",
+      "authoring_sha256": "656e5e7916e44905bc1b62b33b3731e05608b1b2b618486b5601023548449e37"
+    },
+    "ButtonJihuaFinallyConfirm": {
+      "bbox": [
+        1419,
+        917,
+        220,
+        50
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/huanjing/jihua/ButtonJihuaFinallyConfirm.png",
+      "sha256": "c4b25553d1941242e44fa7594e2c55989d2694c6aa94150237d00977607d537d",
+      "authoring": "ok_templates/ButtonJihuaFinallyConfirm.png",
+      "authoring_sha256": "f83ad59b58fec6fb2e37d2c2cd1af4cedcb29899dd5cdda71d0abdd6b1ac8adc"
+    },
+    "ButtonMinigameQuit": {
+      "bbox": [
+        736,
+        652,
+        80,
+        40
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/minigame/ButtonMinigameQuit.png",
+      "sha256": "c5f4ffdcd7b391ac8ed493e49d3ecf69041c664480890e278e9fc289aa055c1e",
+      "authoring": "ok_templates/ButtonMinigameQuit.png",
+      "authoring_sha256": "e744de7b0db75a219d452ac234d0704c41c7806309922fe01726242007cf3d3c"
+    },
+    "ButtonMinigameRetry": {
+      "bbox": [
+        1074,
+        652,
+        80,
+        40
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/minigame/ButtonMinigameRetry.png",
+      "sha256": "35ea5739aee094cba51b57cdec1d6e0349ace72f867b1a7c990d0c66bf868ec6",
+      "authoring": "ok_templates/ButtonMinigameRetry.png",
+      "authoring_sha256": "c272c40d29bb6e74e43ab94661932cbcec40fed575385a86943d688402c89954"
+    },
+    "ButtonMinigameRetryOk": {
+      "bbox": [
+        1053,
+        659,
+        80,
+        40
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/minigame/ButtonMinigameRetryOk.png",
+      "sha256": "cc0afec51df6527264700bec2b37c6aff628d4d1127ba39eb5d0ad5fe377c291",
+      "authoring": "ok_templates/ButtonMinigameRetryOk.png",
+      "authoring_sha256": "1b34cbe9a6a687d290ffc39e89e52aa3b0e1e3da4a650747e150fad78156f746"
+    },
+    "IconFishingFinish": {
+      "bbox": [
+        1603,
+        1023,
+        53,
+        30
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/Fishing/IconFishingFinish.png",
+      "sha256": "2c0f8fab59b260b9c5dae46988070f1ec7cba8fc11d54ece54cd6d86815fa4bf",
+      "authoring": "ok_templates/IconFishingFinish.png",
+      "authoring_sha256": "0db9189a6bf44e6ea47b03d5776bbb2c8b1bd168d70750dae724f7dca46aaea9"
+    },
+    "IconFishingStrike": {
+      "bbox": [
+        1572,
+        1023,
+        84,
+        30
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/Fishing/IconFishingStrike.png",
+      "sha256": "b832159057275646039bc929f8f2cc36eeccdc173884b7fedbb90d3eca7dd1e5",
+      "authoring": "ok_templates/IconFishingStrike.png",
+      "authoring_sha256": "3126b67053dcf541275f72ee1731fe71d71250651386f17d992162c1fa3c92c3"
+    },
+    "IconFishingPullLine": {
+      "bbox": [
+        1476,
+        1023,
+        180,
+        30
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/Fishing/IconFishingPullLine.png",
+      "sha256": "995b2caa906fab31f1c84c4a15ed943e6d2075077c3ddc6b97ba0087ec48eae0",
+      "authoring": "ok_templates/IconFishingPullLine.png",
+      "authoring_sha256": "f05a938df923be82ad3392cb5c37931fb47691364168fdba949125fc866b17bd"
+    },
+    "IconFishingPullLineHome": {
+      "bbox": [
+        1452,
+        1024,
+        180,
+        30
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/Fishing/IconFishingPullLineHome.png",
+      "sha256": "ff2d000531b90cf6516bbf3f77187d9a87b952550238f5a90aeb88389ed6aa7f",
+      "authoring": "ok_templates/IconFishingPullLineHome.png",
+      "authoring_sha256": "2827e8378d96ef29ce776fa900ed32dbf0daeea03219c756344ab38ab0ca8198"
+    },
+    "IconFishingReelIn": {
+      "bbox": [
+        1603,
+        1023,
+        53,
+        30
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/Fishing/IconFishingReelIn.png",
+      "sha256": "bfb7a53eb3cb8a8fecebae9a8b68d19c26b51a2973e3214c3f5ca85ff062a4bd",
+      "authoring": "ok_templates/IconFishingReelIn.png",
+      "authoring_sha256": "f291a027f91e20476cda8b61eee2279678b57c44b955fa6163030e427bf26bc6"
+    },
+    "IconFishingSkip": {
+      "bbox": [
+        1789,
+        1013,
+        51,
+        30
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/Fishing/IconFishingSkip.png",
+      "sha256": "f39ee6be6e26d685c41d40aa1a3e92183906432817c41203f83fbf3a4619bd02",
+      "authoring": "ok_templates/IconFishingSkip.png",
+      "authoring_sha256": "110b711cb520f2362aa303f278d1f07354e7902952abeed94b828077bd84b15f"
+    },
+    "IconFishingNoFish": {
+      "bbox": [
+        842,
+        188,
+        257,
+        39
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/Fishing/IconFishingNoFish.png",
+      "sha256": "e6fbbf28b1a8a1a0da19eb19aa7a81e9818621aad678975b4d369ee44c1b916f",
+      "authoring": "ok_templates/IconFishingNoFish.png",
+      "authoring_sha256": "65c40ac82d75d55624ada988524f15fe6cece9e9f77fbe4fbceb408c68a3515c"
+    },
+    "IconFishingHomeFeature": {
+      "bbox": [
+        1736,
+        1023,
+        100,
+        30
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/Fishing/IconFishingHomeFeature.png",
+      "sha256": "dc988c6e7856cbdca62fb196bfaea99ca16e10a4ec0619306b1d23411ea6890b",
+      "authoring": "ok_templates/IconFishingHomeFeature.png",
+      "authoring_sha256": "7edfefb45d15523b36e7ad4460c12bcdf7010097087af593ff6f2609cefe7514"
+    },
+    "IconFishingMiralandFeature": {
+      "bbox": [
+        1736,
+        1023,
+        100,
+        30
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/Fishing/IconFishingMiralandFeature.png",
+      "sha256": "2d45b7cbef4840a5e56ce2479ad0175373af68145eee3572f914a8784898e4e2",
+      "authoring": "ok_templates/IconFishingMiralandFeature.png",
+      "authoring_sha256": "69e018378e57364d805a0f1bb0a5f6bb829b57555bb5426e209dc2597bc27e76"
+    },
+    "IconTalkFeature": {
+      "bbox": [
+        1045,
+        533,
+        50,
+        26
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/General/IconTalkFeature.png",
+      "sha256": "3c14ff5159df745111041a21f42bab03fe9c58acd9785f40e08729600cd8ec7f",
+      "authoring": "ok_templates/IconTalkFeature.png",
+      "authoring_sha256": "9bd2fadd34eacb765afc4669cc20ce40550239e17b6f1964b8e174454b56a72d"
+    },
+    "IconPageLoginFeature": {
+      "bbox": [
+        1786,
+        41,
+        51,
+        51
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/IconPageLoginFeature.png",
+      "sha256": "20333829809fc6de95affa56bcd8170ec07eadb5c14b73c921af667a8b0c3c36",
+      "authoring": "ok_templates/IconPageLoginFeature.png",
+      "authoring_sha256": "5fb92e8255bdb4175052e39432814aa963e2a4879af4dfea003be9d1c4aa3a56"
+    },
+    "IconUILoading": {
+      "bbox": [
+        1020,
+        0,
+        900,
+        100
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/IconUILoading.png",
+      "sha256": "8c926167717c9135bac7d82c107224accf98392b7c3d3b27087d5946620bb697",
+      "authoring": "ok_templates/IconUILoading.png",
+      "authoring_sha256": "64bf48fc23933c8fb14f3468f9dbf6aa9f2151bc52e0195fd484fddc21ec74a4"
+    },
+    "ButtonExit": {
+      "bbox": [
+        66,
+        975,
+        51,
+        54
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/login/ButtonExit.png",
+      "sha256": "30f35bbb82a79cded39065bf13d3674e263743143424933a87337d8135656362",
+      "authoring": "ok_templates/ButtonExit.png",
+      "authoring_sha256": "0b6c0f23f98a5bcbd41ed9a54878b99fa89fe09eba2df9cb1d92d9fa4bd6d238"
+    },
+    "ButtonExitLogout": {
+      "bbox": [
+        1794,
+        456,
+        43,
+        51
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/login/ButtonExitLogout.png",
+      "sha256": "5fe11e57581399c221f6850ea6ef8f15cfe5888c4c0671a98c80382d66a20fe9",
+      "authoring": "ok_templates/ButtonExitLogout.png",
+      "authoring_sha256": "1e67a4fdd8d5528a40644cfe282621d73c2e99a7860378a89c48d3a2b8dbb286"
+    },
+    "ButtonMiraCrownQuickReward": {
+      "bbox": [
+        861,
+        729,
+        199,
+        50
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/mira_crown/ButtonMiraCrownQuickReward.png",
+      "sha256": "056363ed74bfbfca168889308023f145c19c1b10ad538200f191d0502dd09689",
+      "authoring": "ok_templates/ButtonMiraCrownQuickReward.png",
+      "authoring_sha256": "c731b49106bbd7edac3bb60d9a528206c69a1c7f648db848bb0a89ea6e064d28"
+    },
+    "ButtonMiraCrownRank": {
+      "bbox": [
+        1104,
+        14,
+        75,
+        75
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/mira_crown/ButtonMiraCrownRank.png",
+      "sha256": "60a793d0959f75de10763ddbdc43e4ecb20d0cb198e85a4f0028c5924f24f6f9",
+      "authoring": "ok_templates/ButtonMiraCrownRank.png",
+      "authoring_sha256": "b12a7eb8de6c23a122023f492fa19e12d8e13ee3a56041476de0d00c6e7368fc"
+    },
+    "ButtonMiraCrownStartChallenge": {
+      "bbox": [
+        1407,
+        886,
+        224,
+        56
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/mira_crown/ButtonMiraCrownStartChallenge.png",
+      "sha256": "bf6cd3aa7a9902038d0e6f1bcde904886ba30e7eb55a1888c4a2eede38e632a8",
+      "authoring": "ok_templates/ButtonMiraCrownStartChallenge.png",
+      "authoring_sha256": "26f593158136a0f95c1cb552419adec12ad3ddf582c3b8cd4f797dda21e25540"
+    },
+    "ButtonMiraCrownNextStep": {
+      "bbox": [
+        110,
+        965,
+        225,
+        55
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/mira_crown/ButtonMiraCrownNextStep.png",
+      "sha256": "ebcef0022680fbcc481a76e7ce5a20cbc2f0b6753cdbd14f5c3c2482169e4eff",
+      "authoring": "ok_templates/ButtonMiraCrownNextStep.png",
+      "authoring_sha256": "5486348f05baf64ccaa4168543bc6390e4497d478abfd4a94357b9ad9b9c5e40"
+    },
+    "ButtonMiraCrownConfirmMatch": {
+      "bbox": [
+        65,
+        962,
+        224,
+        56
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/mira_crown/ButtonMiraCrownConfirmMatch.png",
+      "sha256": "5a7783526f694240f221db3a4c8e0f55adca9342ac41bbc58786344e122acb1b",
+      "authoring": "ok_templates/ButtonMiraCrownConfirmMatch.png",
+      "authoring_sha256": "95216ec981e5d84f62e2362ebcaace07f46b82d52c4b3aa1f73d5fca493c0fa4"
+    },
+    "ButtonMiraCrownSkipAll": {
+      "bbox": [
+        1684,
+        26,
+        60,
+        60
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/mira_crown/ButtonMiraCrownSkipAll.png",
+      "sha256": "004abc31c5e577a81f12e838446215c532e52e6a6094a68514e8a7de0b3bb1da",
+      "authoring": "ok_templates/ButtonMiraCrownSkipAll.png",
+      "authoring_sha256": "f29fd94c059372a1d2c33f6eb9254cb318c9f5bad53a95f72ba27c22ddf9ce49"
+    },
+    "ButtonMiraCrownAward": {
+      "bbox": [
+        124,
+        814,
+        50,
+        50
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/mira_crown/ButtonMiraCrownAward.png",
+      "sha256": "d814ee50122eb17ba01b13fdf6c62b90cd94658e20851ca0087925cc9b9ae275",
+      "authoring": "ok_templates/ButtonMiraCrownAward.png",
+      "authoring_sha256": "beacc0bf0217248f87a3f520a98561099488dab0cbd52580c7480c052ce48799"
+    },
+    "ButtonMiraCrownRewardGet": {
+      "bbox": [
+        1250,
+        382,
+        45,
+        45
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/mira_crown/ButtonMiraCrownRewardGet.png",
+      "sha256": "d7911911ed0fa54f56abe2267493d912a6272694969683042270410d3c181a11",
+      "authoring": "ok_templates/ButtonMiraCrownRewardGet.png",
+      "authoring_sha256": "ba5b0711c096be3de4a1621b227ac8da7360fb7af3996c6448806779ddf25e55"
+    },
+    "ButtonMiraCrownShop": {
+      "bbox": [
+        124,
+        697,
+        50,
+        50
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/mira_crown/ButtonMiraCrownShop.png",
+      "sha256": "b5fe353449387c7eb2781905433f371546bffdc9a3c14d2374cafc7f032c476a",
+      "authoring": "ok_templates/ButtonMiraCrownShop.png",
+      "authoring_sha256": "17a12ee0f48ec6097443cc54534a115d5f5e5ea83d91ed433d6a914d1d6eb236"
+    },
+    "ButtonMiraCrownShopConfirm": {
+      "bbox": [
+        887,
+        785,
+        146,
+        55
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/mira_crown/ButtonMiraCrownShopConfirm.png",
+      "sha256": "6bc2cd1b7efffb8514280db3516fa62cb5b2392247acc7bd3a0f0b8ce99ea919",
+      "authoring": "ok_templates/ButtonMiraCrownShopConfirm.png",
+      "authoring_sha256": "952521ec47f4a81718d2aa6d8cc9be4b6604aac967becd01172d3f16984e481d"
+    }
+  },
+  "regions": {
+    "AreaPickup": {
+      "bbox": [
+        398,
+        146,
+        1345,
+        800
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/General/AreaPickup.png",
+      "sha256": "11c7cd930c691ce71c729e5eed40a10e837d782c87992de81db7ed18f18d15d7",
+      "authoring": "ok_templates/AreaPickup.png",
+      "authoring_sha256": "703564a83ecd8f8c4bceead0a4f3d834a5748a581ed2a33d405e67e218082b01"
+    },
+    "AreaEscEntrances": {
+      "bbox": [
+        136,
+        260,
+        882,
+        598
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/AreaEscEntrances.jpg",
+      "sha256": "d27385c7990b8963734d870c2c854610d2af1488dd3646c6eaa0ac3097dd55e9",
+      "authoring": "ok_templates/AreaEscEntrances.png",
+      "authoring_sha256": "045843f268ccc7d1a892168e65856e8ed3795b22ec0485ad808b5bc671eff8c7"
+    },
+    "AreaDigingNumText": {
+      "bbox": [
+        1848,
+        182,
+        35,
+        20
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/dig/AreaDigingNumText.png",
+      "sha256": "9faa61e8007da01d4224300b2954b06206e3381cdff49f7c9b3f6a36dbc5d9fd",
+      "authoring": "ok_templates/AreaDigingNumText.png",
+      "authoring_sha256": "17b3d393844bdc1a26c12b6931009ede2abe2beb2b28b594ba6689b957050418"
+    },
+    "AreaZxxyScore": {
+      "bbox": [
+        1747,
+        823,
+        100,
+        30
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/zxxy/AreaZxxyScore.png",
+      "sha256": "84972bbcfc01c7fbf4b1d42c89a74e60462899dcec798b706745f4f9a04c3a44",
+      "authoring": "ok_templates/AreaZxxyScore.png",
+      "authoring_sha256": "1b7b38ea7f7e944e30cbe274da46915b177f983435e8216f782faf21c5bde49a"
+    },
+    "AreaZxxyRewards": {
+      "bbox": [
+        1753,
+        229,
+        87,
+        507
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/zxxy/AreaZxxyRewards.jpg",
+      "sha256": "36116aa9eb00d8f1e329d53701b04bd6dbb46703e94c5603a71b9e9e8a9bfd59",
+      "authoring": "ok_templates/AreaZxxyRewards.png",
+      "authoring_sha256": "c2f40defeff4e106b32de61d5887111bff2fc3caabb1eecc1bab25630063efbe"
+    },
+    "AreaMonthlyPassTab1": {
+      "bbox": [
+        807,
+        30,
+        130,
+        40
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/monthly_pass/AreaMonthlyPassTab1.png",
+      "sha256": "268865143f5171df2a3886b0c3670727212b27da9aea04b485448223d04168bf",
+      "authoring": "ok_templates/AreaMonthlyPassTab1.png",
+      "authoring_sha256": "082070124427f7b47d63853cadaf1080e6f4c01113c12924d0c690f67f853fef"
+    },
+    "AreaMonthlyPassTab2": {
+      "bbox": [
+        997,
+        30,
+        130,
+        40
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/monthly_pass/AreaMonthlyPassTab2.png",
+      "sha256": "4ac0de87d49f04809a61fe1ccaabb0aeabc3a40fdafac78247479b725daedac1",
+      "authoring": "ok_templates/AreaMonthlyPassTab2.png",
+      "authoring_sha256": "45f2a545185de6b28d88f48742a6ea230ca4feeab55b9934efc654dffab20e5a"
+    },
+    "AreaPageTitleFeature": {
+      "bbox": [
+        99,
+        22,
+        230,
+        55
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/AreaPageTitleFeature.png",
+      "sha256": "2521a1d6925129e69c670de7cf49ebd4ffb56960a4a666d9c989b96fff1946d5",
+      "authoring": "ok_templates/AreaPageTitleFeature.png",
+      "authoring_sha256": "33c2cb19e9d2554f939ae2ae19f980cb74cc9e5e04ea2bd4adda4d53303cfa19"
+    },
+    "AreaZxxyTaskText": {
+      "bbox": [
+        528,
+        896,
+        1008,
+        112
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/zxxy/AreaZxxyTaskText.jpg",
+      "sha256": "a1f91ccebda7a530658bb91a51c1cfe521fde3ce090ffcea1d45138665126efe",
+      "authoring": "ok_templates/AreaZxxyTaskText.png",
+      "authoring_sha256": "6984313531651aacb26ca8cb6ff7e2b27ea326ad7d6381278902aee8a13364bf"
+    },
+    "AreaXhsgTaskText": {
+      "bbox": [
+        604,
+        886,
+        1065,
+        83
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/xhsg/AreaXhsgTaskText.jpg",
+      "sha256": "4c2de5501b517b25e0fe6027dad2aa6e6fb800d521b15fc70cab7984b83ba5b4",
+      "authoring": "ok_templates/AreaXhsgTaskText.png",
+      "authoring_sha256": "d3d338b0d0af40f2c462270adfbde27fa7ac5588511bf92cc039aebbd46706f8"
+    },
+    "AreaXhsgScore": {
+      "bbox": [
+        1767,
+        805,
+        60,
+        30
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/xhsg/AreaXhsgScore.png",
+      "sha256": "bf0318b616787514d2388af6632c8a8c3c71d69183a3de7a13f856bbede8bccc",
+      "authoring": "ok_templates/AreaXhsgScore.png",
+      "authoring_sha256": "663bef4940f8a76776d0664842767e45b1509eea7a9ab99d402567cda48e88f1"
+    },
+    "AreaXhsgRewards": {
+      "bbox": [
+        1752,
+        208,
+        88,
+        504
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/xhsg/AreaXhsgRewards.jpg",
+      "sha256": "240024064bb41b4ced1078c8b47ef73ae141aed0956262c9799dcfc60ebc8d71",
+      "authoring": "ok_templates/AreaXhsgRewards.png",
+      "authoring_sha256": "2b0638d577039bd746faf13348de1ee569ade7b9b7686f6bfb36ee85bb0417cc"
+    },
+    "AreaBigMapRegionName": {
+      "bbox": [
+        1563,
+        89,
+        240,
+        40
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/BigMap/AreaBigMapRegionName.png",
+      "sha256": "b90669fb25361e6c5185e84f4b872c3a61e28505c4f3ead2d580e67fee2d240b",
+      "authoring": "ok_templates/AreaBigMapRegionName.png",
+      "authoring_sha256": "1c5edbc9be7ea15617f0f0249a8a6b71ea7e1221719b7a0becc1b1786340d460"
+    },
+    "AreaBigMapRegionSelect": {
+      "bbox": [
+        1336,
+        96,
+        376,
+        935
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/BigMap/AreaBigMapRegionSelect.jpg",
+      "sha256": "1659a76f08fa540a7b8838936747853fd484f7c56f822e73dc4bb377c2fc28b0",
+      "authoring": "ok_templates/AreaBigMapRegionSelect.png",
+      "authoring_sha256": "83b5ba939a0485897a2d82fe948379948a5be36b15d5b82035a5ee2d575419c5"
+    },
+    "AreaBigMapTeleportButton": {
+      "bbox": [
+        1507,
+        983,
+        240,
+        50
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/BigMap/AreaBigMapTeleportButton.png",
+      "sha256": "4a023baffbc75eef6e10c631fab3faff1ae7cf8aa9bb5589be4a7941b44950e6",
+      "authoring": "ok_templates/AreaBigMapTeleportButton.png",
+      "authoring_sha256": "07b831f23898c70bd692208cd9d2e96ab980304e2678c7a4bda47b1058930807"
+    },
+    "AreaBigMapTeleporterSelect": {
+      "bbox": [
+        1264,
+        480,
+        262,
+        264
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/BigMap/AreaBigMapTeleporterSelect.jpg",
+      "sha256": "5c9e8f3ba3329fdc0867d2f538d54e92b97f42fa0d7e2a1244246c4fe212dde0",
+      "authoring": "ok_templates/AreaBigMapTeleporterSelect.png",
+      "authoring_sha256": "cb600b16507940dbc9c3347182ed8820642090e860887df36b4546c2786e9065"
+    },
+    "AreaDialog": {
+      "bbox": [
+        360,
+        140,
+        1200,
+        800
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/General/AreaDialog.png",
+      "sha256": "1ef2e7e3ae157a62409f29111dd35eae604be1e02b7e670ef8f086e6a92a7f43",
+      "authoring": "ok_templates/AreaDialog.png",
+      "authoring_sha256": "9576620aa246d79cef0056561f0fe1df242c651b5f38284e9f5bf645e4fa9209"
+    },
+    "AreaDialogSelection": {
+      "bbox": [
+        1320,
+        560,
+        289,
+        232
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/General/AreaDialogSelection.jpg",
+      "sha256": "8a912404033ae071ba2388f272d1c95e9c39b695fe3740a4ee6653acd37a22a6",
+      "authoring": "ok_templates/AreaDialogSelection.png",
+      "authoring_sha256": "98d5eca9aff8ecfecaa64daec2a65d73edc3d9f5baf1e97d5e93820cf77a545a"
+    },
+    "AreaItemFirstItem": {
+      "bbox": [
+        1578,
+        201,
+        90,
+        90
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/item/AreaItemFirstItem.png",
+      "sha256": "f30b73011b23ff2c7cb043996fa10b0afce7161e792d96d28d07ec41935095fc",
+      "authoring": "ok_templates/AreaItemFirstItem.png",
+      "authoring_sha256": "71675861923b7e55c0c590f88309d4a7c16630486502e4dacda51862150ff3aa"
+    },
+    "AreaMaterialGetText": {
+      "bbox": [
+        23,
+        676,
+        220,
+        200
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/General/AreaMaterialGetText.png",
+      "sha256": "68d889faf52efc15b25f7fd51f79200d20a90e5f2266be5dd538251789d9e984",
+      "authoring": "ok_templates/AreaMaterialGetText.png",
+      "authoring_sha256": "737af061c062387d70190b53552318bcae354bbdf67435d8f370170c2c6bdcd5"
+    },
+    "AreaAbilityButton": {
+      "bbox": [
+        1609,
+        947,
+        90,
+        90
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/General/AreaAbilityButton.png",
+      "sha256": "045e20f4a41adf6f1850dc0df992063efcbcdecf4a7a8900b491c175b2924664",
+      "authoring": "ok_templates/AreaAbilityButton.png",
+      "authoring_sha256": "21c365463321daf1a1203a275430866cf39014339c7de193a4db454fda5a6cab"
+    },
+    "AreaAbilityChange": {
+      "bbox": [
+        1440,
+        176,
+        368,
+        696
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/wardrobe/AreaAbilityChange.jpg",
+      "sha256": "2d1cd5c1bb042a0ece5816067537ec7c03f17547e1c40410d1e86d4a90f8752e",
+      "authoring": "ok_templates/AreaAbilityChange.png",
+      "authoring_sha256": "b830b85765cd4d8be86f231d4cdbc5695f2da666cb82f580943f5e847355c2e7"
+    },
+    "AreaAbilityPlanChangeButton": {
+      "bbox": [
+        32,
+        116,
+        330,
+        45
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/wardrobe/AreaAbilityPlanChangeButton.png",
+      "sha256": "bf3edc56cd19797cd32236311e529b5612aea1de6a90106f4aa08b6a0c44139a",
+      "authoring": "ok_templates/AreaAbilityPlanChangeButton.png",
+      "authoring_sha256": "26f1a1abd7b7ee49c79e4ce17084cac75b94c4c11606768e8bf2fb42a617f050"
+    },
+    "AreaAbilityPlan1Button": {
+      "bbox": [
+        32,
+        173,
+        330,
+        45
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/wardrobe/AreaAbilityPlan1Button.png",
+      "sha256": "6691f605d83d424998c6231171f8ebb325420782f5ccb8e0bad3fee6552fb2c0",
+      "authoring": "ok_templates/AreaAbilityPlan1Button.png",
+      "authoring_sha256": "7edf1a1e640eef4e748873e4f42f26ba58a60c38173cbfc8ed78b251bd618cca"
+    },
+    "AreaAbilityPlan2Button": {
+      "bbox": [
+        32,
+        228,
+        330,
+        45
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/wardrobe/AreaAbilityPlan2Button.png",
+      "sha256": "023409b9e84849c395e08809549887799cb1b32e338a3ddeb9d77fd84d654df7",
+      "authoring": "ok_templates/AreaAbilityPlan2Button.png",
+      "authoring_sha256": "6187c58fa5a9075d78d96efdf6386588b205c3cdc0835dbc351caa5f2cf629c5"
+    },
+    "AreaAbilityPlan3Button": {
+      "bbox": [
+        32,
+        284,
+        330,
+        45
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/wardrobe/AreaAbilityPlan3Button.png",
+      "sha256": "ca56189c7dd004c2b09a756888ee6644cda816c8ea6c276a4938c403cb695a17",
+      "authoring": "ok_templates/AreaAbilityPlan3Button.png",
+      "authoring_sha256": "ba21ca58f1f172c6ddbef2b48c6b1ace0f89ac34e91f232e784ba2e2cd480395"
+    },
+    "AreaZxxyEnergy": {
+      "bbox": [
+        921,
+        158,
+        100,
+        30
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/zxxy/AreaZxxyEnergy.png",
+      "sha256": "d28460570139e82f4d4f6c37f0ca62d0a4149aed05fb2c746fc1831c0bcbd3e8",
+      "authoring": "ok_templates/AreaZxxyEnergy.png",
+      "authoring_sha256": "90b624a3c6fff0306fbbf522f00dcb0445df4e28c75f5c4aaa75029e7154c26d"
+    },
+    "AreaWeeklyCountText": {
+      "bbox": [
+        1591,
+        255,
+        129,
+        62
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/huanjing/weekly_realm/AreaWeeklyCountText.png",
+      "sha256": "3950cfedf757b77399b8270201f83ec2bb91227cd0e091516f49118a239ed1ad",
+      "authoring": "ok_templates/AreaWeeklyCountText.png",
+      "authoring_sha256": "bdd83a92e1ecfafa309b29abe29d56363fde17af291d282c4c24d16f98671617"
+    },
+    "AreaBlessHuanjingLevelsSelect": {
+      "bbox": [
+        240,
+        160,
+        546,
+        864
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/huanjing/bless/AreaBlessHuanjingLevelsSelect.jpg",
+      "sha256": "d19a6e0178a4abe660480c5748347fc2002ca3f9de36068f7342b6ad0aab0a46",
+      "authoring": "ok_templates/AreaBlessHuanjingLevelsSelect.png",
+      "authoring_sha256": "05e29b35fce5bcdf99aef72d46e86d00b3ff8f4071150d69b0c408456af9d83a"
+    },
+    "AreaBlessHuanjingDifficulty3": {
+      "bbox": [
+        1574,
+        522,
+        80,
+        80
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/huanjing/bless/AreaBlessHuanjingDifficulty3.png",
+      "sha256": "befcce9754dd5b1a32f2df4a22868f9915a1e76a3f5c05e6270a124879750ba1",
+      "authoring": "ok_templates/AreaBlessHuanjingDifficulty3.png",
+      "authoring_sha256": "a3c7b760659ca99bc94df590cb7232003a41e7aa4ef268e14b98f2228731f153"
+    },
+    "AreaHuanjingJihuaEntrace": {
+      "bbox": [
+        1318,
+        755,
+        260,
+        100
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/huanjing/AreaHuanjingJihuaEntrace.png",
+      "sha256": "c3e41b5e59905e41eab4112a4ecba15a34b48c1c3cdb662187d1621656eaf48a",
+      "authoring": "ok_templates/AreaHuanjingJihuaEntrace.png",
+      "authoring_sha256": "0112f876f4f1836faa6e54e2e6e4bbff5ee94b4d702541e6fce764d1259605b5"
+    },
+    "AreaHuanjingBlessEntrace": {
+      "bbox": [
+        347,
+        768,
+        260,
+        100
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/huanjing/AreaHuanjingBlessEntrace.png",
+      "sha256": "498d5774194cd20ed73b1b0b5fbcef30272f906c1cb3f094364e618f74a70832",
+      "authoring": "ok_templates/AreaHuanjingBlessEntrace.png",
+      "authoring_sha256": "ffd03982e58058b45f41d248acb0d4df49bdbd2ce2f04b78de35d742eedab5b9"
+    },
+    "AreaHuanjingMonsterEntrace": {
+      "bbox": [
+        153,
+        372,
+        260,
+        100
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/huanjing/AreaHuanjingMonsterEntrace.png",
+      "sha256": "8c4c05c4aa5e83c44c6f8bd7115a687d2f43343f461b92f86411dce6b5751d99",
+      "authoring": "ok_templates/AreaHuanjingMonsterEntrace.png",
+      "authoring_sha256": "8801bb8564d33a78d3dc1bf68f26b53447ed0ecab339951e4ad44326cbe71216"
+    },
+    "AreaHuanjingBossEntrace": {
+      "bbox": [
+        1507,
+        384,
+        260,
+        100
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/huanjing/AreaHuanjingBossEntrace.png",
+      "sha256": "09b0edbf1bf4194a54688bee2ca042c0d1dab351c7b3f5adf637e31bcc007210",
+      "authoring": "ok_templates/AreaHuanjingBossEntrace.png",
+      "authoring_sha256": "1aee0037bfe7058e5bf4cd148b8a52ba53322c120f271b1598aaac4aff789623"
+    },
+    "AreaTextJihuatai": {
+      "bbox": [
+        960,
+        176,
+        352,
+        352
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/huanjing/jihua/AreaTextJihuatai.jpg",
+      "sha256": "82509c9dd139f9969474c366b1fadf63da165ed1e91663740eb9235157f9b67f",
+      "authoring": "ok_templates/AreaTextJihuatai.png",
+      "authoring_sha256": "ca5186960d619977cb444c3e11632dbad78b0f03347af968525b694033567d79"
+    },
+    "AreaJihuaTargetSelect": {
+      "bbox": [
+        1218,
+        306,
+        605,
+        606
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/huanjing/jihua/AreaJihuaTargetSelect.jpg",
+      "sha256": "f0cf2a99b7daa00837a58dfaf622730799124583318750532d38ecf3acdd741c",
+      "authoring": "ok_templates/AreaJihuaTargetSelect.png",
+      "authoring_sha256": "09d0a9a8a4f57f52a076b1861d2a4a12b8aaf04d3a727ffbe531a4a1cd7d531b"
+    },
+    "AreaJihuaCostSelect": {
+      "bbox": [
+        72,
+        112,
+        950,
+        800
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/huanjing/jihua/AreaJihuaCostSelect.jpg",
+      "sha256": "29e38287e805fe0f0c67dbdd80f28eee72e5c659df3f3bd2fc634c953b8a7ee1",
+      "authoring": "ok_templates/AreaJihuaCostSelect.png",
+      "authoring_sha256": "f1c95855226618f7c68e440491e435295c7003e3c1cbe2f08d7be9a38e151487"
+    },
+    "AreaFishingIcons": {
+      "bbox": [
+        1443,
+        1013,
+        400,
+        41
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/Fishing/AreaFishingIcons.png",
+      "sha256": "5fc227d35a95e867a345b6f7ce64b05c944b51f3433d3a13a43a577799461f61",
+      "authoring": "ok_templates/AreaFishingIcons.png",
+      "authoring_sha256": "d4a9c0837d9ada89ce7ff780768f48a0dcc3b63c8301804f890d57c8b966f111"
+    },
+    "AreaFishingDetection": {
+      "bbox": [
+        708,
+        354,
+        499,
+        249
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/Fishing/AreaFishingDetection.jpg",
+      "sha256": "de5191781939bfe86b9c20a987c3bd33bc934d3bb5f4ff1d2b95f299b1ce7627",
+      "authoring": "ok_templates/AreaFishingDetection.png",
+      "authoring_sha256": "74d58c788b86addd9647722851f88efdf0596c191336391972fc24bfaecb7706"
+    },
+    "AreaMinigameEscSelect": {
+      "bbox": [
+        1583,
+        645,
+        100,
+        270
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/minigame/AreaMinigameEscSelect.png",
+      "sha256": "9b1951d5c1a42cf2ad5b670c4af5d382ec3a13231094a745c0479f5cb9fe59ca",
+      "authoring": "ok_templates/AreaMinigameEscSelect.png",
+      "authoring_sha256": "de2b388b5805063708f4b444602db5aefc8cbdd9ac32d3cd83b41789f5871187"
+    },
+    "AreaSubAbilityButton": {
+      "bbox": [
+        1624,
+        875,
+        60,
+        60
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/General/AreaSubAbilityButton.png",
+      "sha256": "70bc7e8b151ce66ae37889ef4fa68eb198ea68171ab5c0c70c00c77002914fc6",
+      "authoring": "ok_templates/AreaSubAbilityButton.png",
+      "authoring_sha256": "6842a95f5fc83de1049fe7124d40b553047998ff98478248d11177aa656f42eb"
+    },
+    "AreaLoginOCR": {
+      "bbox": [
+        528,
+        293,
+        864,
+        587
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/login/AreaLoginOCR.jpg",
+      "sha256": "efb7f21d203c6b9d591932f5060be844535c720a2dce1e0720fcb954464aba6d",
+      "authoring": "ok_templates/AreaLoginOCR.png",
+      "authoring_sha256": "7dfdb4a54816d0aecd543032359a1023eb8a33d6d34caab8194d796b1e9a6125"
+    },
+    "AreaExitBackLoginButton": {
+      "bbox": [
+        736,
+        662,
+        180,
+        40
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/login/AreaExitBackLoginButton.png",
+      "sha256": "d2de1a855007e1277a945abe7d8a4bb6210509ea48019a61bf0a6e1744fb57ab",
+      "authoring": "ok_templates/AreaExitBackLoginButton.png",
+      "authoring_sha256": "3b160b6d8d6319528a508dddcb44ae3a158e97c73a2ee19de9655bfe8bba69a7"
+    },
+    "AreaRegisterLoginButton": {
+      "bbox": [
+        869,
+        847,
+        180,
+        50
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/login/AreaRegisterLoginButton.png",
+      "sha256": "31573b8a299acc28c064117ea0f59df8b6c44a967dc5eb8576b21be50d92f31d",
+      "authoring": "ok_templates/AreaRegisterLoginButton.png",
+      "authoring_sha256": "61a706c07ffb49603bd2111d933b13f072fa0ab8dda985578ee9daf7fe25c9cf"
+    },
+    "AreaLoginAccountList": {
+      "bbox": [
+        791,
+        372,
+        228,
+        282
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/login/AreaLoginAccountList.png",
+      "sha256": "e533deee0769c15ade2992fd17b6bad1c8f37fd7c14eeae85005b9886d8c6d3c",
+      "authoring": "ok_templates/AreaLoginAccountList.png",
+      "authoring_sha256": "3c3ecb8791679aa3a8bff6961fab333a20558e2a48fc1c051b7dca0489ab4fd2"
+    },
+    "AreaMiraCrownOverview": {
+      "bbox": [
+        1544,
+        472,
+        170,
+        50
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/mira_crown/AreaMiraCrownOverview.png",
+      "sha256": "ccf4c25a430cd30614c14519f87c34350d5ccc744cd2faea821829f40a6c52ac",
+      "authoring": "ok_templates/AreaMiraCrownOverview.png",
+      "authoring_sha256": "9ca47177594393edc2df5253f34c8e1449daaa91609f3874f2969acca0ff275c"
+    },
+    "AreaMiraCrownEntrance": {
+      "bbox": [
+        136,
+        304,
+        256,
+        208
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/mira_crown/AreaMiraCrownEntrance.jpg",
+      "sha256": "a529713f88345689d7d5461794758e1ac033f14d3e98bd43cdc7979a618f46ff",
+      "authoring": "ok_templates/AreaMiraCrownEntrance.png",
+      "authoring_sha256": "09e753158d577349351e16ffe8c7ffa4e8ba6d43b5284529f8446db73cf388c8"
+    },
+    "AreaMiraCrownSecondDoor": {
+      "bbox": [
+        1056,
+        596,
+        152,
+        168
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/mira_crown/AreaMiraCrownSecondDoor.jpg",
+      "sha256": "708c02b9b023de7762aca77e57ecf7cb380bcd9a2124afa034d39e8d730309b9",
+      "authoring": "ok_templates/AreaMiraCrownSecondDoor.png",
+      "authoring_sha256": "5f52af7b85868cb22dc054de6d7eb586de7f4ed7b71163aaf928b1695f617ef4"
+    },
+    "AreaMiraCrownThirdDoor": {
+      "bbox": [
+        1550,
+        600,
+        114,
+        142
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/mira_crown/AreaMiraCrownThirdDoor.jpg",
+      "sha256": "5c41cced22e3cf28f6a6ccdec1d7813958e910ad5c43eb6436583dd7b6ff5237",
+      "authoring": "ok_templates/AreaMiraCrownThirdDoor.png",
+      "authoring_sha256": "792acdd31bdf1f8218e64dbf4a0cf6a8bd7045e3855f536f5fa40f57c5278717"
+    },
+    "AreaMiraCrownAutoMatchButton": {
+      "bbox": [
+        1018,
+        401,
+        142,
+        200
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/mira_crown/AreaMiraCrownAutoMatchButton.jpg",
+      "sha256": "bddf10f6272ad078004a2984082e01347a21cf9b87cc7c42e6741e4c1bc39eeb",
+      "authoring": "ok_templates/AreaMiraCrownAutoMatchButton.png",
+      "authoring_sha256": "e9c6286c299aa3b90391360a0e429331025cb44650ffafbd9203d0f58d0b2e1c"
+    },
+    "AreaMiraCrownShopItemList": {
+      "bbox": [
+        299,
+        167,
+        1347,
+        622
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/mira_crown/AreaMiraCrownShopItemList.png",
+      "sha256": "92d68c34c5470285cdd942166038a4ddf6eef81289ffbabd683223c010731565",
+      "authoring": "ok_templates/AreaMiraCrownShopItemList.png",
+      "authoring_sha256": "b49616a43e0985ff11d336d77ac3bd7b0b583f3fe16c2eb03508ff1f2107a787"
+    },
+    "AreaBigMapMeteorText": {
+      "bbox": [
+        43,
+        123,
+        341,
+        157
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/BigMap/AreaBigMapMeteorText.jpg",
+      "sha256": "d2e661589854ec05569d2e839a0c701652d99937a54b83d122ae3bf34a6707b7",
+      "authoring": "ok_templates/AreaBigMapMeteorText.png",
+      "authoring_sha256": "7513eb81ce59f72073e0269460cf07d7056303268a29ce76b8cfe597eed27a83"
+    },
+    "AreaBigMapMaterialTypeSelect": {
+      "bbox": [
+        325,
+        273,
+        370,
+        50
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/BigMap/AreaBigMapMaterialTypeSelect.png",
+      "sha256": "c4ecb21fd4d6a4680dc72de0803927ad2a51417e875bbf10b3c133d5fbb456b6",
+      "authoring": "ok_templates/AreaBigMapMaterialTypeSelect.png",
+      "authoring_sha256": "8e8b5eb2f2505bb32827838c23b1b43b23f6f3504c661c106ba653c804bee980"
+    },
+    "AreaBigMapMaterialSelect": {
+      "bbox": [
+        312,
+        325,
+        406,
+        467
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/BigMap/AreaBigMapMaterialSelect.jpg",
+      "sha256": "de3b9da24c7cabf2c8a713a297cfe63421a5a590e825276bf0ec0dd3fe7b06c6",
+      "authoring": "ok_templates/AreaBigMapMaterialSelect.png",
+      "authoring_sha256": "180a756b61d0b8cddce1f63ae820521ec84a3dfccb28332fee26508eb08083eb"
+    },
+    "AreaBigMapMaterialTrackConfirm": {
+      "bbox": [
+        1378,
+        807,
+        200,
+        50
+      ],
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/BigMap/AreaBigMapMaterialTrackConfirm.png",
+      "sha256": "6a48c45c00d5a47ece15c4a0f88788cf70d7cfd944bca029c59faddc5ee59734",
+      "authoring": "ok_templates/AreaBigMapMaterialTrackConfirm.png",
+      "authoring_sha256": "01c48e486e4fd8565dd4ecc584038a5031adaa700f462d629cacf4176c0607d4"
+    }
+  },
+  "ability_icons": {
+    "IconAbilityAnimal": {
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/wardrobe/IconAbilityAnimal.png",
+      "sha256": "f8a6bb015432e54b260ddd45efb98f5d7518d3d6a4edfcae4f3588f7dc7ac1b6"
+    },
+    "IconAbilityInsect": {
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/wardrobe/IconAbilityInsect.png",
+      "sha256": "fbf6483050ac4caf3f74020ee25262dc2a57c29663176796caef2d7e1d059b10"
+    },
+    "IconAbilityFish": {
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/wardrobe/IconAbilityFish.png",
+      "sha256": "28a8a2c85e3037f46af370120f5b4fdcc458d85b147f365f1c996f39457755f4"
+    },
+    "IconAbilityRhythms": {
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/wardrobe/IconAbilityRhythms.png",
+      "sha256": "347141381e0a9201c15e957be60000248ce7b0ec9e49d2151a4e0f69dfeb2f51"
+    },
+    "IconAbilityFly": {
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/wardrobe/IconAbilityFly.png",
+      "sha256": "8d28113c121b2b6bd4a215015e0fa7117bae7e5336a8050cf0ef02fec81eadb0"
+    },
+    "IconAbilitySmall": {
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/wardrobe/IconAbilitySmall.png",
+      "sha256": "8b269b9067719e3fe54e987b1d794c701221f36fb5aa63e1eac3605d5610aac4"
+    },
+    "IconAbilityBig": {
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/wardrobe/IconAbilityBig.png",
+      "sha256": "95168f1d33e3798106de8bbce8e7c1c07fa1bb2c435ac3009707bb529ea7bb30"
+    },
+    "IconAbilityStick": {
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/wardrobe/IconAbilityStick.png",
+      "sha256": "d5efbcd006081c5761bf1690e7f97bceebeb95fe5b8ad1f68c2c88b177847127"
+    },
+    "IconAbilityFlourish": {
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/wardrobe/IconAbilityFlourish.png",
+      "sha256": "e63afc801ff0e8f8149d9bd5c367b49a4074bf20b3764ce46b89840a1929e2b0"
+    },
+    "IconAbilityShapeshifting": {
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/wardrobe/IconAbilityShapeshifting.png",
+      "sha256": "d797c6ecac9b5739cc221bb32df3ebc8cd059a27d1e768cf299224a236e94eef"
+    },
+    "IconAbilityStarCollect": {
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/wardrobe/IconAbilityStarCollect.png",
+      "sha256": "58218a00a5deb1fd53b8d902ef0dfa09bf95995f155e2c395f3203f18acc82ea"
+    },
+    "IconAbilityMachine": {
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/wardrobe/IconAbilityMachine.png",
+      "sha256": "54d2a4cc27c0390d1e5ad5c88b1bc0be7a972ff48eec9734e34d2c65ef2f5adb"
+    },
+    "IconAbilityFloat": {
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/wardrobe/IconAbilityFloat.png",
+      "sha256": "4948f6b5bcd8cb08620006f76877abbfc454a3daa15b71ed19b3dd72e5528c01"
+    },
+    "IconAbilityWing": {
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/wardrobe/IconAbilityWing.png",
+      "sha256": "2df7136ae4df72947dd3f27cb1bccadafbbcb86a68212d9b2b3cb05e2094f503"
+    },
+    "IconAbilityMachineInfuse": {
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/wardrobe/IconAbilityMachineInfuse.png",
+      "sha256": "15d63ce198e231884407520756c28e5b6562d0e19385e1a807a0aba5419222dc"
+    },
+    "IconAbilityMachineExtract": {
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/UI/wardrobe/IconAbilityMachineExtract.png",
+      "sha256": "b31fc8a93bc67cf05e29bf285fdda8c07df4b3421d3e964ebd5fd6fa203df963"
+    }
+  },
+  "game_icons": {
+    "IconMaterialTypeAnimal": {
+      "local_icon": "assets/game_icons/IconMaterialTypeAnimal.png",
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/Material/IconMaterialTypeAnimal.png",
+      "sha256": "7b2e39c38cab47819903b0f281ae1b836fce5ebbfdac8480283ee90519d7e928"
+    },
+    "IconMaterialTypeInsect": {
+      "local_icon": "assets/game_icons/IconMaterialTypeInsect.png",
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Windows/Material/IconMaterialTypeInsect.png",
+      "sha256": "7002c00432f510fbb81d65c73fbb7408f6d3c6b411ed3ba39e587a9df58cd8a9"
+    },
+    "StarCrystal": {
+      "local_icon": "assets/game_icons/StarCrystal.png",
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/assets/imgs/Game/MarkIcon/T_UI_map_img_icon_star_02.png",
+      "sha256": "6cd7945d4ed9b8ec9c8746a50efac16876cb3f2bb3a91338e8fa3a26d1155cf8"
+    }
+  },
+  "ocr": {
+    "ch_PP-OCRv5_mobile_det.onnx": {
+      "source": "whimbox_app/python-embedded/Lib/site-packages/rapidocr/models/ch_PP-OCRv5_mobile_det.onnx",
+      "sha256": "4d97c44a20d30a81aad087d6a396b08f786c4635742afc391f6621f5c6ae78ae"
+    },
+    "ch_PP-OCRv5_rec_mobile_infer.onnx": {
+      "source": "whimbox_app/python-embedded/Lib/site-packages/rapidocr/models/ch_PP-OCRv5_rec_mobile_infer.onnx",
+      "sha256": "5825fc7ebf84ae7a412be049820b4d86d77620f204a041697b0494669b1742c5"
+    },
+    "ch_ppocr_mobile_v2.0_cls_infer.onnx": {
+      "source": "whimbox_app/python-embedded/Lib/site-packages/rapidocr/models/ch_ppocr_mobile_v2.0_cls_infer.onnx",
+      "sha256": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c"
+    },
+    "ppocrv5_dict.txt": {
+      "source": "whimbox_app/python-embedded/Lib/site-packages/rapidocr/models/ppocrv5_dict.txt",
+      "sha256": "d1979e9f794c464c0d2e0b70a7fe14dd978e9dc644c0e71f14158cdf8342af1b"
+    },
+    "FZYTK.TTF": {
+      "source": "whimbox_app/python-embedded/Lib/site-packages/rapidocr/models/FZYTK.TTF",
+      "sha256": "4065a23df6823c8e2b69a0e76d02f02a6470b8774a5e91086609701ad95cc33f"
+    }
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "info": {
+    "count": "3",
+    "default": null,
+    "map": "miraland",
+    "name": "朝夕心愿_捕虫",
+    "region": "微风绿野",
+    "target": "织衣蛛",
+    "type": "捕虫",
+    "update_time": "2025-12-5 9:05:11",
+    "version": "2.0"
+  },
+  "points": [
+    {
+      "id": 0,
+      "position": [
+        -28754.76,
+        49495.24
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK",
+      "action": "TELEPORT"
+    },
+    {
+      "id": 1,
+      "position": [
+        -27463.26,
+        49436.74
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 2,
+      "position": [
+        -27193.26,
+        49558.24
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 3,
+      "position": [
+        -26625.5,
+        49711.42
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK",
+      "action": "CATCH_INSECT"
+    },
+    {
+      "id": 4,
+      "position": [
+        -26086.26,
+        49769.74
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 5,
+      "position": [
+        -25510.26,
+        49832.74
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 6,
+      "position": [
+        -25307.76,
+        49675.24
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 7,
+      "position": [
+        -25420.26,
+        48815.74
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 8,
+      "position": [
+        -26212.26,
+        48419.74
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK",
+      "action": "CATCH_INSECT"
+    },
+    {
+      "id": 9,
+      "position": [
+        -25715.76,
+        48434.13
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 10,
+      "position": [
+        -25351.879999999997,
+        46562.35
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 11,
+      "position": [
+        -26122.26,
+        46165.24
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK",
+      "action": "CATCH_INSECT"
+    },
+    {
+      "id": 12,
+      "position": [
+        -27882,
+        45373.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 13,
+      "position": [
+        -28057.5,
+        44451
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 14,
+      "position": [
+        -29740.5,
+        43236
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 15,
+      "position": [
+        -30770.78,
+        41761.18
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 16,
+      "position": [
+        -31838.47,
+        40782.91
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK",
+      "action": "CATCH_INSECT"
+    },
+    {
+      "id": 17,
+      "position": [
+        -34335.58,
+        42357.55
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    },
+    {
+      "id": 18,
+      "position": [
+        -34959.92,
+        41963.15
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK",
+      "action": "CATCH_INSECT"
+    },
+    {
+      "id": 19,
+      "position": [
+        -35005.5,
+        41953.5
+      ],
+      "point_type": "TARGET",
+      "move_mode": "WALK"
+    }
+  ]
+}

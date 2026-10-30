@@ -1,0 +1,41 @@
+{
+  "repository": "https://github.com/nikkigallery/Whimbox",
+  "commit": "2a75df818c28e9f4af2b3e81c0db12d7694a20d1",
+  "license": "GPL-3.0",
+  "files": [
+    {
+      "file": "models.py",
+      "source_sha256": "f04335a53e4f702ad74a1e785c40be1d86a665a3f75004db93959731deae3307",
+      "adapted_sha256": "f04335a53e4f702ad74a1e785c40be1d86a665a3f75004db93959731deae3307",
+      "changes": []
+    },
+    {
+      "file": "pearpal_auth.py",
+      "source_sha256": "4de65b6f854b9c3dec850ac55daaf0ccd0db6096d4d0d6d9c8c0da1f24a21396",
+      "adapted_sha256": "4de65b6f854b9c3dec850ac55daaf0ccd0db6096d4d0d6d9c8c0da1f24a21396",
+      "changes": []
+    },
+    {
+      "file": "pearpal_regions.py",
+      "source_sha256": "0b4a55144216de779d118995df6030035b939a2bf2771d6dbe46cb987afc59f5",
+      "adapted_sha256": "0b4a55144216de779d118995df6030035b939a2bf2771d6dbe46cb987afc59f5",
+      "changes": []
+    },
+    {
+      "file": "pearpal_provider.py",
+      "source_sha256": "6622552bda975cfbb9f71ae69ee7523b00099b90b3e9d021a067de95b6b1e861",
+      "adapted_sha256": "b1fada25a86a2f223552fd736b87b800d6c912ac5a2a4dda4bffdb732d13772e",
+      "changes": [
+        "Use local Python logging instead of Whimbox runtime logger"
+      ]
+    },
+    {
+      "file": "pearpal_debug.py",
+      "source_sha256": "57b7b258fee72c233b8d9179f324c4823a7ac12317bddab426674418623cfb93",
+      "adapted_sha256": "97c192e0658dd140fdae46ebca68bce9a6ffd6c2f93b1e8c158590101118f5be",
+      "changes": [
+        "Store public response cache in project .cache/pearpal"
+      ]
+    }
+  ]
+}

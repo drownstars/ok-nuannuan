@@ -1,0 +1,3080 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "file_name": "IconPageMainFeature.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 2,
+      "file_name": "IconPickupFeature.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 3,
+      "file_name": "IconSkipDialog.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 4,
+      "file_name": "IconSkip.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 5,
+      "file_name": "IconClickSkip.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 6,
+      "file_name": "IconDailyRewardFeature1.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 7,
+      "file_name": "IconDailyRewardFeature2.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 8,
+      "file_name": "ButtonDigGather.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 9,
+      "file_name": "ButtonDigGatherConfirm.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 10,
+      "file_name": "ButtonDigAgain.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 11,
+      "file_name": "ButtonZxxyEntrance.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 12,
+      "file_name": "IconZxxyFeature.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 13,
+      "file_name": "IconZxxyTaskFinished.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 14,
+      "file_name": "IconPhotoFeature.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 15,
+      "file_name": "IconPhotoEdit.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 16,
+      "file_name": "ButtonMonthlyPassAward.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 17,
+      "file_name": "AreaPickup.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 18,
+      "file_name": "AreaEscEntrances.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 19,
+      "file_name": "AreaDigingNumText.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 20,
+      "file_name": "AreaZxxyScore.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 21,
+      "file_name": "AreaZxxyRewards.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 22,
+      "file_name": "AreaMonthlyPassTab1.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 23,
+      "file_name": "AreaMonthlyPassTab2.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 24,
+      "file_name": "AreaPageTitleFeature.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 25,
+      "file_name": "ButtonXhsgEntrance.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 26,
+      "file_name": "IconXhsgFeature.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 27,
+      "file_name": "IconXhsgTaskFinished.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 28,
+      "file_name": "ButtonXhsgBooklookLike.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 29,
+      "file_name": "IconXhsgGroupChatFeature.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 30,
+      "file_name": "ButtonXhsgBottleClose.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 31,
+      "file_name": "IconUIBigmap.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 32,
+      "file_name": "IconUIBigmapJoystick.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 33,
+      "file_name": "IconBigMapMaxScale.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 34,
+      "file_name": "IconBigMapMaxScaleJoyStick.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 35,
+      "file_name": "ButtonBigMapZoom.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 36,
+      "file_name": "IconBigMapHomeFeature.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 37,
+      "file_name": "IconSetdownFeature.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 38,
+      "file_name": "ButtonItemSetting.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 39,
+      "file_name": "ButtonItemFinishSetting.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 40,
+      "file_name": "ButtonItemPlaceableItem.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 41,
+      "file_name": "ButtonItemLanternConfirm.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 42,
+      "file_name": "IconItemCantPlace.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 43,
+      "file_name": "AreaZxxyTaskText.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 44,
+      "file_name": "AreaXhsgTaskText.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 45,
+      "file_name": "AreaXhsgScore.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 46,
+      "file_name": "AreaXhsgRewards.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 47,
+      "file_name": "AreaBigMapRegionName.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 48,
+      "file_name": "AreaBigMapRegionSelect.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 49,
+      "file_name": "AreaBigMapTeleportButton.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 50,
+      "file_name": "AreaBigMapTeleporterSelect.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 51,
+      "file_name": "AreaDialog.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 52,
+      "file_name": "AreaDialogSelection.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 53,
+      "file_name": "AreaItemFirstItem.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 54,
+      "file_name": "AreaMaterialGetText.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 55,
+      "file_name": "IconAbilityInsect.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 56,
+      "file_name": "AreaAbilityButton.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 57,
+      "file_name": "IconWardrobeFeature.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 58,
+      "file_name": "IconAbilityFeature.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 59,
+      "file_name": "ButtonAbilityChangeList.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 60,
+      "file_name": "ButtonAbilitySave.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 61,
+      "file_name": "AreaAbilityChange.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 62,
+      "file_name": "AreaAbilityPlanChangeButton.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 63,
+      "file_name": "AreaAbilityPlan1Button.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 64,
+      "file_name": "AreaAbilityPlan2Button.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 65,
+      "file_name": "AreaAbilityPlan3Button.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 66,
+      "file_name": "ButtonHuanjingGo.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 67,
+      "file_name": "ButtonBlessHuanjingQuickPlay.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 68,
+      "file_name": "ButtonHuanjingConfirm.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 69,
+      "file_name": "ButtonHuanjingCancel.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 70,
+      "file_name": "ButtonJihuaInnerGo.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 71,
+      "file_name": "ButtonJihuaNumConfirm.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 72,
+      "file_name": "ButtonJihuaFinallyConfirm.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 73,
+      "file_name": "ButtonMinigameQuit.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 74,
+      "file_name": "ButtonMinigameRetry.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 75,
+      "file_name": "ButtonMinigameRetryOk.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 76,
+      "file_name": "IconFishingFinish.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 77,
+      "file_name": "IconFishingStrike.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 78,
+      "file_name": "IconFishingPullLine.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 79,
+      "file_name": "IconFishingPullLineHome.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 80,
+      "file_name": "IconFishingReelIn.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 81,
+      "file_name": "IconFishingSkip.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 82,
+      "file_name": "IconFishingNoFish.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 83,
+      "file_name": "IconFishingHomeFeature.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 84,
+      "file_name": "IconFishingMiralandFeature.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 85,
+      "file_name": "IconTalkFeature.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 86,
+      "file_name": "IconPageLoginFeature.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 87,
+      "file_name": "IconUILoading.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 88,
+      "file_name": "ButtonExit.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 89,
+      "file_name": "ButtonExitLogout.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 90,
+      "file_name": "ButtonMiraCrownQuickReward.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 91,
+      "file_name": "ButtonMiraCrownRank.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 92,
+      "file_name": "ButtonMiraCrownStartChallenge.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 93,
+      "file_name": "ButtonMiraCrownNextStep.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 94,
+      "file_name": "ButtonMiraCrownConfirmMatch.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 95,
+      "file_name": "ButtonMiraCrownSkipAll.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 96,
+      "file_name": "ButtonMiraCrownAward.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 97,
+      "file_name": "ButtonMiraCrownRewardGet.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 98,
+      "file_name": "ButtonMiraCrownShop.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 99,
+      "file_name": "ButtonMiraCrownShopConfirm.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 100,
+      "file_name": "AreaZxxyEnergy.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 101,
+      "file_name": "AreaWeeklyCountText.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 102,
+      "file_name": "AreaBlessHuanjingLevelsSelect.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 103,
+      "file_name": "AreaBlessHuanjingDifficulty3.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 104,
+      "file_name": "AreaHuanjingJihuaEntrace.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 105,
+      "file_name": "AreaHuanjingBlessEntrace.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 106,
+      "file_name": "AreaHuanjingMonsterEntrace.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 107,
+      "file_name": "AreaHuanjingBossEntrace.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 108,
+      "file_name": "AreaTextJihuatai.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 109,
+      "file_name": "AreaJihuaTargetSelect.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 110,
+      "file_name": "AreaJihuaCostSelect.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 111,
+      "file_name": "AreaFishingIcons.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 112,
+      "file_name": "AreaFishingDetection.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 113,
+      "file_name": "AreaMinigameEscSelect.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 114,
+      "file_name": "AreaSubAbilityButton.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 115,
+      "file_name": "AreaLoginOCR.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 116,
+      "file_name": "AreaExitBackLoginButton.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 117,
+      "file_name": "AreaRegisterLoginButton.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 118,
+      "file_name": "AreaLoginAccountList.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 119,
+      "file_name": "AreaMiraCrownOverview.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 120,
+      "file_name": "AreaMiraCrownEntrance.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 121,
+      "file_name": "AreaMiraCrownSecondDoor.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 122,
+      "file_name": "AreaMiraCrownThirdDoor.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 123,
+      "file_name": "AreaMiraCrownAutoMatchButton.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 124,
+      "file_name": "AreaMiraCrownShopItemList.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 125,
+      "file_name": "AreaBigMapMeteorText.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 126,
+      "file_name": "AreaBigMapMaterialTypeSelect.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 127,
+      "file_name": "AreaBigMapMaterialSelect.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 128,
+      "file_name": "AreaBigMapMaterialTrackConfirm.png",
+      "width": 1920,
+      "height": 1080
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "IconPageMainFeature",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 2,
+      "name": "IconPickupFeature",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 3,
+      "name": "IconSkipDialog",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 4,
+      "name": "IconSkip",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 5,
+      "name": "IconClickSkip",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 6,
+      "name": "IconDailyRewardFeature1",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 7,
+      "name": "IconDailyRewardFeature2",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 8,
+      "name": "ButtonDigGather",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 9,
+      "name": "ButtonDigGatherConfirm",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 10,
+      "name": "ButtonDigAgain",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 11,
+      "name": "ButtonZxxyEntrance",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 12,
+      "name": "IconZxxyFeature",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 13,
+      "name": "IconZxxyTaskFinished",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 14,
+      "name": "IconPhotoFeature",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 15,
+      "name": "IconPhotoEdit",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 16,
+      "name": "ButtonMonthlyPassAward",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 17,
+      "name": "box_AreaPickup",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 18,
+      "name": "box_AreaEscEntrances",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 19,
+      "name": "box_AreaDigingNumText",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 20,
+      "name": "box_AreaZxxyScore",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 21,
+      "name": "box_AreaZxxyRewards",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 22,
+      "name": "box_AreaMonthlyPassTab1",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 23,
+      "name": "box_AreaMonthlyPassTab2",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 24,
+      "name": "box_AreaPageTitleFeature",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 25,
+      "name": "ButtonXhsgEntrance",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 26,
+      "name": "IconXhsgFeature",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 27,
+      "name": "IconXhsgTaskFinished",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 28,
+      "name": "ButtonXhsgBooklookLike",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 29,
+      "name": "IconXhsgGroupChatFeature",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 30,
+      "name": "ButtonXhsgBottleClose",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 31,
+      "name": "IconUIBigmap",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 32,
+      "name": "IconUIBigmapJoystick",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 33,
+      "name": "IconBigMapMaxScale",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 34,
+      "name": "IconBigMapMaxScaleJoyStick",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 35,
+      "name": "ButtonBigMapZoom",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 36,
+      "name": "IconBigMapHomeFeature",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 37,
+      "name": "IconSetdownFeature",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 38,
+      "name": "ButtonItemSetting",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 39,
+      "name": "ButtonItemFinishSetting",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 40,
+      "name": "ButtonItemPlaceableItem",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 41,
+      "name": "ButtonItemLanternConfirm",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 42,
+      "name": "IconItemCantPlace",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 43,
+      "name": "box_AreaZxxyTaskText",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 44,
+      "name": "box_AreaXhsgTaskText",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 45,
+      "name": "box_AreaXhsgScore",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 46,
+      "name": "box_AreaXhsgRewards",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 47,
+      "name": "box_AreaBigMapRegionName",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 48,
+      "name": "box_AreaBigMapRegionSelect",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 49,
+      "name": "box_AreaBigMapTeleportButton",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 50,
+      "name": "box_AreaBigMapTeleporterSelect",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 51,
+      "name": "box_AreaDialog",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 52,
+      "name": "box_AreaDialogSelection",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 53,
+      "name": "box_AreaItemFirstItem",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 54,
+      "name": "box_AreaMaterialGetText",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 55,
+      "name": "IconAbilityInsect",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 56,
+      "name": "box_AreaAbilityButton",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 57,
+      "name": "IconWardrobeFeature",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 58,
+      "name": "IconAbilityFeature",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 59,
+      "name": "ButtonAbilityChangeList",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 60,
+      "name": "ButtonAbilitySave",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 61,
+      "name": "box_AreaAbilityChange",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 62,
+      "name": "box_AreaAbilityPlanChangeButton",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 63,
+      "name": "box_AreaAbilityPlan1Button",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 64,
+      "name": "box_AreaAbilityPlan2Button",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 65,
+      "name": "box_AreaAbilityPlan3Button",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 66,
+      "name": "ButtonHuanjingGo",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 67,
+      "name": "ButtonBlessHuanjingQuickPlay",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 68,
+      "name": "ButtonHuanjingConfirm",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 69,
+      "name": "ButtonHuanjingCancel",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 70,
+      "name": "ButtonJihuaInnerGo",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 71,
+      "name": "ButtonJihuaNumConfirm",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 72,
+      "name": "ButtonJihuaFinallyConfirm",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 73,
+      "name": "ButtonMinigameQuit",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 74,
+      "name": "ButtonMinigameRetry",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 75,
+      "name": "ButtonMinigameRetryOk",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 76,
+      "name": "IconFishingFinish",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 77,
+      "name": "IconFishingStrike",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 78,
+      "name": "IconFishingPullLine",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 79,
+      "name": "IconFishingPullLineHome",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 80,
+      "name": "IconFishingReelIn",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 81,
+      "name": "IconFishingSkip",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 82,
+      "name": "IconFishingNoFish",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 83,
+      "name": "IconFishingHomeFeature",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 84,
+      "name": "IconFishingMiralandFeature",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 85,
+      "name": "IconTalkFeature",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 86,
+      "name": "IconPageLoginFeature",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 87,
+      "name": "IconUILoading",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 88,
+      "name": "ButtonExit",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 89,
+      "name": "ButtonExitLogout",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 90,
+      "name": "ButtonMiraCrownQuickReward",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 91,
+      "name": "ButtonMiraCrownRank",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 92,
+      "name": "ButtonMiraCrownStartChallenge",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 93,
+      "name": "ButtonMiraCrownNextStep",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 94,
+      "name": "ButtonMiraCrownConfirmMatch",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 95,
+      "name": "ButtonMiraCrownSkipAll",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 96,
+      "name": "ButtonMiraCrownAward",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 97,
+      "name": "ButtonMiraCrownRewardGet",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 98,
+      "name": "ButtonMiraCrownShop",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 99,
+      "name": "ButtonMiraCrownShopConfirm",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 100,
+      "name": "box_AreaZxxyEnergy",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 101,
+      "name": "box_AreaWeeklyCountText",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 102,
+      "name": "box_AreaBlessHuanjingLevelsSelect",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 103,
+      "name": "box_AreaBlessHuanjingDifficulty3",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 104,
+      "name": "box_AreaHuanjingJihuaEntrace",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 105,
+      "name": "box_AreaHuanjingBlessEntrace",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 106,
+      "name": "box_AreaHuanjingMonsterEntrace",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 107,
+      "name": "box_AreaHuanjingBossEntrace",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 108,
+      "name": "box_AreaTextJihuatai",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 109,
+      "name": "box_AreaJihuaTargetSelect",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 110,
+      "name": "box_AreaJihuaCostSelect",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 111,
+      "name": "box_AreaFishingIcons",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 112,
+      "name": "box_AreaFishingDetection",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 113,
+      "name": "box_AreaMinigameEscSelect",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 114,
+      "name": "box_AreaSubAbilityButton",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 115,
+      "name": "box_AreaLoginOCR",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 116,
+      "name": "box_AreaExitBackLoginButton",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 117,
+      "name": "box_AreaRegisterLoginButton",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 118,
+      "name": "box_AreaLoginAccountList",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 119,
+      "name": "box_AreaMiraCrownOverview",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 120,
+      "name": "box_AreaMiraCrownEntrance",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 121,
+      "name": "box_AreaMiraCrownSecondDoor",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 122,
+      "name": "box_AreaMiraCrownThirdDoor",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 123,
+      "name": "box_AreaMiraCrownAutoMatchButton",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 124,
+      "name": "box_AreaMiraCrownShopItemList",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 125,
+      "name": "box_AreaBigMapMeteorText",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 126,
+      "name": "box_AreaBigMapMaterialTypeSelect",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 127,
+      "name": "box_AreaBigMapMaterialSelect",
+      "supercategory": "whimbox"
+    },
+    {
+      "id": 128,
+      "name": "box_AreaBigMapMaterialTrackConfirm",
+      "supercategory": "whimbox"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        35,
+        987,
+        51,
+        35
+      ],
+      "area": 1785,
+      "iscrowd": 0
+    },
+    {
+      "id": 2,
+      "image_id": 2,
+      "category_id": 2,
+      "bbox": [
+        1045,
+        533,
+        50,
+        25
+      ],
+      "area": 1250,
+      "iscrowd": 0
+    },
+    {
+      "id": 3,
+      "image_id": 3,
+      "category_id": 3,
+      "bbox": [
+        1724,
+        1003,
+        118,
+        32
+      ],
+      "area": 3776,
+      "iscrowd": 0
+    },
+    {
+      "id": 4,
+      "image_id": 4,
+      "category_id": 4,
+      "bbox": [
+        1789,
+        1013,
+        51,
+        30
+      ],
+      "area": 1530,
+      "iscrowd": 0
+    },
+    {
+      "id": 5,
+      "image_id": 5,
+      "category_id": 5,
+      "bbox": [
+        1692,
+        1022,
+        150,
+        35
+      ],
+      "area": 5250,
+      "iscrowd": 0
+    },
+    {
+      "id": 6,
+      "image_id": 6,
+      "category_id": 6,
+      "bbox": [
+        764,
+        417,
+        110,
+        110
+      ],
+      "area": 12100,
+      "iscrowd": 0
+    },
+    {
+      "id": 7,
+      "image_id": 7,
+      "category_id": 7,
+      "bbox": [
+        673,
+        621,
+        100,
+        100
+      ],
+      "area": 10000,
+      "iscrowd": 0
+    },
+    {
+      "id": 8,
+      "image_id": 8,
+      "category_id": 8,
+      "bbox": [
+        1798,
+        743,
+        40,
+        40
+      ],
+      "area": 1600,
+      "iscrowd": 0
+    },
+    {
+      "id": 9,
+      "image_id": 9,
+      "category_id": 9,
+      "bbox": [
+        686,
+        776,
+        223,
+        57
+      ],
+      "area": 12711,
+      "iscrowd": 0
+    },
+    {
+      "id": 10,
+      "image_id": 10,
+      "category_id": 10,
+      "bbox": [
+        1013,
+        779,
+        220,
+        50
+      ],
+      "area": 11000,
+      "iscrowd": 0
+    },
+    {
+      "id": 11,
+      "image_id": 11,
+      "category_id": 11,
+      "bbox": [
+        246,
+        459,
+        80,
+        80
+      ],
+      "area": 6400,
+      "iscrowd": 0
+    },
+    {
+      "id": 12,
+      "image_id": 12,
+      "category_id": 12,
+      "bbox": [
+        1747,
+        768,
+        100,
+        55
+      ],
+      "area": 5500,
+      "iscrowd": 0
+    },
+    {
+      "id": 13,
+      "image_id": 13,
+      "category_id": 13,
+      "bbox": [
+        1510,
+        1013,
+        20,
+        20
+      ],
+      "area": 400,
+      "iscrowd": 0
+    },
+    {
+      "id": 14,
+      "image_id": 14,
+      "category_id": 14,
+      "bbox": [
+        1753,
+        127,
+        95,
+        95
+      ],
+      "area": 9025,
+      "iscrowd": 0
+    },
+    {
+      "id": 15,
+      "image_id": 15,
+      "category_id": 15,
+      "bbox": [
+        1781,
+        923,
+        74,
+        59
+      ],
+      "area": 4366,
+      "iscrowd": 0
+    },
+    {
+      "id": 16,
+      "image_id": 16,
+      "category_id": 16,
+      "bbox": [
+        1108,
+        966,
+        240,
+        50
+      ],
+      "area": 12000,
+      "iscrowd": 0
+    },
+    {
+      "id": 17,
+      "image_id": 17,
+      "category_id": 17,
+      "bbox": [
+        398,
+        146,
+        1345,
+        800
+      ],
+      "area": 1076000,
+      "iscrowd": 0
+    },
+    {
+      "id": 18,
+      "image_id": 18,
+      "category_id": 18,
+      "bbox": [
+        136,
+        260,
+        882,
+        598
+      ],
+      "area": 527436,
+      "iscrowd": 0
+    },
+    {
+      "id": 19,
+      "image_id": 19,
+      "category_id": 19,
+      "bbox": [
+        1848,
+        182,
+        35,
+        20
+      ],
+      "area": 700,
+      "iscrowd": 0
+    },
+    {
+      "id": 20,
+      "image_id": 20,
+      "category_id": 20,
+      "bbox": [
+        1747,
+        823,
+        100,
+        30
+      ],
+      "area": 3000,
+      "iscrowd": 0
+    },
+    {
+      "id": 21,
+      "image_id": 21,
+      "category_id": 21,
+      "bbox": [
+        1753,
+        229,
+        87,
+        507
+      ],
+      "area": 44109,
+      "iscrowd": 0
+    },
+    {
+      "id": 22,
+      "image_id": 22,
+      "category_id": 22,
+      "bbox": [
+        807,
+        30,
+        130,
+        40
+      ],
+      "area": 5200,
+      "iscrowd": 0
+    },
+    {
+      "id": 23,
+      "image_id": 23,
+      "category_id": 23,
+      "bbox": [
+        997,
+        30,
+        130,
+        40
+      ],
+      "area": 5200,
+      "iscrowd": 0
+    },
+    {
+      "id": 24,
+      "image_id": 24,
+      "category_id": 24,
+      "bbox": [
+        99,
+        22,
+        230,
+        55
+      ],
+      "area": 12650,
+      "iscrowd": 0
+    },
+    {
+      "id": 25,
+      "image_id": 25,
+      "category_id": 25,
+      "bbox": [
+        244,
+        836,
+        80,
+        80
+      ],
+      "area": 6400,
+      "iscrowd": 0
+    },
+    {
+      "id": 26,
+      "image_id": 26,
+      "category_id": 26,
+      "bbox": [
+        212,
+        914,
+        75,
+        70
+      ],
+      "area": 5250,
+      "iscrowd": 0
+    },
+    {
+      "id": 27,
+      "image_id": 27,
+      "category_id": 27,
+      "bbox": [
+        1609,
+        1003,
+        20,
+        20
+      ],
+      "area": 400,
+      "iscrowd": 0
+    },
+    {
+      "id": 28,
+      "image_id": 28,
+      "category_id": 28,
+      "bbox": [
+        1311,
+        693,
+        39,
+        38
+      ],
+      "area": 1482,
+      "iscrowd": 0
+    },
+    {
+      "id": 29,
+      "image_id": 29,
+      "category_id": 29,
+      "bbox": [
+        65,
+        101,
+        91,
+        91
+      ],
+      "area": 8281,
+      "iscrowd": 0
+    },
+    {
+      "id": 30,
+      "image_id": 30,
+      "category_id": 30,
+      "bbox": [
+        1453,
+        239,
+        27,
+        28
+      ],
+      "area": 756,
+      "iscrowd": 0
+    },
+    {
+      "id": 31,
+      "image_id": 31,
+      "category_id": 31,
+      "bbox": [
+        52,
+        938,
+        33,
+        33
+      ],
+      "area": 1089,
+      "iscrowd": 0
+    },
+    {
+      "id": 32,
+      "image_id": 32,
+      "category_id": 32,
+      "bbox": [
+        52,
+        890,
+        33,
+        33
+      ],
+      "area": 1089,
+      "iscrowd": 0
+    },
+    {
+      "id": 33,
+      "image_id": 33,
+      "category_id": 33,
+      "bbox": [
+        282,
+        1033,
+        56,
+        13
+      ],
+      "area": 728,
+      "iscrowd": 0
+    },
+    {
+      "id": 34,
+      "image_id": 34,
+      "category_id": 34,
+      "bbox": [
+        283,
+        1026,
+        52,
+        11
+      ],
+      "area": 572,
+      "iscrowd": 0
+    },
+    {
+      "id": 35,
+      "image_id": 35,
+      "category_id": 35,
+      "bbox": [
+        367,
+        1029,
+        19,
+        19
+      ],
+      "area": 361,
+      "iscrowd": 0
+    },
+    {
+      "id": 36,
+      "image_id": 36,
+      "category_id": 36,
+      "bbox": [
+        1340,
+        143,
+        50,
+        50
+      ],
+      "area": 2500,
+      "iscrowd": 0
+    },
+    {
+      "id": 37,
+      "image_id": 37,
+      "category_id": 37,
+      "bbox": [
+        1045,
+        533,
+        50,
+        26
+      ],
+      "area": 1300,
+      "iscrowd": 0
+    },
+    {
+      "id": 38,
+      "image_id": 38,
+      "category_id": 38,
+      "bbox": [
+        705,
+        585,
+        32,
+        32
+      ],
+      "area": 1024,
+      "iscrowd": 0
+    },
+    {
+      "id": 39,
+      "image_id": 39,
+      "category_id": 39,
+      "bbox": [
+        1607,
+        987,
+        160,
+        35
+      ],
+      "area": 5600,
+      "iscrowd": 0
+    },
+    {
+      "id": 40,
+      "image_id": 40,
+      "category_id": 40,
+      "bbox": [
+        1849,
+        739,
+        55,
+        55
+      ],
+      "area": 3025,
+      "iscrowd": 0
+    },
+    {
+      "id": 41,
+      "image_id": 41,
+      "category_id": 41,
+      "bbox": [
+        1242,
+        905,
+        220,
+        55
+      ],
+      "area": 12100,
+      "iscrowd": 0
+    },
+    {
+      "id": 42,
+      "image_id": 42,
+      "category_id": 42,
+      "bbox": [
+        810,
+        291,
+        300,
+        40
+      ],
+      "area": 12000,
+      "iscrowd": 0
+    },
+    {
+      "id": 43,
+      "image_id": 43,
+      "category_id": 43,
+      "bbox": [
+        528,
+        896,
+        1008,
+        112
+      ],
+      "area": 112896,
+      "iscrowd": 0
+    },
+    {
+      "id": 44,
+      "image_id": 44,
+      "category_id": 44,
+      "bbox": [
+        604,
+        886,
+        1065,
+        83
+      ],
+      "area": 88395,
+      "iscrowd": 0
+    },
+    {
+      "id": 45,
+      "image_id": 45,
+      "category_id": 45,
+      "bbox": [
+        1767,
+        805,
+        60,
+        30
+      ],
+      "area": 1800,
+      "iscrowd": 0
+    },
+    {
+      "id": 46,
+      "image_id": 46,
+      "category_id": 46,
+      "bbox": [
+        1752,
+        208,
+        88,
+        504
+      ],
+      "area": 44352,
+      "iscrowd": 0
+    },
+    {
+      "id": 47,
+      "image_id": 47,
+      "category_id": 47,
+      "bbox": [
+        1563,
+        89,
+        240,
+        40
+      ],
+      "area": 9600,
+      "iscrowd": 0
+    },
+    {
+      "id": 48,
+      "image_id": 48,
+      "category_id": 48,
+      "bbox": [
+        1336,
+        96,
+        376,
+        935
+      ],
+      "area": 351560,
+      "iscrowd": 0
+    },
+    {
+      "id": 49,
+      "image_id": 49,
+      "category_id": 49,
+      "bbox": [
+        1507,
+        983,
+        240,
+        50
+      ],
+      "area": 12000,
+      "iscrowd": 0
+    },
+    {
+      "id": 50,
+      "image_id": 50,
+      "category_id": 50,
+      "bbox": [
+        1264,
+        480,
+        262,
+        264
+      ],
+      "area": 69168,
+      "iscrowd": 0
+    },
+    {
+      "id": 51,
+      "image_id": 51,
+      "category_id": 51,
+      "bbox": [
+        360,
+        140,
+        1200,
+        800
+      ],
+      "area": 960000,
+      "iscrowd": 0
+    },
+    {
+      "id": 52,
+      "image_id": 52,
+      "category_id": 52,
+      "bbox": [
+        1320,
+        560,
+        289,
+        232
+      ],
+      "area": 67048,
+      "iscrowd": 0
+    },
+    {
+      "id": 53,
+      "image_id": 53,
+      "category_id": 53,
+      "bbox": [
+        1578,
+        201,
+        90,
+        90
+      ],
+      "area": 8100,
+      "iscrowd": 0
+    },
+    {
+      "id": 54,
+      "image_id": 54,
+      "category_id": 54,
+      "bbox": [
+        23,
+        676,
+        220,
+        200
+      ],
+      "area": 44000,
+      "iscrowd": 0
+    },
+    {
+      "id": 55,
+      "image_id": 55,
+      "category_id": 55,
+      "bbox": [
+        1625,
+        963,
+        58,
+        58
+      ],
+      "area": 3364,
+      "iscrowd": 0
+    },
+    {
+      "id": 56,
+      "image_id": 56,
+      "category_id": 56,
+      "bbox": [
+        1609,
+        947,
+        90,
+        90
+      ],
+      "area": 8100,
+      "iscrowd": 0
+    },
+    {
+      "id": 57,
+      "image_id": 57,
+      "category_id": 57,
+      "bbox": [
+        591,
+        47,
+        177,
+        52
+      ],
+      "area": 9204,
+      "iscrowd": 0
+    },
+    {
+      "id": 58,
+      "image_id": 58,
+      "category_id": 58,
+      "bbox": [
+        778,
+        47,
+        177,
+        52
+      ],
+      "area": 9204,
+      "iscrowd": 0
+    },
+    {
+      "id": 59,
+      "image_id": 59,
+      "category_id": 59,
+      "bbox": [
+        1831,
+        129,
+        35,
+        28
+      ],
+      "area": 980,
+      "iscrowd": 0
+    },
+    {
+      "id": 60,
+      "image_id": 60,
+      "category_id": 60,
+      "bbox": [
+        114,
+        968,
+        225,
+        60
+      ],
+      "area": 13500,
+      "iscrowd": 0
+    },
+    {
+      "id": 61,
+      "image_id": 61,
+      "category_id": 61,
+      "bbox": [
+        1440,
+        176,
+        368,
+        696
+      ],
+      "area": 256128,
+      "iscrowd": 0
+    },
+    {
+      "id": 62,
+      "image_id": 62,
+      "category_id": 62,
+      "bbox": [
+        32,
+        116,
+        330,
+        45
+      ],
+      "area": 14850,
+      "iscrowd": 0
+    },
+    {
+      "id": 63,
+      "image_id": 63,
+      "category_id": 63,
+      "bbox": [
+        32,
+        173,
+        330,
+        45
+      ],
+      "area": 14850,
+      "iscrowd": 0
+    },
+    {
+      "id": 64,
+      "image_id": 64,
+      "category_id": 64,
+      "bbox": [
+        32,
+        228,
+        330,
+        45
+      ],
+      "area": 14850,
+      "iscrowd": 0
+    },
+    {
+      "id": 65,
+      "image_id": 65,
+      "category_id": 65,
+      "bbox": [
+        32,
+        284,
+        330,
+        45
+      ],
+      "area": 14850,
+      "iscrowd": 0
+    },
+    {
+      "id": 66,
+      "image_id": 66,
+      "category_id": 66,
+      "bbox": [
+        1086,
+        198,
+        100,
+        100
+      ],
+      "area": 10000,
+      "iscrowd": 0
+    },
+    {
+      "id": 67,
+      "image_id": 67,
+      "category_id": 67,
+      "bbox": [
+        1093,
+        966,
+        220,
+        50
+      ],
+      "area": 11000,
+      "iscrowd": 0
+    },
+    {
+      "id": 68,
+      "image_id": 68,
+      "category_id": 68,
+      "bbox": [
+        1003,
+        682,
+        230,
+        50
+      ],
+      "area": 11500,
+      "iscrowd": 0
+    },
+    {
+      "id": 69,
+      "image_id": 69,
+      "category_id": 69,
+      "bbox": [
+        687,
+        682,
+        230,
+        50
+      ],
+      "area": 11500,
+      "iscrowd": 0
+    },
+    {
+      "id": 70,
+      "image_id": 70,
+      "category_id": 70,
+      "bbox": [
+        1252,
+        963,
+        222,
+        54
+      ],
+      "area": 11988,
+      "iscrowd": 0
+    },
+    {
+      "id": 71,
+      "image_id": 71,
+      "category_id": 71,
+      "bbox": [
+        1007,
+        690,
+        180,
+        50
+      ],
+      "area": 9000,
+      "iscrowd": 0
+    },
+    {
+      "id": 72,
+      "image_id": 72,
+      "category_id": 72,
+      "bbox": [
+        1419,
+        917,
+        220,
+        50
+      ],
+      "area": 11000,
+      "iscrowd": 0
+    },
+    {
+      "id": 73,
+      "image_id": 73,
+      "category_id": 73,
+      "bbox": [
+        736,
+        652,
+        80,
+        40
+      ],
+      "area": 3200,
+      "iscrowd": 0
+    },
+    {
+      "id": 74,
+      "image_id": 74,
+      "category_id": 74,
+      "bbox": [
+        1074,
+        652,
+        80,
+        40
+      ],
+      "area": 3200,
+      "iscrowd": 0
+    },
+    {
+      "id": 75,
+      "image_id": 75,
+      "category_id": 75,
+      "bbox": [
+        1053,
+        659,
+        80,
+        40
+      ],
+      "area": 3200,
+      "iscrowd": 0
+    },
+    {
+      "id": 76,
+      "image_id": 76,
+      "category_id": 76,
+      "bbox": [
+        1603,
+        1023,
+        53,
+        30
+      ],
+      "area": 1590,
+      "iscrowd": 0
+    },
+    {
+      "id": 77,
+      "image_id": 77,
+      "category_id": 77,
+      "bbox": [
+        1572,
+        1023,
+        84,
+        30
+      ],
+      "area": 2520,
+      "iscrowd": 0
+    },
+    {
+      "id": 78,
+      "image_id": 78,
+      "category_id": 78,
+      "bbox": [
+        1476,
+        1023,
+        180,
+        30
+      ],
+      "area": 5400,
+      "iscrowd": 0
+    },
+    {
+      "id": 79,
+      "image_id": 79,
+      "category_id": 79,
+      "bbox": [
+        1452,
+        1024,
+        180,
+        30
+      ],
+      "area": 5400,
+      "iscrowd": 0
+    },
+    {
+      "id": 80,
+      "image_id": 80,
+      "category_id": 80,
+      "bbox": [
+        1603,
+        1023,
+        53,
+        30
+      ],
+      "area": 1590,
+      "iscrowd": 0
+    },
+    {
+      "id": 81,
+      "image_id": 81,
+      "category_id": 81,
+      "bbox": [
+        1789,
+        1013,
+        51,
+        30
+      ],
+      "area": 1530,
+      "iscrowd": 0
+    },
+    {
+      "id": 82,
+      "image_id": 82,
+      "category_id": 82,
+      "bbox": [
+        842,
+        188,
+        257,
+        39
+      ],
+      "area": 10023,
+      "iscrowd": 0
+    },
+    {
+      "id": 83,
+      "image_id": 83,
+      "category_id": 83,
+      "bbox": [
+        1736,
+        1023,
+        100,
+        30
+      ],
+      "area": 3000,
+      "iscrowd": 0
+    },
+    {
+      "id": 84,
+      "image_id": 84,
+      "category_id": 84,
+      "bbox": [
+        1736,
+        1023,
+        100,
+        30
+      ],
+      "area": 3000,
+      "iscrowd": 0
+    },
+    {
+      "id": 85,
+      "image_id": 85,
+      "category_id": 85,
+      "bbox": [
+        1045,
+        533,
+        50,
+        26
+      ],
+      "area": 1300,
+      "iscrowd": 0
+    },
+    {
+      "id": 86,
+      "image_id": 86,
+      "category_id": 86,
+      "bbox": [
+        1786,
+        41,
+        51,
+        51
+      ],
+      "area": 2601,
+      "iscrowd": 0
+    },
+    {
+      "id": 87,
+      "image_id": 87,
+      "category_id": 87,
+      "bbox": [
+        1020,
+        0,
+        900,
+        100
+      ],
+      "area": 90000,
+      "iscrowd": 0
+    },
+    {
+      "id": 88,
+      "image_id": 88,
+      "category_id": 88,
+      "bbox": [
+        66,
+        975,
+        51,
+        54
+      ],
+      "area": 2754,
+      "iscrowd": 0
+    },
+    {
+      "id": 89,
+      "image_id": 89,
+      "category_id": 89,
+      "bbox": [
+        1794,
+        456,
+        43,
+        51
+      ],
+      "area": 2193,
+      "iscrowd": 0
+    },
+    {
+      "id": 90,
+      "image_id": 90,
+      "category_id": 90,
+      "bbox": [
+        861,
+        729,
+        199,
+        50
+      ],
+      "area": 9950,
+      "iscrowd": 0
+    },
+    {
+      "id": 91,
+      "image_id": 91,
+      "category_id": 91,
+      "bbox": [
+        1104,
+        14,
+        75,
+        75
+      ],
+      "area": 5625,
+      "iscrowd": 0
+    },
+    {
+      "id": 92,
+      "image_id": 92,
+      "category_id": 92,
+      "bbox": [
+        1407,
+        886,
+        224,
+        56
+      ],
+      "area": 12544,
+      "iscrowd": 0
+    },
+    {
+      "id": 93,
+      "image_id": 93,
+      "category_id": 93,
+      "bbox": [
+        110,
+        965,
+        225,
+        55
+      ],
+      "area": 12375,
+      "iscrowd": 0
+    },
+    {
+      "id": 94,
+      "image_id": 94,
+      "category_id": 94,
+      "bbox": [
+        65,
+        962,
+        224,
+        56
+      ],
+      "area": 12544,
+      "iscrowd": 0
+    },
+    {
+      "id": 95,
+      "image_id": 95,
+      "category_id": 95,
+      "bbox": [
+        1684,
+        26,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0
+    },
+    {
+      "id": 96,
+      "image_id": 96,
+      "category_id": 96,
+      "bbox": [
+        124,
+        814,
+        50,
+        50
+      ],
+      "area": 2500,
+      "iscrowd": 0
+    },
+    {
+      "id": 97,
+      "image_id": 97,
+      "category_id": 97,
+      "bbox": [
+        1250,
+        382,
+        45,
+        45
+      ],
+      "area": 2025,
+      "iscrowd": 0
+    },
+    {
+      "id": 98,
+      "image_id": 98,
+      "category_id": 98,
+      "bbox": [
+        124,
+        697,
+        50,
+        50
+      ],
+      "area": 2500,
+      "iscrowd": 0
+    },
+    {
+      "id": 99,
+      "image_id": 99,
+      "category_id": 99,
+      "bbox": [
+        887,
+        785,
+        146,
+        55
+      ],
+      "area": 8030,
+      "iscrowd": 0
+    },
+    {
+      "id": 100,
+      "image_id": 100,
+      "category_id": 100,
+      "bbox": [
+        921,
+        158,
+        100,
+        30
+      ],
+      "area": 3000,
+      "iscrowd": 0
+    },
+    {
+      "id": 101,
+      "image_id": 101,
+      "category_id": 101,
+      "bbox": [
+        1591,
+        255,
+        129,
+        62
+      ],
+      "area": 7998,
+      "iscrowd": 0
+    },
+    {
+      "id": 102,
+      "image_id": 102,
+      "category_id": 102,
+      "bbox": [
+        240,
+        160,
+        546,
+        864
+      ],
+      "area": 471744,
+      "iscrowd": 0
+    },
+    {
+      "id": 103,
+      "image_id": 103,
+      "category_id": 103,
+      "bbox": [
+        1574,
+        522,
+        80,
+        80
+      ],
+      "area": 6400,
+      "iscrowd": 0
+    },
+    {
+      "id": 104,
+      "image_id": 104,
+      "category_id": 104,
+      "bbox": [
+        1318,
+        755,
+        260,
+        100
+      ],
+      "area": 26000,
+      "iscrowd": 0
+    },
+    {
+      "id": 105,
+      "image_id": 105,
+      "category_id": 105,
+      "bbox": [
+        347,
+        768,
+        260,
+        100
+      ],
+      "area": 26000,
+      "iscrowd": 0
+    },
+    {
+      "id": 106,
+      "image_id": 106,
+      "category_id": 106,
+      "bbox": [
+        153,
+        372,
+        260,
+        100
+      ],
+      "area": 26000,
+      "iscrowd": 0
+    },
+    {
+      "id": 107,
+      "image_id": 107,
+      "category_id": 107,
+      "bbox": [
+        1507,
+        384,
+        260,
+        100
+      ],
+      "area": 26000,
+      "iscrowd": 0
+    },
+    {
+      "id": 108,
+      "image_id": 108,
+      "category_id": 108,
+      "bbox": [
+        960,
+        176,
+        352,
+        352
+      ],
+      "area": 123904,
+      "iscrowd": 0
+    },
+    {
+      "id": 109,
+      "image_id": 109,
+      "category_id": 109,
+      "bbox": [
+        1218,
+        306,
+        605,
+        606
+      ],
+      "area": 366630,
+      "iscrowd": 0
+    },
+    {
+      "id": 110,
+      "image_id": 110,
+      "category_id": 110,
+      "bbox": [
+        72,
+        112,
+        950,
+        800
+      ],
+      "area": 760000,
+      "iscrowd": 0
+    },
+    {
+      "id": 111,
+      "image_id": 111,
+      "category_id": 111,
+      "bbox": [
+        1443,
+        1013,
+        400,
+        41
+      ],
+      "area": 16400,
+      "iscrowd": 0
+    },
+    {
+      "id": 112,
+      "image_id": 112,
+      "category_id": 112,
+      "bbox": [
+        708,
+        354,
+        499,
+        249
+      ],
+      "area": 124251,
+      "iscrowd": 0
+    },
+    {
+      "id": 113,
+      "image_id": 113,
+      "category_id": 113,
+      "bbox": [
+        1583,
+        645,
+        100,
+        270
+      ],
+      "area": 27000,
+      "iscrowd": 0
+    },
+    {
+      "id": 114,
+      "image_id": 114,
+      "category_id": 114,
+      "bbox": [
+        1624,
+        875,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0
+    },
+    {
+      "id": 115,
+      "image_id": 115,
+      "category_id": 115,
+      "bbox": [
+        528,
+        293,
+        864,
+        587
+      ],
+      "area": 507168,
+      "iscrowd": 0
+    },
+    {
+      "id": 116,
+      "image_id": 116,
+      "category_id": 116,
+      "bbox": [
+        736,
+        662,
+        180,
+        40
+      ],
+      "area": 7200,
+      "iscrowd": 0
+    },
+    {
+      "id": 117,
+      "image_id": 117,
+      "category_id": 117,
+      "bbox": [
+        869,
+        847,
+        180,
+        50
+      ],
+      "area": 9000,
+      "iscrowd": 0
+    },
+    {
+      "id": 118,
+      "image_id": 118,
+      "category_id": 118,
+      "bbox": [
+        791,
+        372,
+        228,
+        282
+      ],
+      "area": 64296,
+      "iscrowd": 0
+    },
+    {
+      "id": 119,
+      "image_id": 119,
+      "category_id": 119,
+      "bbox": [
+        1544,
+        472,
+        170,
+        50
+      ],
+      "area": 8500,
+      "iscrowd": 0
+    },
+    {
+      "id": 120,
+      "image_id": 120,
+      "category_id": 120,
+      "bbox": [
+        136,
+        304,
+        256,
+        208
+      ],
+      "area": 53248,
+      "iscrowd": 0
+    },
+    {
+      "id": 121,
+      "image_id": 121,
+      "category_id": 121,
+      "bbox": [
+        1056,
+        596,
+        152,
+        168
+      ],
+      "area": 25536,
+      "iscrowd": 0
+    },
+    {
+      "id": 122,
+      "image_id": 122,
+      "category_id": 122,
+      "bbox": [
+        1550,
+        600,
+        114,
+        142
+      ],
+      "area": 16188,
+      "iscrowd": 0
+    },
+    {
+      "id": 123,
+      "image_id": 123,
+      "category_id": 123,
+      "bbox": [
+        1018,
+        401,
+        142,
+        200
+      ],
+      "area": 28400,
+      "iscrowd": 0
+    },
+    {
+      "id": 124,
+      "image_id": 124,
+      "category_id": 124,
+      "bbox": [
+        299,
+        167,
+        1347,
+        622
+      ],
+      "area": 837834,
+      "iscrowd": 0
+    },
+    {
+      "id": 125,
+      "image_id": 125,
+      "category_id": 125,
+      "bbox": [
+        43,
+        123,
+        341,
+        157
+      ],
+      "area": 53537,
+      "iscrowd": 0
+    },
+    {
+      "id": 126,
+      "image_id": 126,
+      "category_id": 126,
+      "bbox": [
+        325,
+        273,
+        370,
+        50
+      ],
+      "area": 18500,
+      "iscrowd": 0
+    },
+    {
+      "id": 127,
+      "image_id": 127,
+      "category_id": 127,
+      "bbox": [
+        312,
+        325,
+        406,
+        467
+      ],
+      "area": 189602,
+      "iscrowd": 0
+    },
+    {
+      "id": 128,
+      "image_id": 128,
+      "category_id": 128,
+      "bbox": [
+        1378,
+        807,
+        200,
+        50
+      ],
+      "area": 10000,
+      "iscrowd": 0
+    }
+  ]
+}

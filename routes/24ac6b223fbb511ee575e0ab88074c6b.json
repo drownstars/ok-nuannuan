@@ -1,0 +1,46 @@
+{
+  "info": {
+    "name": "星海拾光_原地急坠_宏",
+    "type": "宏",
+    "update_time": "2026-9-29 17:29:40",
+    "version": "3.2"
+  },
+  "steps": [
+    {
+      "type": "gap",
+      "duration": 1
+    },
+    {
+      "type": "game_key",
+      "key": "jump",
+      "action": "press"
+    },
+    {
+      "duration": 0.1587228775024414,
+      "type": "gap"
+    },
+    {
+      "type": "game_key",
+      "key": "jump",
+      "action": "release"
+    },
+    {
+      "duration": 0.23234057426452637,
+      "type": "gap"
+    },
+    {
+      "type": "game_key",
+      "key": "falling",
+      "action": "press"
+    },
+    {
+      "duration": 0.10042738914489746,
+      "type": "gap"
+    },
+    {
+      "type": "game_key",
+      "key": "falling",
+      "action": "release"
+    }
+  ]
+}

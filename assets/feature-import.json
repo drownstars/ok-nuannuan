@@ -1,0 +1,290 @@
+{
+  "version": "0.8.0",
+  "features": [
+    {
+      "feature": "朝夕心愿 / 星海识别执行",
+      "destination": "每日任务",
+      "condition": "自动 / 只识别；任务卡复核",
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/task/daily_task/zhaoxi_task.py",
+      "sha256": "b210bd42300bc4a53fab542b07fa42f23f9dc576637bf4e4d9a77f7b53a556fb",
+      "game_verified": false
+    },
+    {
+      "feature": "每日拍照",
+      "destination": "每日任务",
+      "condition": "仅未完成拍照任务触发",
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/task/photo_task/daily_photo_task.py",
+      "sha256": "dc0b850a0f03986675cd7dfa37f17b508cd0e0678343f7fec367a8ee17e44142",
+      "game_verified": false
+    },
+    {
+      "feature": "挖掘 / 奇迹之旅",
+      "destination": "每日任务",
+      "condition": "已收获结果与再次派遣复核",
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/task/daily_task/dig_task_v2.py",
+      "sha256": "5767a1556291008423f52436b9c4c802ed2c05baf0f66726993735372a08388a",
+      "game_verified": false
+    },
+    {
+      "feature": "活跃能量检查",
+      "destination": "每日 / 工具",
+      "condition": "读取当前值与容量",
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/task/daily_task/check_energy_task.py",
+      "sha256": "2ac723e4d34d87f12a1b7b1f0ee7712b45e33c2071e0058dd57faf8f306eb95e",
+      "game_verified": false
+    },
+    {
+      "feature": "素材激化",
+      "destination": "每日 / 工具 / 心愿",
+      "condition": "默认能量用途；逐份兑换并复查，剩余大于 100 时继续",
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/task/daily_task/jihua_task.py",
+      "sha256": "29e165baafeb0b2317e85c993865b6a08b9154d707f3452f733e05a4bb81b3cc",
+      "game_verified": false
+    },
+    {
+      "feature": "祝福闪光 / 魔物试炼",
+      "destination": "每日 / 工具 / 心愿",
+      "condition": "需解锁快速挑战；逐次确认，不点最大",
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/task/daily_task/bless_task.py",
+      "sha256": "eda0829b8424567a9077e6a0df98e019d062282ab225a79d898e9240227cb988",
+      "game_verified": false
+    },
+    {
+      "feature": "每周幻境",
+      "destination": "每日 / 工具",
+      "condition": "进度检查、选择目标、完成后复核",
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/task/daily_task/weekly_realm_task.py",
+      "sha256": "dcbcb231a12b6a7e92c2f4eab5a67121432c5b21038f033cc5085ab41af131f5",
+      "game_verified": false
+    },
+    {
+      "feature": "奇迹之冠巅峰赛",
+      "destination": "每日 / 工具",
+      "condition": "推荐搭配、次数上限、进度复核",
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/task/mira_crown_task/mira_crown_task.py",
+      "sha256": "338cf46b1c77b138eee948e2cd3ed53a2a359d15c7df5b66e21e589aedbc5555",
+      "game_verified": false
+    },
+    {
+      "feature": "巅峰赛领取 / 兑换",
+      "destination": "扩展功能设置",
+      "condition": "兑换列表默认空，每项只兑一份",
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/task/mira_crown_task/mira_crown_task.py",
+      "sha256": "338cf46b1c77b138eee948e2cd3ed53a2a359d15c7df5b66e21e589aedbc5555",
+      "game_verified": false
+    },
+    {
+      "feature": "家园日常 / 采星",
+      "destination": "每日 / 工具 / 路线",
+      "condition": "自动检测家园入口；按路线执行，获得文本确认",
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/task/daily_task/all_in_one_task.py",
+      "sha256": "f374f47c6d78987a200b37254b65c43b1a8d2363dd9a6d7af52b78ccf9da9482",
+      "game_verified": false
+    },
+    {
+      "feature": "巨陨星检测",
+      "destination": "家园日常结果",
+      "condition": "读取地图提示并记录",
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/task/daily_task/all_in_one_task.py",
+      "sha256": "f374f47c6d78987a200b37254b65c43b1a8d2363dd9a6d7af52b78ccf9da9482",
+      "game_verified": false
+    },
+    {
+      "feature": "星光结晶收集",
+      "destination": "路线与跑图",
+      "condition": "路线选择；可在收集前开启化万相",
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/task/daily_task/xinghai_run_task.py",
+      "sha256": "508ef7aed271f6a7a4015dc99d717cdb8cfea56670a1b1e1fd5c1389cef4179f",
+      "game_verified": false
+    },
+    {
+      "feature": "小游戏",
+      "destination": "心愿 / 路线",
+      "condition": "需启用支付噗灵，宏与奖励检查",
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/task/minigame_task/minigame_task.py",
+      "sha256": "e08700071e58f7c7a17d2389c772568b533864696e6d37327ee36c87f5a27efe",
+      "game_verified": false
+    },
+    {
+      "feature": "钓鱼 / 家园钓星",
+      "destination": "工具 / 路线",
+      "condition": "抛竿次数上限、视觉状态、获得文本",
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/action/fishing.py",
+      "sha256": "3d46e51f43e001a266ec259a0665d1b9027415c1c009bb9711fa87efe82f21b9",
+      "game_verified": false
+    },
+    {
+      "feature": "自动钓鱼辅助",
+      "destination": "辅助开关",
+      "condition": "手动抛竿后接管当前一竿",
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/task/background_task/background_task.py",
+      "sha256": "a86e102bc42884dcd600b29435a1402e17f5695ef4ff5a70303e6af178562787",
+      "game_verified": false
+    },
+    {
+      "feature": "动物清洁 / 动画跳过",
+      "destination": "工具 / 辅助开关",
+      "condition": "附近清洁；确认能力与跳过标识",
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/action/clean_animal.py",
+      "sha256": "08742ad14d11516053fdfdd69650b2d8d3b06636a3d5a926f09851ef150be29a",
+      "game_verified": false
+    },
+    {
+      "feature": "芳间巡游 / 花套捕虫",
+      "destination": "工具 / 辅助开关",
+      "condition": "能力已选中时按间隔使用",
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/action/flourish.py",
+      "sha256": "3dd700e2959df3596a6cfe9c8b38818720e3f6f0cfc6c8bbea1cec00e4b4e8e9",
+      "game_verified": false
+    },
+    {
+      "feature": "变大 / 变小 / 化万相 / 械控",
+      "destination": "工具 / 路线",
+      "condition": "配置能力后使用；械控模式复核",
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/action/machine.py",
+      "sha256": "07930dec93571ed8ef8f3b614fd81facee0a4a19c537b08ccf7680ef2ad24444",
+      "game_verified": false
+    },
+    {
+      "feature": "宏 / 乐谱执行",
+      "destination": "脚本管理",
+      "condition": "导入校验后执行；乐谱需演奏界面",
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/task/macro_task/run_macro_task.py",
+      "sha256": "9d34e76db2ef8af3ee3fcec64e5ed12dc02a98f0f458c1ccb5dfa09528ed5afe",
+      "game_verified": false
+    },
+    {
+      "feature": "宏录制",
+      "destination": "脚本管理",
+      "condition": "仅录游戏前台输入；固定时长，取消不保存",
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/task/macro_task/record_macro_task.py",
+      "sha256": "9c3bbe58716208a4af364ce9b670f85b50a285b8955d5d2c5ec9d2353c8ffe1f",
+      "game_verified": false
+    },
+    {
+      "feature": "路线录制",
+      "destination": "脚本管理",
+      "condition": "从参考路线流转之柱附近开始；可继续编辑",
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/task/navigation_task/record_path_task.py",
+      "sha256": "5bde181914211c5e2f1ba2fe501af4da095c1d7a962250227687b6add534cd8c",
+      "game_verified": false
+    },
+    {
+      "feature": "自定义流程",
+      "destination": "脚本管理",
+      "condition": "路线 / 宏排序；整批预检，失败停止",
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/task/custom_flow_task.py",
+      "sha256": "c6764f3c0627324c5c122302242b1802d5ecc6fb4b401733b5873e24b8e6085f",
+      "game_verified": false
+    },
+    {
+      "feature": "页面跳转 / 进入游戏",
+      "destination": "常用操作",
+      "condition": "只处理已识别页面；登录验证需手动",
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/task/common_task/goto_ui_task.py",
+      "sha256": "0aef18c33a0fa72667473060db3e8e053bbbfe31ce769775f585e5d7d3fc7232",
+      "game_verified": false
+    },
+    {
+      "feature": "启动 / 关闭游戏",
+      "destination": "常用操作",
+      "condition": "启动路径由用户选择；退出通过游戏菜单",
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/task/common_task/start_game_task.py",
+      "sha256": "63d33ace3a74cf8c5672456d494a59f94564222a610e569da394b5028a864205",
+      "game_verified": false
+    },
+    {
+      "feature": "切换已保存账号",
+      "destination": "工具",
+      "condition": "需完整显示名称，不导入密码或登录资料",
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/task/common_task/change_account_task.py",
+      "sha256": "76133dc27d627d150d8c8a6b3cdfd6a6d261042a3d11be1e0b9c3adffa5b4f86",
+      "game_verified": false
+    },
+    {
+      "feature": "本地地图点位遮罩",
+      "destination": "地图遮罩",
+      "condition": "前台窗口、可信地图定位、本地点位；未载入示例或云端凭据",
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/map/mask/service.py",
+      "sha256": "1491e24963f4d9bb6b6b06d0825c0a7f7864c28e46ab75352d2ad36e3de348b5",
+      "game_verified": false
+    },
+    {
+      "feature": "每日阶段与卡片优先级",
+      "destination": "每日任务",
+      "condition": "保留用户按需任务；逐步复查；运行过程日志",
+      "source": "references/whimbox-upstream/whimbox/task/daily_task/all_in_one_task.py",
+      "sha256": "f374f47c6d78987a200b37254b65c43b1a8d2363dd9a6d7af52b78ccf9da9482",
+      "game_verified": false
+    },
+    {
+      "feature": "材料追踪采集",
+      "destination": "心愿 / 路线",
+      "condition": "切换能力、开启追踪、采集、确认新获得文本；零收获不计成功",
+      "source": "references/whimbox-upstream/whimbox/action/material_track_base.py",
+      "sha256": "fa833b013e689bdd8f376f03e96902f0dfca127f26662d074e2b083da093adff",
+      "game_verified": false
+    },
+    {
+      "feature": "跑图中断恢复",
+      "destination": "路线与跑图",
+      "condition": "松键、等待主界面、重定位、最近可信传送点；有限脱困",
+      "source": "references/whimbox-upstream/whimbox/task/navigation_task/auto_path_task.py",
+      "sha256": "d6699616c4de891abfeacdc57c04c278e616733d7f7ea0e16849c000995d4166",
+      "game_verified": false
+    },
+    {
+      "feature": "结晶定位选路",
+      "destination": "每日 / 路线",
+      "condition": "枢纽摇铃后确认地图结晶位置；八路匹配；未知位置不默认跑图",
+      "source": "references/whimbox-upstream/whimbox/task/daily_task/xinghai_run_task.py",
+      "sha256": "508ef7aed271f6a7a4015dc99d717cdb8cfea56670a1b1e1fd5c1389cef4179f",
+      "game_verified": false
+    },
+    {
+      "feature": "前台输入与焦点恢复",
+      "destination": "运行总览 / 运行小窗",
+      "condition": "前台任务独占；/ 停止；释放键鼠；游戏实测待确认",
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/platform/windows/input.py",
+      "sha256": "76fc5e23a482bc281d21d3f3740b28ae96588ebba78bd2a11ee09210141d1b4e",
+      "game_verified": false
+    },
+    {
+      "feature": "运行小窗与停止控制",
+      "destination": "运行总览 / 运行小窗",
+      "condition": "前台任务独占；/ 停止；释放键鼠；游戏实测待确认",
+      "source": "whimbox_app/python-embedded/Lib/site-packages/whimbox/task/task_template.py",
+      "sha256": "993a1b74b6f9df377e2534d21c889bbcf038f5740a6b5c4e20aa93e0ba3a98b2",
+      "game_verified": false
+    }
+  ],
+  "limits": [
+    {
+      "feature": "升级祝福闪光 / 制作服装",
+      "status": "原应用未实现",
+      "reason": "有识别规则，没有可迁移的执行流程"
+    },
+    {
+      "feature": "流星 / 椰果 / 碎片 / 泡泡合影",
+      "status": "原应用未实现",
+      "reason": "有识别规则，原任务执行表未接入"
+    },
+    {
+      "feature": "1.11 大富翁活动",
+      "status": "旧版活动未启用",
+      "reason": "保留原始代码；当前没有对应活动画面和入口可验证"
+    },
+    {
+      "feature": "多账号一条龙 / 关机",
+      "status": "未迁移",
+      "reason": "当前仅支持显式切换一个已保存账号；不自动关机"
+    }
+  ],
+  "upstream": {
+    "repository": "https://github.com/nikkigallery/Whimbox",
+    "commit": "2a75df818c28e9f4af2b3e81c0db12d7694a20d1",
+    "version": "3.1.1",
+    "notes": "docs/whimbox-order.md"
+  },
+  "interface_reference": "https://github.com/ok-oldking/ok-wuthering-waves/blob/master/config.py"
+}
