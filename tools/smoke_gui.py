@@ -13,12 +13,12 @@ from launch import build_app, prepare
 def main():
     prepare(silent=True)
     from PySide6.QtCore import QTimer, Qt
-    from nuannuan.home import HomeTab
-    from nuannuan.route_tab import RouteTab
-    from nuannuan.tasks import DailyTask, RouteTask, CaptureCheckTask, OperationTask
-    from nuannuan.feature_tab import FeatureTab
-    from nuannuan.script_tab import ScriptTab
-    from nuannuan.map_mask_tab import MapMaskTab
+    from nuannuan.ui.home import HomeTab
+    from nuannuan.routes.tab import RouteTab
+    from nuannuan.tasks.daily_tasks import DailyTask, RouteTask, CaptureCheckTask, OperationTask
+    from nuannuan.ui.feature_tab import FeatureTab
+    from nuannuan.ui.script_tab import ScriptTab
+    from nuannuan.map.tab import MapMaskTab
 
     output = ROOT / 'logs/verification'
     output.mkdir(parents=True, exist_ok=True)
@@ -32,7 +32,7 @@ def main():
             assert window is not None and window.isVisible(), 'Main window did not become visible'
             assert not window.windowIcon().isNull(), 'App icon did not load'
             assert window.windowIcon().pixmap(64, 64).save(str(output/'app-window-icon.png'))
-            from nuannuan.desktop_ui import apply_desktop_layout
+            from nuannuan.ui.desktop import apply_desktop_layout
             apply_desktop_layout(app, window)
             home = window.findChild(HomeTab)
             assert home is not None, 'Home page was not created'
@@ -91,8 +91,8 @@ def main():
                     daily.config['每日结束后跑图'], daily.config['接续跑图路线'] = previous_follow
                 # Exercise the editor against a separate temporary library, not user routes.
                 import tempfile
-                from nuannuan.route_store import RouteStore
-                from nuannuan.route_editor import RouteEditor
+                from nuannuan.routes.store import RouteStore
+                from nuannuan.routes.editor import RouteEditor
                 with tempfile.TemporaryDirectory(dir=ROOT / '.cache/tmp') as directory:
                     store = RouteStore(directory)
                     store.import_records([routes.store.get_data('星海拾光_更改音乐')])
@@ -114,7 +114,7 @@ def main():
                     assert store.get_data(editor.saved_name)['info']['target'] == '珠链蝶'
                     assert store.get_data(editor.saved_name)['info']['count'] == 3
                     store.delete(editor.saved_name)
-                    from nuannuan.routes import RouteCatalog
+                    from nuannuan.routes.model import RouteCatalog
                     assert not RouteCatalog(store.root).inventory()
                     editor.deleteLater()
             finally:
@@ -136,12 +136,12 @@ def main():
             assert features is not None and scripts is not None and mask is not None
             # Exercise the unchanged upstream provider with fixtures, never live accounts.
             from tests.test_pearpal_original import FakePearPalClient, FakePearPalUserClient
-            from nuannuan._pearpal.pearpal_provider import OfficialPearPalProvider
+            from nuannuan.pearpal._pearpal.pearpal_provider import OfficialPearPalProvider
             mask.official.provider = OfficialPearPalProvider(enabled=True, client=FakePearPalClient(),
                 user_client=FakePearPalUserClient(), background=False, auth_background=False, refresh_background=False)
             mask.official.load_button.click()
             assert len(mask.official.points()) == 4
-            from nuannuan._pearpal.pearpal_auth import PearPalCredentials
+            from nuannuan.pearpal._pearpal.pearpal_auth import PearPalCredentials
             mask.official.provider.authenticate(PearPalCredentials('abcDEF0123456789', '12405094'))
             mask.official.poll()
             assert len(mask.official.points()) == 1
@@ -152,10 +152,10 @@ def main():
             mask.official.hide_collected.setChecked(True)
             # The real QtWebEngine login view is built against an empty test page,
             # isolated from the user's persistent profile and official accounts.
-            from nuannuan.pearpal_login import PearPalLogin
+            from nuannuan.pearpal.login import PearPalLogin
             import tempfile
             with tempfile.TemporaryDirectory(dir=ROOT/'.cache/tmp') as browser_dir:
-                with patch('nuannuan.pearpal_login.ROOT', Path(browser_dir)), patch('nuannuan.pearpal_login.get_pearpal_region',
+                with patch('nuannuan.pearpal.login.ROOT', Path(browser_dir)), patch('nuannuan.pearpal.login.get_pearpal_region',
                     return_value=SimpleNamespace(page_url='about:blank')):
                     login_view = PearPalLogin(mask.official.provider, 'cn', window)
                     login_view.show()
@@ -168,7 +168,7 @@ def main():
                     QCoreApplication.sendPostedEvents(None, QEvent.DeferredDelete)
                     QTest.qWait(300)
             # Validate the real running window without enabling any registered game task.
-            from nuannuan.run_dialog import attach_run_dialog
+            from nuannuan.ui.run_dialog import attach_run_dialog
             from types import SimpleNamespace
             dialog = attach_run_dialog(app, window)
             sample = SimpleNamespace(name='每日任务 · 界面验证', enabled=True, paused=False, running=True,
@@ -210,7 +210,7 @@ def main():
             dialog.hide()
             indexes = [window.stackedWidget.indexOf(page) for page in [tab, mask, features, scripts, routes]]
             assert indexes == sorted(indexes) and len(set(indexes)) == 5, indexes
-            from nuannuan.ui_actions import open_extra_settings
+            from nuannuan.ui.actions import open_extra_settings
             open_extra_settings(features)
             from PySide6.QtTest import QTest
             QTest.qWait(350)
@@ -226,14 +226,14 @@ def main():
                 controller.start = lambda task=None, **kwargs: dispatched.append(task)
                 from types import SimpleNamespace
                 from unittest.mock import patch
-                with patch('nuannuan.ui_actions.psutil.process_iter', return_value=[
+                with patch('nuannuan.ui.actions.psutil.process_iter', return_value=[
                     SimpleNamespace(info={'name': 'X6Game-Win64-Shipping.exe'})
                 ]):
                     features.buttons['检查活跃能量'].click()
                 assert dispatched[-1] is tool_task
                 assert tool_task.config['工具功能'] == '检查活跃能量'
                 assert tool_task._pending_options['工具功能'] == '检查活跃能量'
-                from nuannuan.ui_logic import FlowSteps
+                from nuannuan.ui.logic import FlowSteps
                 assert not hasattr(scripts, 'flow_slot') and not hasattr(scripts, 'daily_switch')
                 extra = app.global_config.get_config('扩展功能设置')
                 assert '每日前流程JSON' not in extra and '每日后流程JSON' not in extra
@@ -274,7 +274,7 @@ def main():
             assert not mask.controller.enabled
             assert window.grab().save(str(output / 'map-mask.png'))
             # Import into a temporary point library; real user data is preserved.
-            from nuannuan.map_mask import PointLibrary, Marker
+            from nuannuan.map.mask import PointLibrary, Marker
             import tempfile
             with tempfile.TemporaryDirectory(dir=ROOT/'.cache/tmp') as directory:
                 original_library = mask.library

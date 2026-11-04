@@ -1,6 +1,7 @@
 import unittest
 
-from nuannuan.daily import AutomationError, DailyRunner
+from nuannuan.core.errors import AutomationError
+from nuannuan.daily.runner import DailyRunner
 
 
 class GamePort:

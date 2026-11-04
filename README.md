@@ -160,6 +160,23 @@ powershell -ExecutionPolicy Bypass -File .\bootstrap.ps1
 | `routes/` | 内置路线与宏；`manifest.json` 记录来源与迁移信息 |
 | `tests/`、`tools/` | 测试与开发工具；`requirements-lock.txt` 记录已验证依赖版本 |
 
+### 源码结构
+
+`nuannuan/` 按职责分包；新增代码请放入对应包，避免在包根目录新增模块：
+
+| 位置 | 内容 |
+| --- | --- |
+| `nuannuan/config.py` | 运行路径、默认键位、ok-script 配置装配（页面与任务入口注册） |
+| `nuannuan/core/` | 基础设施：`runtime.py` 画面与 OCR 适配、`interaction.py` 键鼠输入、`run_control.py` 后台任务与停止、`startup.py` 启动器、`local_app.py` 应用装配、`errors.py` 共享异常、`text.py` 数量与文本校验 |
+| `nuannuan/map/` | 地图定位（`vision.py`）、点位与投影（`mask.py`）、游戏内遮罩（`overlay.py`）、地图遮罩页（`tab.py`）、素材追踪 |
+| `nuannuan/routes/` | 路线数据模型（`model.py`）、路线库（`store.py`）、路线 / 能力 / 宏执行（`runtime.py`、`ability*.py`、`scripts.py`）、导航（`navigation.py`）、路线页与编辑器（`tab.py`、`editor.py`） |
+| `nuannuan/daily/` | 每日与扩展日常：`runner.py` 通用游戏操作、`workflow.py` 每日入口、`extra.py` 扩展功能、目标识别与决策（`objectives.py`、`objective_*.py`）、各玩法流程（`crown.py`、`gathering.py`、`starsea_crystal.py`、`minigame.py`、`game_tools.py`） |
+| `nuannuan/tasks/` | ok-script 任务入口（`daily_tasks.py`、`extra_tasks.py`）、工具分发（`tool_runner.py`）、辅助功能门控（`assist.py`） |
+| `nuannuan/ui/` | Qt 页面：首页、常用操作、脚本管理、任务运行小窗与共享界面逻辑 |
+| `nuannuan/pearpal/` | 官方地图数据适配、登录与面板；`_pearpal/` 为固定版本的上游 GPL 源码 |
+
+`core/` 与 `config.py` 位于最底层，`daily/runner.py`（`DailyRunner` 通用游戏操作）与 `core/text.py` 被各层复用，`ui/`、`tasks/` 在最上层。上层可以直接导入下层；下层调用上层能力时（如 `core/runtime.py` 调用路线与任务）一律在函数内延迟导入，保证模块级导入无环。
+
 `tools/import_assets.py`、`import_routes.py` 与 `vendor_pearpal.py` 仅用于开发时从原始来源重新导入，不是运行助手的前置步骤。`assets/feature-import.json` 保留各功能对应的上游源码路径与校验和。
 
 测试目前覆盖任务规划、状态复核、能量处理、路线管理、输入释放、地图认证适配与本地 OCR。整套每日、新版采集、地图覆盖对齐与所有路线的实机效果仍需逐项验证。制作服装、升级祝福闪光、部分特殊星海任务、多账号一条龙与自动关机未接入。

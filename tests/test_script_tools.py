@@ -3,14 +3,14 @@ import unittest
 from pathlib import Path
 
 from nuannuan.config import ROOT
-from nuannuan.routes import RouteError, validate_macro, RouteCatalog
-from nuannuan.route_store import RouteStore
+from nuannuan.routes.model import RouteError, validate_macro, RouteCatalog
+from nuannuan.routes.store import RouteStore
 from tests.test_routes import route_data
 
 
 class ScriptToolTests(unittest.TestCase):
     def test_custom_flow_validates_all_steps_before_running_any(self):
-        from nuannuan.script_tools import ScriptRunner
+        from nuannuan.routes.scripts import ScriptRunner
         events = []
         class Port:
             def execute_route(self, name): events.append(name)
@@ -23,7 +23,7 @@ class ScriptToolTests(unittest.TestCase):
             self.assertFalse(events)
 
     def test_custom_flow_stops_at_failure_and_retains_results(self):
-        from nuannuan.script_tools import ScriptRunner
+        from nuannuan.routes.scripts import ScriptRunner
         class Port:
             def execute_route(self, name): raise RouteError('blocked')
         with tempfile.TemporaryDirectory(dir=ROOT / '.cache/tmp') as folder:
@@ -33,7 +33,7 @@ class ScriptToolTests(unittest.TestCase):
             self.assertEqual(runner.results[0]['status'], 'failed')
 
     def test_macro_recorder_pairs_keys_and_closes_held_inputs_in_saved_data(self):
-        from nuannuan.script_tools import MacroRecording
+        from nuannuan.routes.scripts import MacroRecording
         recording = MacroRecording('我的宏')
         recording.feed('keyboard', 'w', 'press', 0)
         recording.feed('keyboard', 'w', 'press', .1)  # key-repeat is ignored
@@ -45,15 +45,15 @@ class ScriptToolTests(unittest.TestCase):
         self.assertAlmostEqual(sum(x.get('duration', 0) for x in data['steps']), .5)
 
     def test_macro_recorder_ignores_events_outside_game_and_no_shell_payload(self):
-        from nuannuan.script_tools import MacroRecording
+        from nuannuan.routes.scripts import MacroRecording
         recorder = MacroRecording('test')
         recorder.feed('keyboard', 'a', 'press', 0, in_game=False)
         with self.assertRaises(RouteError): recorder.feed('shell', 'cmd', 'press', .1)
         with self.assertRaises(RouteError): recorder.finish(.2)
 
     def test_route_recording_preserves_map_coordinates_and_imports_as_editable(self):
-        from nuannuan.script_tools import RouteRecording
-        from nuannuan.routes import game_to_map
+        from nuannuan.routes.scripts import RouteRecording
+        from nuannuan.routes.model import game_to_map
         recorder = RouteRecording('我的路线', 'starsea')
         recorder.add(game_to_map([0, 0], 'starsea'), teleport=True)
         recorder.add(game_to_map([450, 90], 'starsea'))
@@ -65,7 +65,7 @@ class ScriptToolTests(unittest.TestCase):
             self.assertAlmostEqual(route.points[1].position[1], 90)
 
     def test_minigame_requires_macro_and_explicit_fee_option(self):
-        from nuannuan.minigame import MinigameRunner
+        from nuannuan.daily.minigame import MinigameRunner
         class Port:
             extra_options = {'允许小游戏支付噗灵': False}
         with self.assertRaisesRegex(RouteError, '噗灵'):

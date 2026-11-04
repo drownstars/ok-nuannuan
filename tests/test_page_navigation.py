@@ -1,10 +1,10 @@
 """Replay observed missed/late page transitions without injecting game input."""
 import pytest
 
-from nuannuan.ability_runtime import AbilityRuntime
-from nuannuan.daily import AutomationError
-from nuannuan.game_tools import GameTools
-from nuannuan.runtime import RuntimePort
+from nuannuan.routes.ability_runtime import AbilityRuntime
+from nuannuan.core.errors import AutomationError
+from nuannuan.daily.game_tools import GameTools
+from nuannuan.core.runtime import RuntimePort
 
 
 class PagePort:

@@ -10,7 +10,7 @@ class LocalAppTests(unittest.TestCase):
         with self.assertRaises(TypeError): make_config(mcp=True)
 
     def test_framework_control_option_is_removed_from_data_and_gui_metadata(self):
-        from nuannuan.local_app import remove_control_option
+        from nuannuan.core.local_app import remove_control_option
         class Configuration(dict): pass
         config = Configuration({'Enable MCP Server': True, 'Start/Stop': 'F9'})
         config.default = dict(config)
@@ -27,7 +27,7 @@ class LocalAppTests(unittest.TestCase):
         self.assertEqual(config['Start/Stop'], 'F9')
 
     def test_runtime_cannot_start_or_enable_control_server(self):
-        from nuannuan.local_app import LocalApp
+        from nuannuan.core.local_app import LocalApp
         app = LocalApp.__new__(LocalApp)
         app.config = {'mcp': {'enabled': True}}
         app._mcp_server = None

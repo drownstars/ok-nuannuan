@@ -1,6 +1,6 @@
 import unittest
 
-from nuannuan.assist import AssistGate
+from nuannuan.tasks.assist import AssistGate
 
 
 class AssistGateTests(unittest.TestCase):

@@ -1,7 +1,7 @@
 import unittest
 
-from nuannuan.daily import AutomationError
-from nuannuan.daily_workflow import DailyWorkflow, migrate_daily_options
+from nuannuan.core.errors import AutomationError
+from nuannuan.daily.workflow import DailyWorkflow, migrate_daily_options
 from nuannuan.config import make_config
 
 
@@ -108,7 +108,7 @@ class DailyWorkflowTests(unittest.TestCase):
         import tempfile
         from pathlib import Path
         from nuannuan.config import ROOT
-        from nuannuan.daily_workflow import DAILY_DEFAULTS, migrate_daily_file
+        from nuannuan.daily.workflow import DAILY_DEFAULTS, migrate_daily_file
         removed = ['检查活跃能量', '家园日常', '每周幻境', '奇迹之冠', '素材激化',
                    '祝福闪光幻境', '魔物试炼', '每日前自定义流程', '每日后自定义流程']
         self.assertFalse(set(DAILY_DEFAULTS) & set(removed))

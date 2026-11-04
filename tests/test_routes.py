@@ -4,8 +4,8 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from nuannuan.routes import Route, RouteCatalog, RouteError, game_to_map, validate_macro
-from nuannuan.navigation import RouteRunner
+from nuannuan.routes.model import Route, RouteCatalog, RouteError, game_to_map, validate_macro
+from nuannuan.routes.navigation import RouteRunner
 from nuannuan.config import ROOT
 
 

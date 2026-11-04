@@ -3,8 +3,8 @@ import unittest
 import cv2
 import numpy as np
 
-from nuannuan.map_vision import MapLocator
-from nuannuan.routes import RouteError
+from nuannuan.map.vision import MapLocator
+from nuannuan.routes.model import RouteError
 from nuannuan.config import ROOT
 
 

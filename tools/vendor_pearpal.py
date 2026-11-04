@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def main():
     source = ROOT/'references/whimbox-upstream/whimbox/map/mask'
-    target = ROOT/'nuannuan/_pearpal'
+    target = ROOT/'nuannuan/pearpal/_pearpal'
     target.mkdir(exist_ok=True)
     (target/'__init__.py').write_text('"""Whimbox 3.1.1 PearPal provider, GPL-3.0; see SOURCE.json."""\n', encoding='utf-8')
     records = []

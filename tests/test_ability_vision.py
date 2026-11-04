@@ -3,8 +3,8 @@ import unittest
 import cv2
 import numpy as np
 
-from nuannuan.ability import ABILITY_ICONS, JUMP_ICONS
-from nuannuan.ability_runtime import AbilityVision
+from nuannuan.routes.ability import ABILITY_ICONS, JUMP_ICONS
+from nuannuan.routes.ability_runtime import AbilityVision
 from nuannuan.config import ROOT
 
 

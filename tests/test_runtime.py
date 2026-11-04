@@ -5,7 +5,7 @@ from pathlib import Path
 
 import numpy as np
 
-from nuannuan.runtime import RuntimePort, validate_frame
+from nuannuan.core.runtime import RuntimePort, validate_frame
 
 
 class RuntimeTests(unittest.TestCase):
@@ -54,7 +54,7 @@ class RuntimeTests(unittest.TestCase):
         from types import SimpleNamespace
         from rapidocr import RapidOCR
         from nuannuan.config import ROOT,make_config
-        from nuannuan.extra_daily import read_fraction
+        from nuannuan.core.text import read_fraction
         engine=RapidOCR(params=make_config()['ocr']['params'])
         class Task:
             executor=SimpleNamespace(ocr_lib=lambda name:engine)

@@ -156,7 +156,7 @@ def main():
     coco_path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding='utf-8')
     generate_templates(str(coco_path), str(assets / 'templates'), str(authoring), generate_label_enmu=None)
     (assets / 'manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding='utf-8')
-    from nuannuan.ability import ABILITY_ICONS, JUMP_ICONS
+    from nuannuan.routes.ability import ABILITY_ICONS, JUMP_ICONS
     icon_folder = assets / 'ability_icons'
     icon_folder.mkdir(exist_ok=True)
     for name in [*ABILITY_ICONS.values(), *JUMP_ICONS.values(), 'IconAbilityMachineInfuse', 'IconAbilityMachineExtract']:

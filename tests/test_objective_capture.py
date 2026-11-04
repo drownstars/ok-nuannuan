@@ -10,8 +10,8 @@ from ok import Box
 from ok.feature.FeatureSet import FeatureSet
 
 from nuannuan.config import ROOT
-from nuannuan.objectives import WISH_CENTERS, STARSEA_CENTERS
-from nuannuan.runtime import RuntimePort
+from nuannuan.daily.objectives import WISH_CENTERS, STARSEA_CENTERS
+from nuannuan.core.runtime import RuntimePort
 
 
 class ObjectiveCaptureTests(unittest.TestCase):
@@ -26,7 +26,7 @@ class ObjectiveCaptureTests(unittest.TestCase):
             self.assertTrue((Path(folder) / 'wish_snapshot.json').exists())
 
     def test_unstable_full_score_is_not_used_to_skip_tasks(self):
-        from nuannuan.daily import AutomationError
+        from nuannuan.core.errors import AutomationError
         with tempfile.TemporaryDirectory(dir=ROOT / '.cache/tmp') as folder:
             port = ScorePort(folder, [500, 400])
             with self.assertRaisesRegex(AutomationError, '积分.*不稳定|分数.*不稳定'):

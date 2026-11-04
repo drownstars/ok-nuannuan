@@ -20,7 +20,7 @@ class TaskTests(unittest.TestCase):
         self.assertNotIn('mcp', config)
 
     def test_assist_interval_rejects_invalid_or_too_fast_values(self):
-        from nuannuan.tasks import AutoPickupTask
+        from nuannuan.tasks.daily_tasks import AutoPickupTask
         task = AutoPickupTask(SimpleNamespace(scene=None), None)
         for value in [-1, 0, 0.01, math.nan, math.inf, 'invalid']:
             self.assertTrue(task.validate_config('操作间隔（秒）', value))

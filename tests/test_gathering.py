@@ -1,6 +1,6 @@
 import unittest
 
-from nuannuan.daily import AutomationError
+from nuannuan.core.errors import AutomationError
 
 
 class FishingPort:
@@ -27,7 +27,7 @@ class FishingPort:
 
 class GatheringTests(unittest.TestCase):
     def test_fishing_observes_strike_pull_and_result(self):
-        from nuannuan.gathering import FishingRunner
+        from nuannuan.daily.gathering import FishingRunner
         port = FishingPort(['wait', 'strike', 'pull', 'reel', 'result'])
         result = FishingRunner(port).run(casts=1, already_cast=True)
         self.assertEqual(result['caught'], 1)
@@ -36,20 +36,20 @@ class GatheringTests(unittest.TestCase):
         self.assertEqual(port.events[-1], 'release')
 
     def test_no_fish_does_not_report_a_catch(self):
-        from nuannuan.gathering import FishingRunner
+        from nuannuan.daily.gathering import FishingRunner
         port = FishingPort(['empty'])
         result = FishingRunner(port).run(casts=3, already_cast=True)
         self.assertEqual(result['caught'], 0)
 
     def test_unknown_fishing_state_stops_and_releases(self):
-        from nuannuan.gathering import FishingRunner
+        from nuannuan.daily.gathering import FishingRunner
         port = FishingPort(['unknown'])
         with self.assertRaises(AutomationError):
             FishingRunner(port).run(casts=1, already_cast=True)
         self.assertEqual(port.events[-1], 'release')
 
     def test_cancel_releases_fishing_inputs(self):
-        from nuannuan.gathering import FishingRunner
+        from nuannuan.daily.gathering import FishingRunner
         class Cancelled(Exception): pass
         port = FishingPort(['pull'])
         def cancel(): raise Cancelled()
@@ -59,7 +59,7 @@ class GatheringTests(unittest.TestCase):
 
     def test_home_route_requires_star_collect_ability(self):
         from tests.test_routes import route_data
-        from nuannuan.routes import Route
-        from nuannuan.ability import required_abilities
+        from nuannuan.routes.model import Route
+        from nuannuan.routes.ability import required_abilities
         route = Route.from_dict(route_data('FISHING_STAR'))
         self.assertIn('采星', required_abilities(route, {})[0])

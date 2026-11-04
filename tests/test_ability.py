@@ -1,7 +1,7 @@
 import unittest
 
-from nuannuan.ability import AbilityManager, required_abilities, allocate_slots
-from nuannuan.routes import Route, RouteError
+from nuannuan.routes.ability import AbilityManager, required_abilities, allocate_slots
+from nuannuan.routes.model import Route, RouteError
 from test_routes import route_data
 
 

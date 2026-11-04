@@ -5,12 +5,12 @@ from pathlib import Path
 from types import SimpleNamespace
 
 from nuannuan.config import ROOT
-from nuannuan.routes import RouteError, game_to_map
+from nuannuan.routes.model import RouteError, game_to_map
 
 
 class MapMaskTests(unittest.TestCase):
     def test_original_point_format_and_game_coordinates_import(self):
-        from nuannuan.map_mask import PointLibrary
+        from nuannuan.map.mask import PointLibrary
         with tempfile.TemporaryDirectory(dir=ROOT/'.cache/tmp') as folder:
             library = PointLibrary(Path(folder)/'points.json')
             imported = library.import_data([
@@ -23,7 +23,7 @@ class MapMaskTests(unittest.TestCase):
             self.assertEqual(len(PointLibrary(library.path).points()), 2)
 
     def test_invalid_point_batch_preserves_existing_library(self):
-        from nuannuan.map_mask import PointLibrary
+        from nuannuan.map.mask import PointLibrary
         with tempfile.TemporaryDirectory(dir=ROOT/'.cache/tmp') as folder:
             library = PointLibrary(Path(folder)/'points.json')
             library.import_data([{'id': 'a', 'name': '原有', 'map_name': 'home', 'image_x': 1, 'image_y': 2}])
@@ -34,7 +34,7 @@ class MapMaskTests(unittest.TestCase):
             self.assertEqual(library.path.read_bytes(), before)
 
     def test_projection_clips_to_bigmap_and_minimap_circle(self):
-        from nuannuan.map_mask import MaskPoint, Viewport, project_points
+        from nuannuan.map.mask import MaskPoint, Viewport, project_points
         points = [MaskPoint('a', '植物', 'plant', 'starsea', 1000, 1000),
                   MaskPoint('b', '植物', 'plant', 'starsea', 1062, 1000),
                   MaskPoint('other', '其他图', 'plant', 'home', 1000, 1000),
@@ -49,7 +49,7 @@ class MapMaskTests(unittest.TestCase):
 
     def test_no_position_guess_is_drawn_on_unknown_or_unseeded_page(self):
         import numpy as np
-        from nuannuan.map_mask import MapMaskEngine
+        from nuannuan.map.mask import MapMaskEngine
         engine = MapMaskEngine(locator=SimpleNamespace())
         frame = np.full((1080, 1920, 3), 60, dtype=np.uint8)
         self.assertIsNone(engine.observe(frame, lambda name: False, 'starsea').viewport)
@@ -59,7 +59,7 @@ class MapMaskTests(unittest.TestCase):
 
     def test_wrong_zoom_never_reuses_last_bigmap_projection(self):
         import numpy as np
-        from nuannuan.map_mask import MapMaskEngine
+        from nuannuan.map.mask import MapMaskEngine
         engine = MapMaskEngine(locator=SimpleNamespace())
         frame = np.full((1080, 1920, 3), 60, dtype=np.uint8)
         result = engine.observe(frame, lambda name: name == 'IconUIBigmap', 'starsea')
@@ -67,12 +67,12 @@ class MapMaskTests(unittest.TestCase):
         self.assertIn('最大', result.message)
 
     def test_dpi_conversion_preserves_monitor_origin(self):
-        from nuannuan.map_mask import logical_rect
+        from nuannuan.map.mask import logical_rect
         self.assertEqual(logical_rect((-1800, 100, 1200, 800), (-1920, 0), (-1536, 0), 1.25),
                          (-1440, 80, 960, 640))
 
     def test_builtin_points_use_real_checkpoints_and_selected_route(self):
-        from nuannuan.map_mask import builtin_points
+        from nuannuan.map.mask import builtin_points
         points = builtin_points('星海拾光_更改音乐')
         self.assertTrue(any(p.label == 'teleport' for p in points))
         self.assertTrue(any(p.label == 'route' for p in points))
@@ -81,8 +81,8 @@ class MapMaskTests(unittest.TestCase):
     def test_stable_bigmap_uses_real_map_match_before_projection(self):
         import cv2
         import numpy as np
-        from nuannuan.map_mask import MapMaskEngine
-        from nuannuan.map_vision import MapLocator
+        from nuannuan.map.mask import MapMaskEngine
+        from nuannuan.map.vision import MapLocator
         rng = np.random.default_rng(11)
         atlas = rng.integers(20, 220, (400, 500), dtype=np.uint8)
         patch = atlas[170:230, 200:300]
@@ -97,7 +97,7 @@ class MapMaskTests(unittest.TestCase):
         self.assertLess(np.linalg.norm(np.array(observed.viewport.center)-(2000, 1600)), 12)
 
     def test_category_and_resource_filters_do_not_mix_labels(self):
-        from nuannuan.map_mask import MaskPoint, filtered_points
+        from nuannuan.map.mask import MaskPoint, filtered_points
         points = [MaskPoint(label, label, label, 'starsea', 1, 1) for label in ['teleport', 'route', '植物', '昆虫']]
         selected = list(filtered_points(points, {'显示流转之柱': False, '显示路线点位': False, '资源类型': '植物'}))
         self.assertEqual([p.label for p in selected], ['植物'])

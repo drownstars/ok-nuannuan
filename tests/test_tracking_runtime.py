@@ -1,7 +1,7 @@
 import unittest
 from types import SimpleNamespace
 
-from nuannuan.routes import RouteError
+from nuannuan.routes.model import RouteError
 
 
 class TrackUI:
@@ -21,7 +21,7 @@ class TrackUI:
 
 class TrackingRuntimeTests(unittest.TestCase):
     def adapter(self, confirm='精确追踪'):
-        from nuannuan.tracking_runtime import TrackingRuntime
+        from nuannuan.map.tracking_runtime import TrackingRuntime
         port=TrackUI(confirm)
         runtime=SimpleNamespace(port=port,task=port.task,tracking_material=None,release_all=lambda:None)
         adapter=TrackingRuntime(runtime,'miraland')

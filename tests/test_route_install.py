@@ -5,7 +5,7 @@ import unittest
 from pathlib import Path
 
 from nuannuan.config import ROOT
-from nuannuan.route_store import RouteStore
+from nuannuan.routes.store import RouteStore
 from test_routes import route_data
 
 

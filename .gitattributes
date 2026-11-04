@@ -19,5 +19,5 @@ ok_templates/** -text whitespace=cr-at-eol
 routes/*.json -text whitespace=cr-at-eol
 licenses/** -text whitespace=cr-at-eol
 tests/fixtures/** -text whitespace=cr-at-eol
-nuannuan/_pearpal/*.py -text whitespace=cr-at-eol
+nuannuan/pearpal/_pearpal/*.py -text whitespace=cr-at-eol
 assets/app.svg -diff

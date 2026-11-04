@@ -1,7 +1,7 @@
 import unittest
 from types import SimpleNamespace
 
-from nuannuan.daily import AutomationError
+from nuannuan.core.errors import AutomationError
 
 
 class Driver:
@@ -28,7 +28,7 @@ class Window:
 
 class InteractionTests(unittest.TestCase):
     def make(self, **kwargs):
-        from nuannuan.interaction import WhimboxInteraction
+        from nuannuan.core.interaction import WhimboxInteraction
         driver, window = Driver(), Window(**kwargs)
         backend = WhimboxInteraction(SimpleNamespace(get_abs_cords=lambda x, y: (x+100, y+200)),
                                      window, driver=driver)

@@ -41,7 +41,7 @@ class RunControlTests(unittest.TestCase):
         self.assertEqual(events, ['resume'])
 
     def test_installed_controller_rejects_second_task_and_cleanup_releases_owner(self):
-        from nuannuan.run_control import install_run_control
+        from nuannuan.core.run_control import install_run_control
         calls = []
         first, second = Task(), Task()
         first.run = lambda: calls.append('run')
@@ -66,8 +66,8 @@ class RunControlTests(unittest.TestCase):
 
     def test_failed_task_before_run_is_reconciled_and_stop_wakes_launcher_sleep(self):
         import threading
-        from nuannuan.startup import LaunchRuntime
-        from nuannuan.daily import AutomationError
+        from nuannuan.core.startup import LaunchRuntime
+        from nuannuan.core.errors import AutomationError
         control, executor, events = self.make()
         task = Task()
         control.reserve(task)
@@ -83,7 +83,7 @@ class RunControlTests(unittest.TestCase):
         with self.assertRaisesRegex(AutomationError, '已停止'): runtime.sleep(60)
 
     def make(self):
-        from nuannuan.run_control import RunControl
+        from nuannuan.core.run_control import RunControl
         events = []
         executor = SimpleNamespace(current_task=None, trigger_tasks=[], paused=False,
                                    interaction=SimpleNamespace(cancel=lambda: events.append('release')))
@@ -117,7 +117,7 @@ class RunControlTests(unittest.TestCase):
         self.assertTrue(assist.enabled)
 
     def test_helpers_are_suspended_while_busy_and_when_game_not_foreground(self):
-        from nuannuan.run_control import assist_allowed
+        from nuannuan.core.run_control import assist_allowed
         control, executor, events = self.make()
         executor._nuannuan_run_control = control
         executor.interaction.hwnd_window = SimpleNamespace(is_foreground=lambda: True)
@@ -129,7 +129,7 @@ class RunControlTests(unittest.TestCase):
         self.assertFalse(assist_allowed(executor))
 
     def test_device_migration_is_once_and_preserves_capture_and_other_fields(self):
-        from nuannuan.run_control import migrate_runtime_file
+        from nuannuan.core.run_control import migrate_runtime_file
         with tempfile.TemporaryDirectory(dir='.cache/tmp') as directory:
             path = Path(directory)/'devices.json'
             old = {'interaction': 'PostMessage', 'capture': 'WGC', 'selected_exe': 'game.exe'}

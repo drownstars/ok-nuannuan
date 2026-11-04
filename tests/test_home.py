@@ -3,9 +3,9 @@ import threading
 from types import SimpleNamespace
 from unittest.mock import patch
 
-from nuannuan.daily_workflow import DAILY_DEFAULTS
-from nuannuan.home import HomeTab
-from nuannuan.tasks import DailyTask
+from nuannuan.daily.workflow import DAILY_DEFAULTS
+from nuannuan.ui.home import HomeTab
+from nuannuan.tasks.daily_tasks import DailyTask
 
 
 class Widget:
@@ -38,13 +38,13 @@ def home_port(tmp_path, *, busy=False, state='待机'):
                  'mode_label', 'run_state_label', 'empty_state'):
         setattr(home, name, Widget())
     home.render_result = lambda text: HomeTab.render_result(home, text)
-    context = patch.multiple('nuannuan.home', og=SimpleNamespace(app=app), ROOT=tmp_path)
+    context = patch.multiple('nuannuan.ui.home', og=SimpleNamespace(app=app), ROOT=tmp_path)
     return home, control, dispatched, context
 
 
 def test_idle_home_does_not_offer_resume_an_executor_with_no_task(tmp_path):
     home, _, _, context = home_port(tmp_path)
-    with context, patch('nuannuan.home.psutil.process_iter', return_value=[]):
+    with context, patch('nuannuan.ui.home.psutil.process_iter', return_value=[]):
         HomeTab.refresh(home)
     assert not home.pause_button.isEnabled()
     assert not home.stop_button.isEnabled()
@@ -53,7 +53,7 @@ def test_idle_home_does_not_offer_resume_an_executor_with_no_task(tmp_path):
 
 def test_pending_launch_owns_controls_and_displays_its_own_progress(tmp_path):
     home, _, _, context = home_port(tmp_path, busy=True, state='准备启动')
-    with context, patch('nuannuan.home.psutil.process_iter', return_value=[]):
+    with context, patch('nuannuan.ui.home.psutil.process_iter', return_value=[]):
         HomeTab.refresh(home)
     assert not home.daily_button.isEnabled()
     assert not home.daily_settings_button.isEnabled()
@@ -65,7 +65,7 @@ def test_pending_launch_owns_controls_and_displays_its_own_progress(tmp_path):
 def test_stop_request_keeps_start_locked_and_disables_repeated_stop(tmp_path):
     home, control, _, context = home_port(tmp_path, busy=True, state='正在停止，等待释放输入')
     control.cancel_event.set()
-    with context, patch('nuannuan.home.psutil.process_iter', return_value=[]):
+    with context, patch('nuannuan.ui.home.psutil.process_iter', return_value=[]):
         HomeTab.refresh(home)
     assert not home.stop_button.isEnabled()
     assert not home.daily_button.isEnabled()
@@ -80,7 +80,7 @@ def test_stale_start_button_cannot_dispatch_a_second_task(tmp_path):
 
 def test_unchanged_running_text_does_not_reset_report_scroll_every_second(tmp_path):
     home, _, _, context = home_port(tmp_path, busy=True, state='执行中')
-    with context, patch('nuannuan.home.psutil.process_iter', return_value=[]):
+    with context, patch('nuannuan.ui.home.psutil.process_iter', return_value=[]):
         HomeTab.refresh(home)
         writes = home.result_label.writes
         assert writes > 0

@@ -2,8 +2,8 @@ import unittest
 from pathlib import Path
 from types import SimpleNamespace
 
-from nuannuan.route_runtime import RouteRuntime
-from nuannuan.routes import RouteCatalog, RouteError
+from nuannuan.routes.runtime import RouteRuntime
+from nuannuan.routes.model import RouteCatalog, RouteError
 
 
 class Interaction:
@@ -28,20 +28,20 @@ class RouteRuntimeTests(unittest.TestCase):
         from unittest.mock import patch
         from test_material_tracking import TrackPort
         from test_routes import route_data
-        from nuannuan.routes import Route
+        from nuannuan.routes.model import Route
         port=self.make_port()
         runtime=RouteRuntime(port)
         data=route_data('CATCH_INSECT')
         data['info']['target']='珠链蝶'
         route=Route.from_dict(data)
         adapter=TrackPort([{'active':True,'marker':None}]*2,['','珠链蝶×1'])
-        with patch('nuannuan.tracking_runtime.TrackingRuntime',return_value=adapter):
+        with patch('nuannuan.map.tracking_runtime.TrackingRuntime',return_value=adapter):
             runtime.action(route.points[1],route)
         self.assertEqual(runtime.material_counts,{'珠链蝶':1})
 
     def test_interruption_releases_before_wait_and_relocalizes(self):
         from test_routes import route_data
-        from nuannuan.routes import Route
+        from nuannuan.routes.model import Route
         port=self.make_port()
         events=[]
         states=iter([False,False,True,True])
@@ -58,7 +58,7 @@ class RouteRuntimeTests(unittest.TestCase):
 
     def test_interruption_wait_is_bounded_and_preserves_unknown_modal(self):
         from test_routes import route_data
-        from nuannuan.routes import Route
+        from nuannuan.routes.model import Route
         port=self.make_port()
         port.exists=lambda name:False
         runtime=RouteRuntime(port)

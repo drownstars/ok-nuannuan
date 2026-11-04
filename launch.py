@@ -23,10 +23,10 @@ def prepare(*, silent=False):
 
 
 def build_app():
-    from nuannuan.local_app import LocalApp
+    from nuannuan.core.local_app import LocalApp
     from nuannuan.config import make_config
-    from nuannuan.extra_daily import migrate_extra_file
-    from nuannuan.run_control import migrate_runtime_file
+    from nuannuan.daily.extra import migrate_extra_file
+    from nuannuan.core.run_control import migrate_runtime_file
 
     if not (ROOT / 'assets/manifest.json').is_file():
         raise RuntimeError('识别素材尚未导入，请先运行 bootstrap.ps1')
@@ -45,7 +45,7 @@ def main():
     try:
         app = build_app()
         from PySide6.QtCore import QTimer
-        from nuannuan.home import HomeTab
+        from nuannuan.ui.home import HomeTab
 
         def open_home():
             window = app.app.main_window
@@ -53,7 +53,7 @@ def main():
                 home = window.findChild(HomeTab)
                 if home is not None:
                     window.switchTo(home)
-                from nuannuan.desktop_ui import apply_desktop_layout
+                from nuannuan.ui.desktop import apply_desktop_layout
                 apply_desktop_layout(app, window)
                 app.run_control.install_hotkey()
                 app.app.app.aboutToQuit.connect(app.run_control.close)

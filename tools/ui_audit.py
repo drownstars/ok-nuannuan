@@ -41,7 +41,7 @@ def capture_desktop_window(window, output):
 
 
 def audit_inventory():
-    from nuannuan.ui_logic import OPERATION_GROUPS
+    from nuannuan.ui.logic import OPERATION_GROUPS
     return {
         'operations': [name for names in OPERATION_GROUPS.values() for name in names],
         'scripts': ['宏 / 乐谱', '自定义流程', '录制宏', '录制路线'],
@@ -55,15 +55,15 @@ def audit_pages(app, window):
     from PySide6.QtCore import Qt
     from qfluentwidgets import PushButton, SwitchButton
     from nuannuan.config import ROOT
-    from nuannuan.home import HomeTab
-    from nuannuan.feature_tab import FeatureTab
-    from nuannuan.script_tab import ScriptTab
-    from nuannuan.route_tab import RouteTab
-    from nuannuan.route_store import RouteStore
-    from nuannuan.route_editor import RouteEditor
-    from nuannuan.map_mask_tab import MapMaskTab
-    from nuannuan.tasks import OperationTask, DailyTask, CaptureCheckTask
-    from nuannuan.ui_logic import FlowSteps
+    from nuannuan.ui.home import HomeTab
+    from nuannuan.ui.feature_tab import FeatureTab
+    from nuannuan.ui.script_tab import ScriptTab
+    from nuannuan.routes.tab import RouteTab
+    from nuannuan.routes.store import RouteStore
+    from nuannuan.routes.editor import RouteEditor
+    from nuannuan.map.tab import MapMaskTab
+    from nuannuan.tasks.daily_tasks import OperationTask, DailyTask, CaptureCheckTask
+    from nuannuan.ui.logic import FlowSteps
 
     home, features, scripts, routes, mask = [window.findChild(cls) for cls in
                                            [HomeTab, FeatureTab, ScriptTab, RouteTab, MapMaskTab]]
@@ -96,8 +96,8 @@ def audit_pages(app, window):
 
     try:
         controller.start = lambda selected=None, **kwargs: dispatched.append(selected)
-        with patch('nuannuan.ui_actions.psutil.process_iter', return_value=[SimpleNamespace(info={'name': 'X6Game-Win64-Shipping.exe'})]), \
-             patch('nuannuan.feature_tab.QMessageBox.question', return_value=QMessageBox.Yes):
+        with patch('nuannuan.ui.actions.psutil.process_iter', return_value=[SimpleNamespace(info={'name': 'X6Game-Win64-Shipping.exe'})]), \
+             patch('nuannuan.ui.feature_tab.QMessageBox.question', return_value=QMessageBox.Yes):
             # Every ordinary tool is clicked through its real signal handler.
             for name in inventory['operations']:
                 if name == '页面跳转':
@@ -141,7 +141,7 @@ def audit_pages(app, window):
             assert dispatched[-1].__class__ is CaptureCheckTask
             home.daily_settings_button.click()
             assert window.stackedWidget.currentWidget() is window.onetime_tab
-            with patch('nuannuan.home.QDesktopServices.openUrl') as open_url:
+            with patch('nuannuan.ui.home.QDesktopServices.openUrl') as open_url:
                 assert len(home.more_actions) == 2
                 for action, target in zip(home.more_actions, [ROOT/'logs', ROOT/'README.md']):
                     action.trigger()
@@ -178,17 +178,17 @@ def audit_pages(app, window):
             temporary = Path(directory)
             executable = temporary/'launcher.exe'
             executable.write_bytes(b'UI audit placeholder; never executed')
-            with patch('nuannuan.feature_tab.QFileDialog.getOpenFileName', return_value=(str(executable), '')), \
-                 patch('nuannuan.feature_tab.os.startfile') as startfile:
+            with patch('nuannuan.ui.feature_tab.QFileDialog.getOpenFileName', return_value=(str(executable), '')), \
+                 patch('nuannuan.ui.feature_tab.os.startfile') as startfile:
                 features.launch_game(select_only=True)
                 assert task.config['启动程序路径'] == str(executable)
                 features.launch_game()
                 startfile.assert_called_once_with(str(executable))
             export = temporary/'flow.json'
-            with patch('nuannuan.script_tab.QFileDialog.getSaveFileName', return_value=(str(export), '')):
+            with patch('nuannuan.ui.script_tab.QFileDialog.getSaveFileName', return_value=(str(export), '')):
                 scripts.export_flow()
             assert len(json.loads(export.read_text(encoding='utf-8'))) == 1
-            with patch('nuannuan.script_tab.QFileDialog.getOpenFileName', return_value=(str(export), '')):
+            with patch('nuannuan.ui.script_tab.QFileDialog.getOpenFileName', return_value=(str(export), '')):
                 scripts.import_flow()
             assert scripts.read_steps().items[0]['script_name'] == '星海拾光_更改音乐'
             results['pages']['脚本管理'] = '播放、流程执行、两种录制分派、流程导入导出通过'
@@ -197,7 +197,7 @@ def audit_pages(app, window):
             source = temporary/'route.json'
             source.write_text(json.dumps(seed, ensure_ascii=False), encoding='utf-8')
             routes.store = RouteStore(temporary/'library')
-            with patch('nuannuan.route_tab.QFileDialog.getOpenFileNames', return_value=([str(source)], '')):
+            with patch('nuannuan.routes.tab.QFileDialog.getOpenFileNames', return_value=([str(source)], '')):
                 routes.import_button.click()
             assert len(routes.rows) == 1
             def edit(editor):
@@ -206,7 +206,7 @@ def audit_pages(app, window):
                 return int(QDialog.Accepted)
             with patch.object(RouteEditor, 'exec', edit): routes.edit_button.click()
             assert routes.rows[0]['name'] == '界面审计临时路线'
-            with patch('nuannuan.route_tab.QMessageBox.question', return_value=QMessageBox.Yes):
+            with patch('nuannuan.routes.tab.QMessageBox.question', return_value=QMessageBox.Yes):
                 routes.delete_button.click()
             assert not routes.rows
             results['pages']['路线与跑图'] = '实际导入、编辑、删除按钮操作临时库通过；用户路线未修改'

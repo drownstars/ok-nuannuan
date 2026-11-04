@@ -22,7 +22,7 @@ class UILogicTests(unittest.TestCase):
         self.assertEqual(names[-1], 'RouteTab')
 
     def test_step_list_preserves_enabled_state_and_validates_dependencies(self):
-        from nuannuan.ui_logic import FlowSteps
+        from nuannuan.ui.logic import FlowSteps
         steps = FlowSteps([{'type': 'path', 'script_name': '星海拾光_更改音乐', 'enabled': False}])
         steps.add('macro', '朝夕心愿_战斗宏')
         steps.move(1, -1)
@@ -32,7 +32,7 @@ class UILogicTests(unittest.TestCase):
         self.assertEqual(len(steps.items), 1)
 
     def test_operation_groups_do_not_expose_scripts_or_unrelated_fields(self):
-        from nuannuan.ui_logic import OPERATION_GROUPS, operation_fields
+        from nuannuan.ui.logic import OPERATION_GROUPS, operation_fields
         values = [name for names in OPERATION_GROUPS.values() for name in names]
         self.assertNotIn('录制宏', values)
         self.assertNotIn('自定义流程', values)

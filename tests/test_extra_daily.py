@@ -1,6 +1,6 @@
 import unittest
 
-from nuannuan.daily import AutomationError
+from nuannuan.core.errors import AutomationError
 
 
 class RealmPort:
@@ -30,21 +30,21 @@ class ExtraDailyTests(unittest.TestCase):
     def test_default_exchange_material_exists_and_supports_exchange(self):
         import json
         from nuannuan.config import ROOT
-        from nuannuan.extra_daily import EXTRA_DEFAULTS
+        from nuannuan.daily.extra import EXTRA_DEFAULTS
         materials=json.loads((ROOT/'assets/materials.json').read_text(encoding='utf-8'))
         self.assertIn(EXTRA_DEFAULTS['激化材料'],materials)
         self.assertTrue(materials[EXTRA_DEFAULTS['激化材料']]['jihua'])
 
     def test_finish_keeps_game_by_default_and_optional_close_order_is_explicit(self):
         from unittest.mock import patch
-        from nuannuan.extra_daily import ExtraDaily
+        from nuannuan.daily.extra import ExtraDaily
         events=[]
         class Tools:
             def __init__(self,port):pass
             def close(self):events.append('game');return {'status':'succeeded','message':'closed'}
             def close_launcher(self):events.append('launcher');return {'status':'succeeded','message':'launcher closed'}
         port=RealmPort()
-        with patch('nuannuan.game_tools.GameTools',Tools):
+        with patch('nuannuan.daily.game_tools.GameTools',Tools):
             result=ExtraDaily(port).run('finish_daily')
             self.assertEqual(result['status'],'skipped')
             self.assertFalse(events)
@@ -57,7 +57,7 @@ class ExtraDailyTests(unittest.TestCase):
         import tempfile
         from pathlib import Path
         from nuannuan.config import ROOT
-        import nuannuan.extra_daily as module
+        import nuannuan.daily.extra as module
         self.assertTrue(hasattr(module, 'migrate_extra_file'))
         with tempfile.TemporaryDirectory(dir=ROOT/'.cache/tmp') as directory:
             path = Path(directory)/'扩展功能设置.json'
@@ -76,13 +76,13 @@ class ExtraDailyTests(unittest.TestCase):
             self.assertEqual(len(list((path.parent/'migrations').glob('*.json'))), 1)
 
     def test_fraction_rejects_ambiguous_or_invalid_energy(self):
-        from nuannuan.extra_daily import read_fraction
+        from nuannuan.core.text import read_fraction
         self.assertEqual(read_fraction(' V 250 / 350 '), (250, 350))
         for text in ['350', '1/2 3/4', '999/350', '0/0', '-1/350']:
             with self.assertRaises(AutomationError): read_fraction(text)
 
     def test_realm_never_uses_max_and_requires_observed_reward(self):
-        from nuannuan.extra_daily import ExtraDaily
+        from nuannuan.daily.extra import ExtraDaily
         port = RealmPort()
         result = ExtraDaily(port, {'快速挑战次数': 1, '魔物关卡': '攀越'}).quick_realm('monster')
         self.assertEqual(result['status'], 'succeeded')
@@ -93,28 +93,28 @@ class ExtraDailyTests(unittest.TestCase):
             ExtraDaily(port, {'快速挑战次数': 1, '魔物关卡': '攀越'}).quick_realm('monster')
 
     def test_invalid_challenge_count_fails_before_input(self):
-        from nuannuan.extra_daily import ExtraDaily
+        from nuannuan.daily.extra import ExtraDaily
         port = RealmPort()
         with self.assertRaises(AutomationError):
             ExtraDaily(port, {'快速挑战次数': 0}).quick_realm('monster')
         self.assertFalse(port.events)
 
     def test_completed_weekly_is_skipped_without_entering_realm(self):
-        from nuannuan.extra_daily import ExtraDaily
+        from nuannuan.daily.extra import ExtraDaily
         port = RealmPort(progress='2/2')
         result = ExtraDaily(port, {'每周幻境目标': '奇格格达,卷卷'}).weekly()
         self.assertEqual(result['status'], 'skipped')
         self.assertNotIn(('page', '心之突破幻境'), port.events)
 
     def test_insufficient_energy_prevents_confirmation(self):
-        from nuannuan.extra_daily import ExtraDaily
+        from nuannuan.daily.extra import ExtraDaily
         port = RealmPort()
         with self.assertRaisesRegex(AutomationError, '能量'):
             ExtraDaily(port, {'快速挑战次数': 10, '魔物关卡': '攀越'}).quick_realm('monster')
         self.assertNotIn(('click', 'ButtonHuanjingConfirm'), port.events)
 
     def test_identify_only_filters_new_daily_steps(self):
-        from nuannuan.daily_workflow import DailyWorkflow
+        from nuannuan.daily.workflow import DailyWorkflow
         from tests.test_daily_workflow import Port
         port = Port()
         DailyWorkflow(port).run({'朝夕心愿': True, '每周幻境': True, '奇迹之冠': True,
@@ -122,8 +122,8 @@ class ExtraDailyTests(unittest.TestCase):
         self.assertEqual(port.events, [('daily', 'auto_wish')])
 
     def test_daily_energy_defaults_to_exchange_without_duplicate_realm_switches(self):
-        from nuannuan.daily_workflow import DAILY_DEFAULTS
-        from nuannuan.extra_daily import EXTRA_DEFAULTS
+        from nuannuan.daily.workflow import DAILY_DEFAULTS
+        from nuannuan.daily.extra import EXTRA_DEFAULTS
         for key in ['每周幻境', '奇迹之冠', '素材激化', '祝福闪光幻境', '魔物试炼', '家园日常',
                     '每日前自定义流程', '每日后自定义流程']:
             self.assertNotIn(key, DAILY_DEFAULTS)
@@ -133,8 +133,8 @@ class ExtraDailyTests(unittest.TestCase):
         self.assertFalse(EXTRA_DEFAULTS['允许小游戏支付噗灵'])
 
     def test_completed_crown_skips_challenge_and_empty_exchange_does_not_spend(self):
-        from nuannuan.crown import CrownRunner
-        from nuannuan.extra_daily import EXTRA_DEFAULTS
+        from nuannuan.daily.crown import CrownRunner
+        from nuannuan.daily.extra import EXTRA_DEFAULTS
         port = RealmPort()
         port.text = lambda region: '25/25' if region == 'AreaMiraCrownOverview' else ''
         result = CrownRunner(port, {**EXTRA_DEFAULTS, '领取巅峰赛奖励': False}).run()
@@ -143,8 +143,8 @@ class ExtraDailyTests(unittest.TestCase):
 
     def test_detected_energy_and_specific_realm_wishes_are_enabled(self):
         from types import SimpleNamespace
-        from nuannuan.objective_actions import ObjectiveActions
-        from nuannuan.objectives import Objective
+        from nuannuan.daily.objective_actions import ObjectiveActions
+        from nuannuan.daily.objectives import Objective
         port = SimpleNamespace(extra_options={}, allow_chat=False)
         item = Objective(0, '消耗150点活跃能量', 'energy', False)
         self.assertEqual(ObjectiveActions(port).reason('wish', item), '')
@@ -179,7 +179,7 @@ class EnergyPort(RealmPort):
 
 class AutomaticEnergyTests(unittest.TestCase):
     def test_unavailable_realm_entrance_is_skipped_without_energy_spending(self):
-        from nuannuan.extra_daily import ExtraDaily
+        from nuannuan.daily.extra import ExtraDaily
         port = EnergyPort()
         port.exists = lambda name: name == 'IconPageMainFeature'
         result = ExtraDaily(port).run('auto_energy')
@@ -187,7 +187,7 @@ class AutomaticEnergyTests(unittest.TestCase):
         self.assertEqual(port.exchanges, 0)
 
     def test_exchange_rechecks_observed_energy_and_stops_exactly_at_100(self):
-        from nuannuan.extra_daily import ExtraDaily
+        from nuannuan.daily.extra import ExtraDaily
         port = EnergyPort()
         result = ExtraDaily(port).spend_energy()
         self.assertEqual(port.energy_value, 100)
@@ -198,7 +198,7 @@ class AutomaticEnergyTests(unittest.TestCase):
         self.assertIn(100, port.energy_reads)
 
     def test_first_exchange_runs_even_below_100_but_not_below_cost(self):
-        from nuannuan.extra_daily import ExtraDaily
+        from nuannuan.daily.extra import ExtraDaily
         for energy, runs in [(100, 1), (50, 1), (9, 0), (0, 0)]:
             with self.subTest(energy=energy):
                 port = EnergyPort(energy, (10,))
@@ -207,7 +207,7 @@ class AutomaticEnergyTests(unittest.TestCase):
                 self.assertEqual(result['status'], 'succeeded' if runs else 'skipped')
 
     def test_stale_energy_or_failed_read_never_triggers_another_exchange(self):
-        from nuannuan.extra_daily import ExtraDaily
+        from nuannuan.daily.extra import ExtraDaily
         for unreadable in [False, True]:
             with self.subTest(unreadable=unreadable):
                 port = EnergyPort(costs=(0,))
@@ -216,13 +216,13 @@ class AutomaticEnergyTests(unittest.TestCase):
                 self.assertEqual(port.exchanges, 1)
 
     def test_unconfirmed_reward_stops_repeat(self):
-        from nuannuan.extra_daily import ExtraDaily
+        from nuannuan.daily.extra import ExtraDaily
         port = EnergyPort(reward=False)
         with self.assertRaisesRegex(AutomationError, '奖励'): ExtraDaily(port).spend_energy()
         self.assertEqual(port.exchanges, 1)
 
     def test_cancellation_during_energy_recheck_is_propagated(self):
-        from nuannuan.extra_daily import ExtraDaily
+        from nuannuan.daily.extra import ExtraDaily
         class Cancelled(Exception): pass
         port = EnergyPort()
         original = port.text
@@ -234,14 +234,14 @@ class AutomaticEnergyTests(unittest.TestCase):
         self.assertEqual(port.exchanges, 1)
 
     def test_invalid_destination_never_falls_back_to_spending(self):
-        from nuannuan.extra_daily import ExtraDaily
+        from nuannuan.daily.extra import ExtraDaily
         port = EnergyPort()
         with self.assertRaises(AutomationError):
             ExtraDaily(port, {'活跃能量用途': '未知幻境'}).spend_energy()
         self.assertFalse(port.events)
 
     def test_explicit_realm_is_used_without_exchange_fallback(self):
-        from nuannuan.extra_daily import ExtraDaily
+        from nuannuan.daily.extra import ExtraDaily
         port = EnergyPort()
         result = ExtraDaily(port, {'活跃能量用途': '魔物试炼'}).spend_energy()
         self.assertEqual(port.exchanges, 0)
@@ -249,7 +249,7 @@ class AutomaticEnergyTests(unittest.TestCase):
         self.assertEqual(result['confirmed_runs'], 1)
 
     def test_unavailable_progress_and_home_are_skipped_without_running_routes(self):
-        from nuannuan.extra_daily import ExtraDaily
+        from nuannuan.daily.extra import ExtraDaily
         port = RealmPort()
         port.text = lambda name: ''
         port.exists = lambda name: name == 'IconPageMainFeature'
@@ -260,7 +260,7 @@ class AutomaticEnergyTests(unittest.TestCase):
         self.assertNotIn(('page', '心之突破幻境'), port.events)
 
     def test_other_world_region_is_not_mistaken_for_home(self):
-        from nuannuan.extra_daily import ExtraDaily
+        from nuannuan.daily.extra import ExtraDaily
         port = RealmPort()
         port.text = lambda name: '伊赞之土' if name == 'AreaBigMapRegionName' else ''
         port.exists = lambda name: name == 'IconPageMainFeature'
@@ -269,7 +269,7 @@ class AutomaticEnergyTests(unittest.TestCase):
         self.assertIn(('region', 'AreaBigMapRegionName'), port.events)
 
     def test_detected_home_entrance_runs_saved_route_and_reports_meteor(self):
-        from nuannuan.extra_daily import ExtraDaily
+        from nuannuan.daily.extra import ExtraDaily
         port = RealmPort()
         port.text = lambda name: '今日巨陨星' if name == 'AreaBigMapMeteorText' else '花愿镇'
         def execute_route(name):
@@ -282,7 +282,7 @@ class AutomaticEnergyTests(unittest.TestCase):
         self.assertTrue(result['has_meteor'])
 
     def test_automatic_completed_weekly_and_crown_do_not_challenge(self):
-        from nuannuan.extra_daily import ExtraDaily
+        from nuannuan.daily.extra import ExtraDaily
         port = RealmPort()
         port.text = lambda region: {'AreaWeeklyCountText': '2/2', 'AreaMiraCrownOverview': '25/25'}.get(region, '')
         for action in ['auto_weekly', 'auto_crown']:
@@ -292,12 +292,12 @@ class AutomaticEnergyTests(unittest.TestCase):
 
     def test_daily_crown_skips_any_prior_progress_including_rewards_and_exchange(self):
         from unittest.mock import patch
-        from nuannuan.extra_daily import ExtraDaily
+        from nuannuan.daily.extra import ExtraDaily
         for progress in ['1/24', '23/24', '24/24']:
             with self.subTest(progress=progress):
                 port = RealmPort()
                 port.text = lambda region: progress if region == 'AreaMiraCrownOverview' else ''
-                with patch('nuannuan.crown.CrownRunner.run') as run:
+                with patch('nuannuan.daily.crown.CrownRunner.run') as run:
                     result = ExtraDaily(port).automatic('auto_crown')
                 self.assertEqual(result['status'], 'skipped')
                 run.assert_not_called()
@@ -306,39 +306,39 @@ class AutomaticEnergyTests(unittest.TestCase):
 
     def test_daily_crown_runs_only_confirmed_zero_progress(self):
         from unittest.mock import patch
-        from nuannuan.extra_daily import ExtraDaily
+        from nuannuan.daily.extra import ExtraDaily
         port = RealmPort()
         port.text = lambda region: '0/24' if region == 'AreaMiraCrownOverview' else ''
-        with patch('nuannuan.crown.CrownRunner.run', return_value={'status': 'succeeded', 'message': '已挑战'}) as run:
+        with patch('nuannuan.daily.crown.CrownRunner.run', return_value={'status': 'succeeded', 'message': '已挑战'}) as run:
             result = ExtraDaily(port).automatic('auto_crown')
         run.assert_called_once()
         self.assertEqual(result['status'], 'succeeded')
 
     def test_daily_crown_unreliable_progress_never_enters_challenge(self):
         from unittest.mock import patch
-        from nuannuan.extra_daily import ExtraDaily
+        from nuannuan.daily.extra import ExtraDaily
         for progress in ['', '0/0', 'O/24', '25/24']:
             with self.subTest(progress=progress):
                 port = RealmPort()
                 port.text = lambda region: progress
-                with patch('nuannuan.crown.CrownRunner.run') as run:
+                with patch('nuannuan.daily.crown.CrownRunner.run') as run:
                     result = ExtraDaily(port).automatic('auto_crown')
                 self.assertEqual(result['status'], 'skipped')
                 run.assert_not_called()
 
     def test_daily_crown_rechecks_progress_before_entering(self):
         from unittest.mock import patch
-        from nuannuan.extra_daily import ExtraDaily
+        from nuannuan.daily.extra import ExtraDaily
         port = RealmPort()
         progress = iter(['0/24', '1/24'])
         port.text = lambda region: next(progress)
-        with patch('nuannuan.crown.CrownRunner.enter') as enter:
+        with patch('nuannuan.daily.crown.CrownRunner.enter') as enter:
             result = ExtraDaily(port).automatic('auto_crown')
         enter.assert_not_called()
         self.assertEqual(result['status'], 'skipped')
 
     def test_failed_energy_wish_is_not_repeated_by_daily_fallback(self):
-        from nuannuan.extra_daily import ExtraDaily
+        from nuannuan.daily.extra import ExtraDaily
         port = EnergyPort(reward=False)
         with self.assertRaises(AutomationError): ExtraDaily(port).spend_energy()
         result = ExtraDaily(port).run('auto_energy')
@@ -346,7 +346,7 @@ class AutomaticEnergyTests(unittest.TestCase):
         self.assertEqual(port.exchanges, 1)
 
     def test_failed_realm_reward_blocks_remaining_daily_consumption(self):
-        from nuannuan.extra_daily import ExtraDaily
+        from nuannuan.daily.extra import ExtraDaily
         port = EnergyPort(reward=False)
         with self.assertRaises(AutomationError): ExtraDaily(port).run('monster')
         result = ExtraDaily(port).run('auto_energy')

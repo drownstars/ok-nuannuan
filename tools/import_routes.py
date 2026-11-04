@@ -10,7 +10,7 @@ sys.path.insert(0, str(ROOT))
 
 
 def main():
-    from nuannuan.routes import RouteCatalog
+    from nuannuan.routes.model import RouteCatalog
 
     assets_source = ROOT / 'whimbox_app/python-embedded/Lib/site-packages/whimbox/assets'
     route_root = ROOT / 'routes'

@@ -1,8 +1,8 @@
 import unittest
 
-from nuannuan.daily import AutomationError
-from nuannuan.objectives import Objective, Snapshot, classify, parse_score
-from nuannuan.objective_runner import ObjectiveRunner
+from nuannuan.core.errors import AutomationError
+from nuannuan.daily.objectives import Objective, Snapshot, classify, parse_score
+from nuannuan.daily.objective_runner import ObjectiveRunner
 
 
 class ObjectiveTests(unittest.TestCase):

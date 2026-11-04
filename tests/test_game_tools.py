@@ -1,6 +1,6 @@
 import unittest
-from nuannuan.daily import AutomationError
-from nuannuan.game_tools import GameTools
+from nuannuan.core.errors import AutomationError
+from nuannuan.daily.game_tools import GameTools
 
 
 class EnterPort:
@@ -32,14 +32,14 @@ class GameToolsEntryTests(unittest.TestCase):
                 assert self.seconds >= self.load_seconds, 'Loading page must not be clicked as a login page'
                 return super().click_text(*args)
         port = SharedLoginPort(load_seconds=450)
-        with patch('nuannuan.game_tools.time.monotonic', side_effect=lambda: port.seconds):
+        with patch('nuannuan.daily.game_tools.time.monotonic', side_effect=lambda: port.seconds):
             self.assertEqual(GameTools(port).enter()['status'], 'succeeded')
         self.assertEqual(port.events, ['login_click'])
 
     def test_observed_seven_minute_loading_is_allowed_without_repeated_input(self):
         from unittest.mock import patch
         port = LoadingPort(load_seconds=450)
-        with patch('nuannuan.game_tools.time.monotonic', side_effect=lambda: port.seconds):
+        with patch('nuannuan.daily.game_tools.time.monotonic', side_effect=lambda: port.seconds):
             result = GameTools(port).enter()
         self.assertEqual(result['status'], 'succeeded')
         self.assertGreaterEqual(port.seconds, 450)
@@ -48,7 +48,7 @@ class GameToolsEntryTests(unittest.TestCase):
     def test_recognized_loading_has_a_ten_minute_deadline(self):
         from unittest.mock import patch
         port = LoadingPort(load_seconds=700)
-        with patch('nuannuan.game_tools.time.monotonic', side_effect=lambda: port.seconds):
+        with patch('nuannuan.daily.game_tools.time.monotonic', side_effect=lambda: port.seconds):
             with self.assertRaisesRegex(AutomationError, '超时'):
                 GameTools(port).enter()
         self.assertEqual(port.seconds, 600)
@@ -57,7 +57,7 @@ class GameToolsEntryTests(unittest.TestCase):
     def test_short_unknown_transition_is_observed_without_guessing_a_click(self):
         from unittest.mock import patch
         port = LoadingPort(load_seconds=0, transition_seconds=3)
-        with patch('nuannuan.game_tools.time.monotonic', side_effect=lambda: port.seconds):
+        with patch('nuannuan.daily.game_tools.time.monotonic', side_effect=lambda: port.seconds):
             result = GameTools(port).enter()
         self.assertEqual(result['status'], 'succeeded')
         self.assertEqual(port.events, ['login_click'])
@@ -65,7 +65,7 @@ class GameToolsEntryTests(unittest.TestCase):
     def test_persistent_unknown_page_stops_without_input(self):
         from unittest.mock import patch
         port = LoadingPort(load_seconds=0, transition_seconds=100)
-        with patch('nuannuan.game_tools.time.monotonic', side_effect=lambda: port.seconds):
+        with patch('nuannuan.daily.game_tools.time.monotonic', side_effect=lambda: port.seconds):
             with self.assertRaises(AutomationError):
                 GameTools(port).enter()
         self.assertEqual(port.events, [])

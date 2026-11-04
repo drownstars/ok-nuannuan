@@ -14,10 +14,10 @@ ROUTE_OPTIONS_NAME = '跑图设置'
 
 def make_config():
     from ok import ConfigOption
-    from nuannuan.ability import ABILITY_DEFAULTS, ABILITY_ICONS, JUMP_ICONS
-    from nuannuan.extra_daily import EXTRA_DEFAULTS, EXTRA_SETTINGS
-    from nuannuan.map_mask import MAP_NAMES, MASK_DEFAULTS, MASK_SETTINGS
-    from nuannuan.interaction import WhimboxInteraction
+    from nuannuan.core.interaction import WhimboxInteraction
+    from nuannuan.daily.extra import EXTRA_DEFAULTS, EXTRA_SETTINGS
+    from nuannuan.map.mask import MAP_NAMES, MASK_DEFAULTS, MASK_SETTINGS
+    from nuannuan.routes.ability import ABILITY_DEFAULTS, ABILITY_ICONS, JUMP_ICONS
     import json
     options_path = ROOT/'assets/setting_options.json'
     options = json.loads(options_path.read_text(encoding='utf-8')) if options_path.exists() else {}
@@ -83,11 +83,11 @@ def make_config():
                                         config_type={'透明度': {'min': 20, 'max': 100},
                                                      '地图': {'type': 'drop_down', 'options': ['自动识别', *MAP_NAMES.values()]},
                                                      '预览地图': {'type': 'drop_down', 'options': list(MAP_NAMES.values())}})],
-        'custom_tabs': [['nuannuan.home', 'HomeTab'], ['nuannuan.map_mask_tab', 'MapMaskTab'],
-                        ['nuannuan.feature_tab', 'FeatureTab'], ['nuannuan.script_tab', 'ScriptTab'], ['nuannuan.route_tab', 'RouteTab']],
-        'onetime_tasks': [['nuannuan.tasks', name] for name in
+        'custom_tabs': [['nuannuan.ui.home', 'HomeTab'], ['nuannuan.map.tab', 'MapMaskTab'],
+                        ['nuannuan.ui.feature_tab', 'FeatureTab'], ['nuannuan.ui.script_tab', 'ScriptTab'], ['nuannuan.routes.tab', 'RouteTab']],
+        'onetime_tasks': [['nuannuan.tasks.daily_tasks', name] for name in
                           ['DailyTask', 'RouteTask', 'CaptureCheckTask', 'OperationTask']],
-        'trigger_tasks': [['nuannuan.tasks', 'AutoPickupTask'], ['nuannuan.tasks', 'AutoDialogueTask'],
-                          ['nuannuan.extra_tasks', 'AutoFishingTask'], ['nuannuan.extra_tasks', 'AutoCleanTask'],
-                          ['nuannuan.extra_tasks', 'AutoFlourishTask'], ['nuannuan.extra_tasks', 'AutoFloralTask']],
+        'trigger_tasks': [['nuannuan.tasks.daily_tasks', 'AutoPickupTask'], ['nuannuan.tasks.daily_tasks', 'AutoDialogueTask'],
+                          ['nuannuan.tasks.extra_tasks', 'AutoFishingTask'], ['nuannuan.tasks.extra_tasks', 'AutoCleanTask'],
+                          ['nuannuan.tasks.extra_tasks', 'AutoFlourishTask'], ['nuannuan.tasks.extra_tasks', 'AutoFloralTask']],
     }

@@ -9,8 +9,8 @@ import numpy as np
 from ok.feature.FeatureSet import FeatureSet
 
 from nuannuan.config import ROOT
-from nuannuan.daily import DailyRunner
-from nuannuan.runtime import RuntimePort
+from nuannuan.daily.runner import DailyRunner
+from nuannuan.core.runtime import RuntimePort
 
 
 class VisualWorkflowTests(unittest.TestCase):

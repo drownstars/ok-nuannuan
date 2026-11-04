@@ -5,11 +5,11 @@ from pathlib import Path
 from unittest.mock import Mock, patch
 import numpy as np
 
-from nuannuan._pearpal.models import MapMaskPoint, MapMaskViewport
+from nuannuan.pearpal._pearpal.models import MapMaskPoint, MapMaskViewport
 
-from nuannuan._pearpal.pearpal_provider import OfficialPearPalProvider
+from nuannuan.pearpal._pearpal.pearpal_provider import OfficialPearPalProvider
 
-from nuannuan._pearpal.pearpal_auth import (
+from nuannuan.pearpal._pearpal.pearpal_auth import (
     PearPalAwardedState,
     PearPalCredentials,
     PearPalUserClient,
@@ -520,7 +520,7 @@ class PearPalUserStateTests(unittest.TestCase):
         )
 
         with patch(
-            "nuannuan._pearpal.pearpal_provider.time.monotonic",
+            "nuannuan.pearpal._pearpal.pearpal_provider.time.monotonic",
             side_effect=lambda: clock[0],
         ):
             provider.list_points()

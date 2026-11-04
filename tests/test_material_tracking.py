@@ -1,6 +1,6 @@
 import unittest
 
-from nuannuan.daily import AutomationError
+from nuannuan.core.errors import AutomationError
 
 
 class TrackPort:
@@ -27,7 +27,7 @@ class TrackPort:
 
 class MaterialTrackingTests(unittest.TestCase):
     def test_source_sequence_and_two_active_frames_before_catching(self):
-        from nuannuan.material_tracking import MaterialTracker
+        from nuannuan.map.material_tracking import MaterialTracker
         port = TrackPort([{'active': False, 'marker': (15, 0)}, {'active': True, 'marker': (10, 0)},
                           {'active': True, 'marker': (10, 0)}], ['', '珠链蝶×1'])
         result = MaterialTracker(port).run('珠链蝶', '捕虫', expected_count=1)
@@ -40,7 +40,7 @@ class MaterialTrackingTests(unittest.TestCase):
         self.assertFalse(port.held)
 
     def test_six_consecutive_missing_targets_end_point_with_zero_not_success(self):
-        from nuannuan.material_tracking import MaterialTracker
+        from nuannuan.map.material_tracking import MaterialTracker
         port = TrackPort()
         result = MaterialTracker(port).run('暮暮蝶', '捕虫')
         self.assertEqual(result['status'], 'skipped')
@@ -50,7 +50,7 @@ class MaterialTrackingTests(unittest.TestCase):
         self.assertFalse(port.held)
 
     def test_old_or_wrong_material_toast_is_not_counted(self):
-        from nuannuan.material_tracking import MaterialTracker
+        from nuannuan.map.material_tracking import MaterialTracker
         for texts in [['珠链蝶×1', '珠链蝶×1'], ['', '暮暮蝶×1']]:
             with self.subTest(texts=texts):
                 port = TrackPort([{'active': True, 'marker': None}]*2, texts)
@@ -59,7 +59,7 @@ class MaterialTrackingTests(unittest.TestCase):
                 self.assertEqual(result['status'], 'partial')
 
     def test_transient_missing_marker_resets_on_observation(self):
-        from nuannuan.material_tracking import MaterialTracker
+        from nuannuan.map.material_tracking import MaterialTracker
         missing = {'active': False, 'marker': None}
         port = TrackPort([missing]*5+[{'active': False, 'marker': (10, 0)}]+[missing]*6)
         result = MaterialTracker(port).run('珠链蝶', '捕虫')
@@ -67,7 +67,7 @@ class MaterialTrackingTests(unittest.TestCase):
         self.assertEqual(result['missing_frames'], 6)
 
     def test_cancellation_releases_capture_without_more_actions(self):
-        from nuannuan.material_tracking import MaterialTracker
+        from nuannuan.map.material_tracking import MaterialTracker
         class Cancelled(Exception): pass
         port = TrackPort()
         def cancel(): raise Cancelled()
@@ -77,7 +77,7 @@ class MaterialTrackingTests(unittest.TestCase):
         self.assertFalse(port.held)
 
     def test_invalid_count_fails_before_input(self):
-        from nuannuan.material_tracking import MaterialTracker
+        from nuannuan.map.material_tracking import MaterialTracker
         port = TrackPort()
         with self.assertRaises(AutomationError): MaterialTracker(port).run('珠链蝶', '捕虫', expected_count=0)
         self.assertFalse(port.events)
